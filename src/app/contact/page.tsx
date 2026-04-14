@@ -6,7 +6,6 @@
 
 import { useState, type FormEvent } from "react";
 import { SITE } from "@/lib/constants";
-import { supabase } from "@/lib/supabase";
 
 // Metadata has to be exported from a server component,
 // so we set it via a separate metadata file or the layout.
@@ -23,24 +22,19 @@ export default function ContactPage() {
   });
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
-  /** Handle form submission — insert row into Supabase */
+  /** Handle form submission — sends email via API route */
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setStatus("sending");
 
     try {
-      if (!supabase) throw new Error("Supabase not configured");
-      const { error } = await supabase.from("contact_submissions").insert([
-        {
-          name: form.name,
-          email: form.email,
-          phone: form.phone,
-          property_address: form.address,
-          message: form.message,
-        },
-      ]);
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
 
-      if (error) throw error;
+      if (!res.ok) throw new Error("Failed to send");
       setStatus("sent");
       setForm({ name: "", email: "", phone: "", address: "", message: "" });
     } catch {
