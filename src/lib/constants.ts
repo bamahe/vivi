@@ -156,5 +156,6 @@ export const NAV_LINKS = [
   { label: "Areas", href: "/areas" },
   { label: "Owners", href: "/owners" },
   { label: "Tenants", href: "/tenants" },
+  { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];

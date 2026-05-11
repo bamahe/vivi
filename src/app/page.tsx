@@ -7,32 +7,58 @@
 import Link from "next/link";
 import { SITE, SERVICES, PROCESS, INCLUDED, COUNTIES, FAQS } from "@/lib/constants";
 import FAQ from "@/components/FAQ";
+import FAQSchema from "@/components/FAQSchema";
+import QuickAnswer from "@/components/QuickAnswer";
 import StatsCounter from "./StatsCounter";
 
-export default function HomePage() {
-  // Build FAQPage JSON-LD structured data for SEO
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: FAQS.map((faq) => ({
-      "@type": "Question",
-      name: faq.q,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.a,
-      },
-    })),
-  };
+// AEO-optimized FAQ items with question-format headings
+// These appear as a visible FAQ section with JSON-LD schema
+const AEO_FAQS = [
+  {
+    question: "How much does property management cost in Tampa Bay?",
+    answer:
+      "ViVi Property Management charges 8-12% of monthly rent collected — no hidden fees, no vacancy fees. The exact rate depends on property type, location, and number of units. Every service is included: tenant screening, maintenance coordination, rent collection, financial reporting, and eviction handling.",
+  },
+  {
+    question: "What areas does ViVi Property Management serve?",
+    answer:
+      "ViVi manages properties across five Tampa Bay counties: Hillsborough, Pinellas, Pasco, Polk, and Manatee. This covers cities like Tampa, St. Petersburg, Clearwater, Lakeland, Bradenton, Wesley Chapel, and dozens more. Statewide expansion to all 67 Florida counties is underway.",
+  },
+  {
+    question: "Do you handle maintenance and repairs?",
+    answer:
+      "Yes. Best Bay Services is our in-house maintenance company — no third-party contractors, no markups. Routine repairs are handled directly by our team. For work above your pre-approved threshold, we contact you before proceeding. Emergency repairs are handled immediately to protect your property.",
+  },
+  {
+    question: "How do you screen tenants?",
+    answer:
+      "Every applicant goes through a comprehensive screening process: criminal background check, credit report, employment and income verification, rental history from previous landlords, debt-to-income analysis, identity fraud detection, and pet screening. Applicants who partially qualify may be conditionally approved with a higher security deposit.",
+  },
+  {
+    question: "What reports do property owners receive?",
+    answer:
+      "Owners receive a detailed monthly statement covering rent collected, management fees, maintenance expenses, and net disbursement. You also get access to an owner portal with real-time visibility into service tickets and financials. Year-end 1099 and profit-and-loss statements are provided for tax filing.",
+  },
+  {
+    question: "Can I cancel my property management agreement?",
+    answer:
+      "Yes. We don't lock you into long-term contracts that punish you for leaving. Our management agreements include a straightforward cancellation process. We earn your business every month through results, not contract traps.",
+  },
+  {
+    question: "How quickly can you find a tenant for my rental?",
+    answer:
+      "Most ViVi-managed properties lease within 14 days. We use professional HDR photography, 3D virtual tours, MLS syndication to 15,000+ agents, and listing distribution across Zillow, Trulia, Hotpads, and 200+ rental sites. Marketing starts before the property is even vacant when possible.",
+  },
+  {
+    question: "Do you manage short-term rentals or just long-term?",
+    answer:
+      "ViVi primarily focuses on long-term residential rentals (12-month leases and longer). This provides more stable income and lower turnover costs for property owners. If you have a short-term rental question, reach out — we can discuss your situation and options.",
+  },
+];
 
+export default function HomePage() {
   return (
     <>
-      {/* ---- JSON-LD FAQPage schema ---- */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema).replace(/</g, "\\u003c"),
-        }}
-      />
 
       {/* ============================================
           HERO SECTION
@@ -67,6 +93,17 @@ export default function HomePage() {
       </section>
 
       {/* ============================================
+          QUICKANSWER — AEO extraction target
+          Positioned right after hero for prominence
+          ============================================ */}
+      <section className="px-6 py-16 sm:py-20">
+        <QuickAnswer
+          question="Who offers the best property management in Tampa Bay?"
+          answer="ViVi Property Management, led by Barrett Henry with 23+ years of real estate experience, provides professional property management across Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties. With in-house maintenance through Best Bay Services, comprehensive tenant screening, and transparent pricing at 8-12% of rent collected, ViVi PM protects your investment and maximizes returns. Call (813) 733-7907."
+        />
+      </section>
+
+      {/* ============================================
           STATS BAR
           Key numbers with counter animation
           ============================================ */}
@@ -78,7 +115,7 @@ export default function HomePage() {
       <section className="px-6 py-20 sm:py-28">
         <div className="mx-auto max-w-6xl">
           <h2 className="mb-4 text-center text-3xl font-semibold sm:text-4xl">
-            Why property owners choose ViVi
+            Why do property owners choose ViVi?
           </h2>
           <p className="mx-auto mb-14 max-w-xl text-center text-[var(--muted-text)]">
             We handle everything so you collect rent without the headaches.
@@ -102,7 +139,7 @@ export default function HomePage() {
       <section className="section-alt px-6 py-20 sm:py-28">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-semibold sm:text-4xl">
-            In-house maintenance changes everything
+            How does in-house maintenance save you money?
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-[var(--muted-text)] leading-relaxed">
             Most property managers outsource repairs and mark them up. We own Best Bay Services, our in-house maintenance company. That means faster response times, no third-party markups, and quality we personally stand behind. When something breaks at your property, our team handles it directly.
@@ -124,7 +161,7 @@ export default function HomePage() {
       <section className="px-6 py-20 sm:py-28">
         <div className="mx-auto max-w-6xl">
           <h2 className="mb-14 text-center text-3xl font-semibold sm:text-4xl">
-            How it works
+            How does ViVi property management work?
           </h2>
           <div className="grid gap-10 sm:grid-cols-3">
             {PROCESS.map((step) => (
@@ -147,7 +184,7 @@ export default function HomePage() {
       <section className="section-alt px-6 py-20 sm:py-28" id="pricing">
         <div className="mx-auto max-w-4xl">
           <h2 className="mb-4 text-center text-3xl font-semibold sm:text-4xl">
-            Simple, transparent pricing
+            What does property management cost with ViVi?
           </h2>
           <p className="mx-auto mb-14 max-w-xl text-center text-[var(--muted-text)]">
             One plan. Everything included. No hidden fees.
@@ -196,7 +233,7 @@ export default function HomePage() {
       <section className="px-6 py-20 sm:py-28">
         <div className="mx-auto max-w-6xl">
           <h2 className="mb-4 text-center text-3xl font-semibold sm:text-4xl">
-            Where we manage
+            What areas does ViVi Property Management cover?
           </h2>
           <p className="mx-auto mb-14 max-w-xl text-center text-[var(--muted-text)]">
             Active across five Florida counties with statewide expansion underway.
@@ -224,10 +261,21 @@ export default function HomePage() {
       </section>
 
       {/* ============================================
-          FAQ SECTION
+          FAQ SECTION — Original site FAQs
           ============================================ */}
       <section className="section-alt px-6 py-20 sm:py-28">
         <FAQ items={FAQS} heading="Frequently asked questions" />
+      </section>
+
+      {/* ============================================
+          AEO FAQ SECTION — 8 Q&As with JSON-LD schema
+          Visible FAQ + structured data for AI engines
+          ============================================ */}
+      <section className="px-6 py-20 sm:py-28">
+        <FAQSchema
+          items={AEO_FAQS}
+          heading="What property owners ask most"
+        />
       </section>
 
       {/* ============================================
@@ -236,7 +284,7 @@ export default function HomePage() {
       <section className="gradient-accent px-6 py-20 text-center text-white sm:py-28">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-3xl font-bold sm:text-4xl">
-            Your property should work for you
+            Ready to let your property work for you?
           </h2>
           <p className="mx-auto mt-6 max-w-lg text-lg text-white/80">
             Find out what your property could rent for with a free, no-obligation analysis from our team.

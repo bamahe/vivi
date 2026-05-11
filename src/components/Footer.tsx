@@ -93,7 +93,7 @@ export default function Footer() {
           <div className="flex flex-col items-center justify-between gap-4 text-xs sm:flex-row">
             <p>&copy; {new Date().getFullYear()} {SITE.name}. All rights reserved.</p>
             <p>
-              Managed by Barrett Henry, REALTOR&reg; | RE/MAX Collective
+              Managed by Barrett Henry, REALTOR&reg; | REMAX Collective
             </p>
           </div>
         </div>
