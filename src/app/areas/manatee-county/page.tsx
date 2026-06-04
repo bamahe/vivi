@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     description:
       "Full-service property management across Manatee County. Premium communities to waterfront living. 8–12% management fee. No hidden fees.",
   },
+  alternates: { canonical: "/areas/manatee-county" },
 };
 
 export default function ManateeCountyPage() {

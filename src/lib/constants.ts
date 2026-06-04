@@ -12,6 +12,9 @@ export const SITE = {
   domain: "vivipm.com",
   url: "https://vivipm.com",
   feeRange: "8–12% of rent collected",
+  placementFee: "first month's rent",
+  renewalFee: "$300",
+  setupFee: "$500",
   areas: "Hillsborough, Pinellas, Pasco, Polk & Manatee Counties",
 } as const;
 

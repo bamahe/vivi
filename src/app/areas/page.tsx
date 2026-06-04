@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "Service Areas",
   description:
     "ViVi Property Management serves Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties across Tampa Bay. See all cities we manage.",
+  alternates: { canonical: "/areas" },
 };
 
 // Additional context for each county

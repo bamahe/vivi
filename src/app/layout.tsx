@@ -49,9 +49,6 @@ export const metadata: Metadata = {
     title: "ViVi Property Management",
     description: "Professional property management across Tampa Bay.",
   },
-  alternates: {
-    canonical: "/",
-  },
   robots: {
     index: true,
     follow: true,

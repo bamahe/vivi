@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     description:
       "Full-service property management across all of Hillsborough County. 8–12% management fee. Maintenance through Best Bay Services. No hidden fees.",
   },
+  alternates: { canonical: "/areas/hillsborough-county" },
 };
 
 export default function HillsboroughCountyPage() {

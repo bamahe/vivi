@@ -34,6 +34,7 @@ export async function generateMetadata({
       publishedTime: post.published_at,
       authors: ["Barrett Henry"],
     },
+    alternates: { canonical: `/blog/${slug}` },
   };
 }
 

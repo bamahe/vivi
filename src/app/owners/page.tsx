@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "For Owners",
   description:
     "Why property owners choose ViVi Property Management. Maintenance through Best Bay Services, comprehensive screening, transparent pricing, and a dedicated property manager.",
+  alternates: { canonical: "/owners" },
 };
 
 // Benefits specific to owners

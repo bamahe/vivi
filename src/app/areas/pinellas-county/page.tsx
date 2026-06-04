@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     description:
       "Full-service property management across Pinellas County. Gulf Coast expertise. 8–12% management fee. No hidden fees.",
   },
+  alternates: { canonical: "/areas/pinellas-county" },
 };
 
 export default function PinellasCountyPage() {

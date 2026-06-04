@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "For Tenants",
   description:
     "Information for tenants managed by ViVi Property Management. How to apply, submit maintenance requests, pay rent, and access your tenant portal.",
+  alternates: { canonical: "/tenants" },
 };
 
 // Application steps

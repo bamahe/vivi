@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     description:
       "Full-service property management across Pasco County. New construction expertise. 8–12% management fee. No hidden fees.",
   },
+  alternates: { canonical: "/areas/pasco-county" },
 };
 
 export default function PascoCountyPage() {

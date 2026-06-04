@@ -9,6 +9,7 @@ import { SITE } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Services",
   description: `Full-service property management from ${SITE.name}. Leasing, tenant screening, maintenance through Best Bay Services, inspections, financial reporting, and eviction support.`,
+  alternates: { canonical: "/services" },
 };
 
 // All services with icon, title, and detailed description

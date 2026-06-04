@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "Blog",
   description:
     "Property management tips, Tampa Bay rental market updates, landlord guides, and investor insights from ViVi Property Management.",
+  alternates: { canonical: "/blog" },
 };
 
 // Revalidate every hour so new cron posts show up

@@ -6,6 +6,15 @@
 import Link from "next/link";
 import { SITE, COUNTIES, NAV_LINKS } from "@/lib/constants";
 
+// Map county display names to URL slugs for linking
+const COUNTY_SLUGS: Record<string, string> = {
+  "Hillsborough County": "hillsborough-county",
+  "Pinellas County": "pinellas-county",
+  "Pasco County": "pasco-county",
+  "Polk County": "polk-county",
+  "Manatee County": "manatee-county",
+};
+
 export default function Footer() {
   return (
     <footer className="bg-[var(--footer-bg)] text-[var(--footer-text)]">
@@ -59,7 +68,7 @@ export default function Footer() {
               {COUNTIES.filter((c) => c.active).map((county) => (
                 <li key={county.name} className="text-sm">
                   <Link
-                    href="/areas"
+                    href={`/areas/${COUNTY_SLUGS[county.name]}`}
                     className="transition-colors hover:text-white"
                   >
                     {county.name}

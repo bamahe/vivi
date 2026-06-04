@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   title: "About",
   description:
     "ViVi Property Management is led by Barrett Henry, a licensed Florida Broker Associate with REMAX Collective and 23+ years of real estate experience. Serving Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties.",
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {

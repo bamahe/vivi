@@ -36,6 +36,7 @@ export async function generateMetadata({
       title: `Property Management in ${city.name}, FL | ViVi PM`,
       description: `Full-service property management in ${city.name}. ${city.medianRent} median rent. ${SITE.feeRange} management fee. No hidden fees.`,
     },
+    alternates: { canonical: `/areas/${slug}` },
   };
 }
 

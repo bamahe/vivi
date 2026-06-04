@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     description:
       "Full-service property management across Polk County. I-4 corridor cash flow. 8–12% management fee. No hidden fees.",
   },
+  alternates: { canonical: "/areas/polk-county" },
 };
 
 export default function PolkCountyPage() {
