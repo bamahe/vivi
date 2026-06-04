@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     template: "%s | ViVi Property Management",
   },
   description:
-    "Professional property management across Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties in Tampa Bay. 23+ years of real estate experience. In-house maintenance. 8-12% of rent collected.",
+    "Professional property management across Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties in Tampa Bay. 23+ years of real estate experience. Maintenance through Best Bay Services. 8-12% of rent collected.",
   metadataBase: new URL("https://vivipm.com"),
   openGraph: {
     type: "website",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     siteName: "ViVi Property Management",
     title: "ViVi Property Management | Tampa Bay Property Management",
     description:
-      "Protect your property. Maximize your returns. Professional property management with in-house maintenance, comprehensive tenant screening, and transparent pricing.",
+      "Protect your property. Maximize your returns. Professional property management with maintenance through Best Bay Services, comprehensive tenant screening, and transparent pricing.",
   },
   twitter: {
     card: "summary_large_image",

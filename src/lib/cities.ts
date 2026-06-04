@@ -43,7 +43,7 @@ export const CITIES: CityData[] = [
     intro:
       "Tampa is the economic engine of the Tampa Bay metro — a city with strong job growth, major employers, and consistent rental demand across every price point. From downtown high-rises to suburban single-family homes, Tampa offers property owners a diverse market with year-round tenant demand.",
     whyManage:
-      "Tampa's rental market moves fast. Properties in South Tampa, Seminole Heights, and Westshore command premium rents but come with higher tenant expectations. A professional property manager ensures your Tampa rental is priced right, marketed aggressively, and maintained to the standard tenants expect. With ViVi's in-house maintenance team, repairs are handled faster and cheaper than outsourcing to Tampa's competitive contractor market.",
+      "Tampa's rental market moves fast. Properties in South Tampa, Seminole Heights, and Westshore command premium rents but come with higher tenant expectations. A professional property manager ensures your Tampa rental is priced right, marketed aggressively, and maintained to the standard tenants expect. With ViVi's maintenance partner Best Bay Services, repairs are handled faster and cheaper than outsourcing to Tampa's competitive contractor market.",
     rentalMarket:
       "Tampa rental demand stays strong year-round thanks to major employers like USF, Tampa General Hospital, MacDill Air Force Base, and the growing tech corridor along the Westshore district. Single-family rentals in neighborhoods like New Tampa, Carrollwood, and Town 'N' Country lease quickly, often within two weeks of listing.",
     neighborhoods: [
@@ -83,7 +83,7 @@ export const CITIES: CityData[] = [
     intro:
       "Brandon is one of the most popular rental markets in east Hillsborough County. With easy access to I-75, the Selmon Expressway, and major retail at Westfield Brandon Mall, tenants love the convenience. Property owners love the steady demand and strong rental rates.",
     whyManage:
-      "Brandon's rental market is competitive — properties that sit vacant lose money fast. ViVi PM gets your Brandon rental listed on MLS and 200+ sites within 48 hours of being market-ready. Our in-house maintenance through Best Bay Services means faster response times for your Brandon tenants and lower repair costs for you.",
+      "Brandon's rental market is competitive — properties that sit vacant lose money fast. ViVi PM gets your Brandon rental listed on MLS and 200+ sites within 48 hours of being market-ready. Our maintenance through Best Bay Services means faster response times for your Brandon tenants and lower repair costs for you.",
     rentalMarket:
       "Brandon attracts a diverse tenant pool: families drawn to Hillsborough County schools, professionals commuting to downtown Tampa, and military families from nearby MacDill AFB. Single-family homes with 3+ bedrooms are the highest-demand rental type in Brandon.",
     neighborhoods: [
@@ -235,7 +235,7 @@ export const CITIES: CityData[] = [
     intro:
       "Apollo Beach is a waterfront community in south Hillsborough County known for canal-front homes, the Manatee Viewing Center, and premium rental rates. Waterfront and water-access properties command top dollar from tenants looking for a coastal lifestyle without Pinellas County prices.",
     whyManage:
-      "Waterfront properties in Apollo Beach require specialized knowledge — seawall maintenance, dock inspections, flood insurance coordination, and understanding tidal impacts on the property. ViVi PM's in-house maintenance team handles the unique challenges of waterfront rental management.",
+      "Waterfront properties in Apollo Beach require specialized knowledge — seawall maintenance, dock inspections, flood insurance coordination, and understanding tidal impacts on the property. ViVi PM's maintenance partner Best Bay Services handles the unique challenges of waterfront rental management.",
     rentalMarket:
       "Apollo Beach attracts higher-income tenants — professionals, retirees, and snowbirds who want waterfront living. Lease terms can vary from standard 12-month to seasonal rentals. Properties with boat access or docks command the highest premiums.",
     neighborhoods: [
@@ -270,7 +270,7 @@ export const CITIES: CityData[] = [
     intro:
       "Lithia offers a rural-suburban lifestyle with larger lots, newer construction, and some of the best schools in Hillsborough County. Properties here attract families willing to pay premium rents for space, privacy, and top school zoning — particularly FishHawk and Newsome High School.",
     whyManage:
-      "Lithia properties tend to be newer and on larger lots, which means different maintenance needs — irrigation systems, larger yards, and sometimes well/septic systems. ViVi PM's in-house team handles all of it, and our local presence means faster response times for your Lithia tenants.",
+      "Lithia properties tend to be newer and on larger lots, which means different maintenance needs — irrigation systems, larger yards, and sometimes well/septic systems. ViVi PM's maintenance partner Best Bay Services handles all of it, and our local presence means faster response times for your Lithia tenants.",
     rentalMarket:
       "Lithia attracts high-quality, long-term tenants. Families move here specifically for schools and stay 3+ years. That means lower turnover, less vacancy, and more stable income for property owners. The tradeoff is a smaller tenant pool, so pricing must be precise.",
     neighborhoods: [
@@ -301,7 +301,7 @@ export const CITIES: CityData[] = [
     intro:
       "Seffner is a smaller community between Brandon and Temple Terrace that offers affordable rental properties with convenient I-4 access. Investors appreciate Seffner's lower entry prices and steady tenant demand from commuters working in both Tampa and Lakeland.",
     whyManage:
-      "Seffner's older housing stock means properties may need more frequent maintenance attention. Having ViVi's in-house maintenance team means repairs are handled quickly and without the markup you'd pay outsourcing to contractors. We keep your Seffner property maintained and your tenants happy.",
+      "Seffner's older housing stock means properties may need more frequent maintenance attention. Having ViVi's maintenance partner Best Bay Services means repairs are handled quickly and without the markup you'd pay outsourcing to contractors. We keep your Seffner property maintained and your tenants happy.",
     rentalMarket:
       "Seffner's rental market is driven by affordability. Tenants who can't afford Brandon or Valrico rents find Seffner attractive for its central location and lower costs. Demand is consistent, though properties need to be well-maintained to attract quality tenants.",
     neighborhoods: [
@@ -400,7 +400,7 @@ export const CITIES: CityData[] = [
     intro:
       "Clearwater sits on the Gulf Coast with world-famous Clearwater Beach just minutes away. The rental market benefits from both long-term residents and the seasonal influx of snowbirds and tourists. Property owners in Clearwater enjoy strong demand across all property types.",
     whyManage:
-      "Clearwater's mix of long-term and seasonal rentals creates complexity that self-managing owners struggle with. ViVi PM handles lease structuring, seasonal pricing adjustments, and the maintenance demands that Gulf Coast humidity and salt air create. Our in-house team responds faster than any contractor you'd find on your own.",
+      "Clearwater's mix of long-term and seasonal rentals creates complexity that self-managing owners struggle with. ViVi PM handles lease structuring, seasonal pricing adjustments, and the maintenance demands that Gulf Coast humidity and salt air create. Our maintenance partner Best Bay Services responds faster than any contractor you'd find on your own.",
     rentalMarket:
       "Clearwater's rental market is split between inland long-term rentals and beach-area properties with seasonal demand. Long-term rentals in Clearwater proper offer stable income, while beach-adjacent properties can command higher rents but may experience seasonal turnover.",
     neighborhoods: [
@@ -431,7 +431,7 @@ export const CITIES: CityData[] = [
     intro:
       "Largo is Pinellas County's third-largest city, centrally located between Tampa Bay and the Gulf beaches. It offers property investors a strong combination of affordable acquisition costs and reliable rental demand from a stable workforce population.",
     whyManage:
-      "Largo's aging housing stock means maintenance is a constant consideration. ViVi PM's in-house maintenance team — Best Bay Services — handles repairs directly without third-party markups. For Largo properties, where a $500 plumbing repair can turn into a $1,500 bill with a marked-up contractor, that savings adds up fast.",
+      "Largo's aging housing stock means maintenance is a constant consideration. ViVi PM's dedicated maintenance partner — Best Bay Services — handles repairs directly without third-party markups. For Largo properties, where a $500 plumbing repair can turn into a $1,500 bill with a marked-up contractor, that savings adds up fast.",
     rentalMarket:
       "Largo attracts working professionals, small families, and retirees. The Largo Central Park area and neighborhoods near Indian Rocks Beach offer different tenant profiles. Consistent demand keeps vacancies short across most Largo zip codes.",
     neighborhoods: [
@@ -562,7 +562,7 @@ export const CITIES: CityData[] = [
     intro:
       "Land O' Lakes is a growing suburb in southeast Pasco County with newer construction, strong schools, and a family-oriented atmosphere. The area attracts tenants who want newer homes at slightly lower rents than nearby Wesley Chapel or Lutz.",
     whyManage:
-      "Land O' Lakes properties are predominantly in HOA communities with specific lease restrictions. ViVi PM ensures your rental complies with all community rules while maximizing your returns. Our in-house maintenance keeps newer homes in showroom condition to justify premium rents.",
+      "Land O' Lakes properties are predominantly in HOA communities with specific lease restrictions. ViVi PM ensures your rental complies with all community rules while maximizing your returns. Our maintenance through Best Bay Services keeps newer homes in showroom condition to justify premium rents.",
     rentalMarket:
       "Land O' Lakes benefits from families relocating from Hillsborough County who want more home for their money. Pasco County schools in this area are well-regarded, which drives family-oriented tenant demand and longer lease terms.",
     neighborhoods: [
@@ -624,7 +624,7 @@ export const CITIES: CityData[] = [
     intro:
       "Zephyrhills is known for its natural springs and small-town charm. Located in east Pasco County, it offers affordable rental properties with steady demand from local workers, retirees, and families. The town is growing as Tampa Bay's sprawl pushes northward.",
     whyManage:
-      "Zephyrhills properties often have well water, septic systems, and larger lots that require a different maintenance approach. ViVi PM's in-house team has experience with rural-suburban property types and can handle the unique needs of Zephyrhills rentals.",
+      "Zephyrhills properties often have well water, septic systems, and larger lots that require a different maintenance approach. ViVi PM's maintenance partner Best Bay Services has experience with rural-suburban property types and can handle the unique needs of Zephyrhills rentals.",
     rentalMarket:
       "Zephyrhills attracts a mix of long-term residents, snowbirds, and skydiving enthusiasts (Skydive City is a major draw). The market is price-sensitive, so accurate pricing is critical to avoiding vacancy.",
     neighborhoods: [

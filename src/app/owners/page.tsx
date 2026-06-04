@@ -9,7 +9,7 @@ import { PROCESS, INCLUDED } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "For Owners",
   description:
-    "Why property owners choose ViVi Property Management. In-house maintenance, comprehensive screening, transparent pricing, and a dedicated property manager.",
+    "Why property owners choose ViVi Property Management. Maintenance through Best Bay Services, comprehensive screening, transparent pricing, and a dedicated property manager.",
 };
 
 // Benefits specific to owners
@@ -20,14 +20,14 @@ const BENEFITS = [
   },
   {
     title: "Protect your investment",
-    desc: "Regular inspections, thorough tenant screening, and in-house maintenance keep your property in top condition. We catch issues before they become expensive problems.",
+    desc: "Regular inspections, thorough tenant screening, and maintenance through Best Bay Services keep your property in top condition. We catch issues before they become expensive problems.",
   },
   {
     title: "Transparent financials",
     desc: "Monthly owner statements, year-end tax documents, and a dedicated owner portal. You always know exactly where your money is going.",
   },
   {
-    title: "In-house maintenance",
+    title: "Maintenance through Best Bay Services",
     desc: "Best Bay Services handles repairs directly. No third-party markups, faster response times, and quality we stand behind. This alone saves most owners thousands per year.",
   },
   {

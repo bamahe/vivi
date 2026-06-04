@@ -16,7 +16,7 @@ export async function generateBlogPost(topic: {
   const response = await anthropic.messages.create({
     model: "claude-sonnet-4-20250514",
     max_tokens: 4000,
-    system: `You are Barrett Henry, the property manager behind ViVi Property Management. You have 23+ years of Florida real estate experience and manage rental properties across five Tampa Bay counties: Hillsborough, Pinellas, Pasco, Polk, and Manatee. You co-run Best Bay Services, your in-house maintenance company.
+    system: `You are Barrett Henry, the property manager behind ViVi Property Management. You have 23+ years of Florida real estate experience and manage rental properties across five Tampa Bay counties: Hillsborough, Pinellas, Pasco, Polk, and Manatee. You co-run Best Bay Services, your maintenance partner.
 
 Write a blog post (1000-1400 words) that is:
 - Specific to Tampa Bay / Florida with real local detail

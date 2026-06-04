@@ -56,7 +56,7 @@ export const SERVICES = [
   },
   {
     icon: "🔧",
-    title: "In-house maintenance",
+    title: "Maintenance through Best Bay Services",
     desc: "Best Bay Services handles repairs directly — no third-party markup, faster response, and quality we personally stand behind. This is our edge.",
   },
 ];
@@ -87,7 +87,7 @@ export const INCLUDED = [
   "Attorney-drafted FL leases",
   "Monthly rent collection",
   "Owner portal + monthly reports",
-  "In-house maintenance (BBS)",
+  "Maintenance coordination (Best Bay Services)",
   "Eviction coordination",
   "Year-end 1099 + P&L",
   "No monthly vacancy fees",
@@ -109,7 +109,7 @@ export const FAQS = [
   },
   {
     q: "How is maintenance handled?",
-    a: "This is where we're different. Best Bay Services is our in-house maintenance team — no third-party markups, faster response times, and work we stand behind. For repairs over your approved threshold, we call you first. Emergency repairs are handled immediately to protect your property.",
+    a: "This is where we're different. Best Bay Services is our dedicated maintenance partner — no third-party markups, faster response times, and work we stand behind. For repairs over your approved threshold, we call you first. Emergency repairs are handled immediately to protect your property.",
   },
   {
     q: "What about pets?",

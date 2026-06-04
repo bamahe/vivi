@@ -15,7 +15,7 @@ import QuickAnswer from "@/components/QuickAnswer";
 export const metadata: Metadata = {
   title: "Property Management in Manatee County, FL",
   description:
-    "Professional property management across Manatee County, Florida — Bradenton, Lakewood Ranch, Parrish, and Palmetto. 8–12% of rent collected. In-house maintenance. No hidden fees. Call (813) 428-9800.",
+    "Professional property management across Manatee County, Florida — Bradenton, Lakewood Ranch, Parrish, and Palmetto. 8–12% of rent collected. Maintenance through Best Bay Services. No hidden fees. Call (813) 428-9800.",
   openGraph: {
     title: "Property Management in Manatee County, FL | ViVi PM",
     description:

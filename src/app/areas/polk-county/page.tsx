@@ -15,7 +15,7 @@ import QuickAnswer from "@/components/QuickAnswer";
 export const metadata: Metadata = {
   title: "Property Management in Polk County, FL",
   description:
-    "Professional property management across Polk County, Florida — Lakeland, Winter Haven, and Davenport. 8–12% of rent collected. In-house maintenance. Strong cash flow market. Call (813) 428-9800.",
+    "Professional property management across Polk County, Florida — Lakeland, Winter Haven, and Davenport. 8–12% of rent collected. Maintenance through Best Bay Services. Strong cash flow market. Call (813) 428-9800.",
   openGraph: {
     title: "Property Management in Polk County, FL | ViVi PM",
     description:

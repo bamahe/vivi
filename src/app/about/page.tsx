@@ -27,7 +27,7 @@ export default function AboutPage() {
         name: "ViVi Property Management",
         url: "https://vivipm.com",
         description:
-          "Professional property management across Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties in Tampa Bay. Full-service management at 8-12% of rent collected with in-house maintenance through Best Bay Services.",
+          "Professional property management across Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties in Tampa Bay. Full-service management at 8-12% of rent collected with maintenance through Best Bay Services.",
         foundingDate: "2015",
         areaServed: [
           { "@type": "AdministrativeArea", name: "Hillsborough County, FL" },
@@ -151,7 +151,7 @@ export default function AboutPage() {
       <section className="px-6 py-16 sm:py-20">
         <QuickAnswer
           question="Who runs ViVi Property Management?"
-          answer="ViVi Property Management is led by Barrett Henry, a licensed Florida Broker Associate with REMAX Collective. With 23+ years of real estate experience and in-house maintenance through Best Bay Services, Barrett and his team manage rental properties across five Tampa Bay counties — handling tenant screening, inspections, maintenance, and financial reporting."
+          answer="ViVi Property Management is led by Barrett Henry, a licensed Florida Broker Associate with REMAX Collective. With 23+ years of real estate experience and maintenance through Best Bay Services, Barrett and his team manage rental properties across five Tampa Bay counties — handling tenant screening, inspections, maintenance, and financial reporting."
         />
       </section>
 
@@ -166,7 +166,7 @@ export default function AboutPage() {
               Barrett Henry holds a Florida Broker Associate license with REMAX Collective and carries three professional designations: <strong>e-PRO</strong> (digital marketing), <strong>MRP</strong> (Military Relocation Professional), and <strong>SRS</strong> (Seller Representative Specialist). With 23+ years of real estate experience, Barrett founded The NOW Team in 2015 and later launched ViVi Property Management to give property owners a transparent, full-service option across Tampa Bay.
             </p>
             <p>
-              Barrett also co-runs <strong>Best Bay Services</strong>, the in-house maintenance company that handles all repairs and upkeep for ViVi-managed properties. No third-party markups, faster response times, and quality the team personally stands behind. This vertically integrated model is what sets ViVi apart from traditional property managers.
+              Barrett also co-runs <strong>Best Bay Services</strong>, the maintenance partner that handles all repairs and upkeep for ViVi-managed properties. No third-party markups, faster response times, and quality the team personally stands behind. This vertically integrated model is what sets ViVi apart from traditional property managers.
             </p>
           </div>
         </div>

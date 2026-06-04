@@ -20,7 +20,7 @@ const SELF_VS_VIVI = [
   { task: "Tenant screening", self: "$30-50 per applicant", vivi: "Included" },
   { task: "Lease drafting", self: "$200-400 attorney fees", vivi: "Included" },
   { task: "Rent collection", self: "Chase tenants yourself", vivi: "Included" },
-  { task: "Maintenance coordination", self: "Find & vet contractors", vivi: "Included (in-house)" },
+  { task: "Maintenance coordination", self: "Find & vet contractors", vivi: "Best Bay Services" },
   { task: "Inspections", self: "Drive out yourself", vivi: "Included" },
   { task: "Eviction filing", self: "$500-1,500+ in legal fees", vivi: "Coordinated for you" },
   { task: "Monthly reporting", self: "DIY spreadsheets", vivi: "Owner portal + reports" },
@@ -30,13 +30,13 @@ const SELF_VS_VIVI = [
 // Comparison: typical competitors vs ViVi
 const COMPETITOR_VS_VIVI = [
   { feature: "Management fee", competitor: "8-12%", vivi: "8-12%" },
-  { feature: "Leasing/placement fee", competitor: "50-100% first month", vivi: "Included" },
-  { feature: "Maintenance markup", competitor: "10-20% markup", vivi: "No markup (in-house)" },
+  { feature: "Leasing/placement fee", competitor: "50-100% first month", vivi: "50% of first month" },
+  { feature: "Maintenance markup", competitor: "10-20% markup", vivi: "Coordinated through Best Bay Services" },
   { feature: "Vacancy fee", competitor: "$50-100/month", vivi: "No vacancy fees" },
-  { feature: "Lease renewal fee", competitor: "$150-300", vivi: "Included" },
-  { feature: "Setup/onboarding fee", competitor: "$200-500", vivi: "Included" },
-  { feature: "Photography", competitor: "Extra charge", vivi: "Included" },
-  { feature: "3D virtual tour", competitor: "Rarely offered", vivi: "Included" },
+  { feature: "Lease renewal fee", competitor: "$150-300", vivi: "$150-200" },
+  { feature: "Setup/onboarding fee", competitor: "$200-500", vivi: "$200-300" },
+  { feature: "Photography", competitor: "Extra charge", vivi: "Professional HDR included" },
+  { feature: "3D virtual tour", competitor: "Rarely offered", vivi: "Available" },
   { feature: "Dedicated manager", competitor: "Pool of agents", vivi: "Dedicated to you" },
 ];
 

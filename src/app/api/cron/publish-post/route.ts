@@ -45,7 +45,7 @@ const BLOG_QUEUE = [
   { title: "Florida heat, humidity, and your rental: the maintenance reality", angle: "AC load, mold prevention, exterior wear, pest pressure. Seasonal checklist for Tampa Bay properties.", category: "Maintenance" },
   { title: "What a proper rental turnover actually includes", angle: "Clean, repair, repaint, re-key, photos, list — the checklist. How Best Bay handles it in-house.", category: "Maintenance" },
   { title: "Hurricane season prep for rental property owners", angle: "Pre-storm checklist, insurance review, tenant communication, post-storm process. Tampa Bay specific.", category: "Maintenance" },
-  { title: "Why in-house maintenance saves you more than you think", angle: "No third-party markup, faster response, quality control. How Best Bay Services works inside ViVi PM.", category: "Maintenance" },
+  { title: "Why maintenance through Best Bay Services saves you more than you think", angle: "No third-party markup, faster response, quality control. How Best Bay Services works inside ViVi PM.", category: "Maintenance" },
 
   // --- Area-specific ---
   { title: "Renting your Valrico home: demand, rent ranges, and what tenants want", angle: "Neighborhood-specific: Bloomingdale, River Hills, Buckhorn. Tenant profile, typical rents, school zoning premium.", category: "Areas" },

@@ -31,7 +31,7 @@ export async function generateMetadata({
 
   return {
     title: `Property Management in ${city.name}, FL`,
-    description: `Professional property management in ${city.name}, ${city.county}, Florida. ${SITE.feeRange} of rent collected. In-house maintenance, comprehensive tenant screening, and a dedicated property manager. Call ${SITE.phone}.`,
+    description: `Professional property management in ${city.name}, ${city.county}, Florida. ${SITE.feeRange} of rent collected. Maintenance through Best Bay Services, comprehensive tenant screening, and a dedicated property manager. Call ${SITE.phone}.`,
     openGraph: {
       title: `Property Management in ${city.name}, FL | ViVi PM`,
       description: `Full-service property management in ${city.name}. ${city.medianRent} median rent. ${SITE.feeRange} management fee. No hidden fees.`,
@@ -112,7 +112,7 @@ export default async function CityPage({
             {city.headline}
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg font-light leading-relaxed text-white/80">
-            Full-service property management in {city.name} backed by 23+ years of real estate experience and in-house maintenance.
+            Full-service property management in {city.name} backed by 23+ years of real estate experience and maintenance through Best Bay Services.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
@@ -144,7 +144,7 @@ export default async function CityPage({
       <section className="px-6 py-16 sm:py-20">
         <QuickAnswer
           question={`Who provides property management in ${city.name}, Florida?`}
-          answer={`ViVi Property Management provides full-service property management in ${city.name}, ${city.county}. Led by Barrett Henry with 23+ years of real estate experience, ViVi charges ${SITE.feeRange} of rent collected with no hidden fees. Services include tenant screening, in-house maintenance through Best Bay Services, rent collection, inspections, and financial reporting. Call ${SITE.phone}.`}
+          answer={`ViVi Property Management provides full-service property management in ${city.name}, ${city.county}. Led by Barrett Henry with 23+ years of real estate experience, ViVi charges ${SITE.feeRange} of rent collected with no hidden fees. Services include tenant screening, maintenance through Best Bay Services, rent collection, inspections, and financial reporting. Call ${SITE.phone}.`}
         />
       </section>
 

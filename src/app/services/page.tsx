@@ -8,7 +8,7 @@ import { SITE } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Services",
-  description: `Full-service property management from ${SITE.name}. Leasing, tenant screening, in-house maintenance, inspections, financial reporting, and eviction support.`,
+  description: `Full-service property management from ${SITE.name}. Leasing, tenant screening, maintenance through Best Bay Services, inspections, financial reporting, and eviction support.`,
 };
 
 // All services with icon, title, and detailed description
@@ -25,8 +25,8 @@ const ALL_SERVICES = [
   },
   {
     icon: "🔧",
-    title: "In-House Maintenance",
-    desc: "Best Bay Services is our in-house maintenance team. No third-party markups, faster response times, and quality we personally stand behind. Repairs over your approved threshold get your approval first. Emergencies are handled immediately.",
+    title: "Maintenance Through Best Bay Services",
+    desc: "Best Bay Services is our dedicated maintenance partner. No third-party markups, faster response times, and quality we personally stand behind. Repairs over your approved threshold get your approval first. Emergencies are handled immediately.",
   },
   {
     icon: "🏠",

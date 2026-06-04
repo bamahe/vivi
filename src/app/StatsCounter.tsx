@@ -13,7 +13,7 @@ const STATS = [
   { value: 5, prefix: "", suffix: "", label: "Counties served" },
   { value: 23, prefix: "", suffix: "+", label: "Years experience" },
   { value: 14, prefix: "", suffix: "", label: "Avg days to lease" },
-  { value: 100, prefix: "", suffix: "%", label: "In-house maintenance" },
+  { value: 100, prefix: "", suffix: "%", label: "Dedicated maintenance" },
   { value: 0, prefix: "$", suffix: "", label: "Vacancy fees" },
 ];
 

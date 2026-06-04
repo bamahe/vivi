@@ -15,7 +15,7 @@ import QuickAnswer from "@/components/QuickAnswer";
 export const metadata: Metadata = {
   title: "Property Management in Pasco County, FL",
   description:
-    "Professional property management across Pasco County, Florida — Wesley Chapel, Land O' Lakes, New Port Richey, and Zephyrhills. 8–12% of rent collected. In-house maintenance. No hidden fees. Call (813) 428-9800.",
+    "Professional property management across Pasco County, Florida — Wesley Chapel, Land O' Lakes, New Port Richey, and Zephyrhills. 8–12% of rent collected. Maintenance through Best Bay Services. No hidden fees. Call (813) 428-9800.",
   openGraph: {
     title: "Property Management in Pasco County, FL | ViVi PM",
     description:

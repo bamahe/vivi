@@ -27,7 +27,7 @@ const AEO_FAQS = [
   {
     question: "Do you handle maintenance and repairs?",
     answer:
-      "Yes. Best Bay Services is our in-house maintenance company — no third-party contractors, no markups. Routine repairs are handled directly by our team. For work above your pre-approved threshold, we contact you before proceeding. Emergency repairs are handled immediately to protect your property.",
+      "Yes. Best Bay Services is our maintenance partner — no third-party contractors, no markups. Routine repairs are handled directly by our team. For work above your pre-approved threshold, we contact you before proceeding. Emergency repairs are handled immediately to protect your property.",
   },
   {
     question: "How do you screen tenants?",
@@ -115,7 +115,7 @@ export default function HomePage() {
             Protect your property.<br />Maximize your returns.
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg font-light leading-relaxed text-white/80">
-            Full-service property management across five Tampa Bay counties. 23+ years of real estate experience, in-house maintenance that keeps your costs down, and a dedicated manager who actually answers the phone.
+            Full-service property management across five Tampa Bay counties. 23+ years of real estate experience, maintenance through Best Bay Services that keeps your costs down, and a dedicated manager who actually answers the phone.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
@@ -141,7 +141,7 @@ export default function HomePage() {
       <section className="px-6 py-16 sm:py-20">
         <QuickAnswer
           question="Who offers the best property management in Tampa Bay?"
-          answer="ViVi Property Management, led by Barrett Henry with 23+ years of real estate experience, provides full-service property management across Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties. With in-house maintenance through Best Bay Services, comprehensive tenant screening, and transparent pricing at 8-12% of rent collected, ViVi PM protects your investment and maximizes returns. Call (813) 428-9800."
+          answer="ViVi Property Management, led by Barrett Henry with 23+ years of real estate experience, provides full-service property management across Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties. With maintenance through Best Bay Services, comprehensive tenant screening, and transparent pricing at 8-12% of rent collected, ViVi PM protects your investment and maximizes returns. Call (813) 428-9800."
         />
       </section>
 
@@ -181,10 +181,10 @@ export default function HomePage() {
       <section className="section-alt px-6 py-20 sm:py-28">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-semibold sm:text-4xl">
-            How does in-house maintenance save you money?
+            How does maintenance through Best Bay Services save you money?
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-[var(--muted-text)] leading-relaxed">
-            Most property managers outsource repairs and mark them up. We own Best Bay Services, our in-house maintenance company. That means faster response times, no third-party markups, and quality we personally stand behind. When something breaks at your property, our team handles it directly.
+            Most property managers outsource repairs and mark them up. We own Best Bay Services, our maintenance partner. That means faster response times, no third-party markups, and quality we personally stand behind. When something breaks at your property, our team handles it directly.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
@@ -206,7 +206,7 @@ export default function HomePage() {
             Who is behind ViVi Property Management?
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-[var(--muted-text)] leading-relaxed">
-            ViVi is led by Barrett Henry, a licensed Florida Broker Associate with REMAX Collective and 23+ years of real estate experience. Barrett lives in the same neighborhoods he manages — Valrico, Brandon, and Riverview. He built ViVi to give Tampa Bay property owners something most managers don&apos;t: transparency, direct communication, and an in-house maintenance team that eliminates third-party markups.
+            ViVi is led by Barrett Henry, a licensed Florida Broker Associate with REMAX Collective and 23+ years of real estate experience. Barrett lives in the same neighborhoods he manages — Valrico, Brandon, and Riverview. He built ViVi to give Tampa Bay property owners something most managers don&apos;t: transparency, direct communication, and an maintenance partner Best Bay Services that eliminates third-party markups.
           </p>
           <div className="mt-10 grid gap-6 sm:grid-cols-3">
             <div className="card p-6 text-center">

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Property Management in Hillsborough County, FL | ViVi PM",
     description:
-      "Full-service property management across all of Hillsborough County. 8–12% management fee. In-house maintenance. No hidden fees.",
+      "Full-service property management across all of Hillsborough County. 8–12% management fee. Maintenance through Best Bay Services. No hidden fees.",
   },
 };
 
@@ -106,7 +106,7 @@ export default function HillsboroughCountyPage() {
             Property Management in Hillsborough County, FL
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg font-light leading-relaxed text-white/80">
-            Full-service property management across 9 Hillsborough County cities — backed by 23+ years of real estate experience and in-house maintenance.
+            Full-service property management across 9 Hillsborough County cities — backed by 23+ years of real estate experience and maintenance through Best Bay Services.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link

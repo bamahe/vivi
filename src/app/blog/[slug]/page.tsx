@@ -326,7 +326,7 @@ export default async function BlogPostPage({
               Management, a licensed Florida Broker Associate with REMAX
               Collective. With 23+ years of real estate experience, Barrett and
               his team manage rental properties across five Tampa Bay counties —
-              handling tenant screening, in-house maintenance through Best Bay
+              handling tenant screening, maintenance through Best Bay
               Services, rent collection, and financial reporting.
             </p>
             <div className="mt-4 flex gap-4">

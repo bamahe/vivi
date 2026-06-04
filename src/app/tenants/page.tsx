@@ -39,7 +39,7 @@ const RESOURCES = [
   },
   {
     title: "Submit maintenance requests",
-    desc: "Report maintenance issues 24/7 through the portal. Include photos and descriptions to help our in-house team respond quickly.",
+    desc: "Report maintenance issues 24/7 through the portal. Include photos and descriptions to help our maintenance partner Best Bay Services respond quickly.",
   },
   {
     title: "Review your lease",
