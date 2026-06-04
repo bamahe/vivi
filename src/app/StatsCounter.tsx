@@ -8,12 +8,13 @@
 import { useEffect, useRef, useState } from "react";
 
 // Each stat to display in the bar
+// prefix: shown before the number (e.g. "$")
 const STATS = [
-  { value: 5, suffix: "", label: "Counties" },
-  { value: 67, suffix: "", label: "Target counties" },
-  { value: 23, suffix: "+", label: "Years experience" },
-  { value: 14, suffix: "", label: "Avg days to lease" },
-  { value: 100, suffix: "%", label: "In-house maintenance" },
+  { value: 5, prefix: "", suffix: "", label: "Counties served" },
+  { value: 23, prefix: "", suffix: "+", label: "Years experience" },
+  { value: 14, prefix: "", suffix: "", label: "Avg days to lease" },
+  { value: 100, prefix: "", suffix: "%", label: "In-house maintenance" },
+  { value: 0, prefix: "$", suffix: "", label: "Vacancy fees" },
 ];
 
 export default function StatsCounter() {
@@ -65,7 +66,7 @@ export default function StatsCounter() {
         {STATS.map((stat, idx) => (
           <div key={stat.label} className="text-center">
             <p className="font-display text-3xl font-bold text-accent sm:text-4xl">
-              {counts[idx]}
+              {stat.prefix}{counts[idx]}
               {stat.suffix}
             </p>
             <p className="mt-1 text-xs font-medium uppercase tracking-widest text-[var(--muted-text)]">

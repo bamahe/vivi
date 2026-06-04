@@ -47,7 +47,7 @@ export default function ContactPage() {
       <title>Contact | ViVi Property Management</title>
       <meta
         name="description"
-        content="Contact ViVi Property Management. Call (813) 260-4663 or fill out our form. 14310 N. Dale Mabry Hwy, Ste 100, Tampa, FL 33618."
+        content="Contact ViVi Property Management. Call (813) 428-9800 or fill out our form. 14310 N. Dale Mabry Hwy, Ste 100, Tampa, FL 33618."
       />
 
       {/* ---- Page header ---- */}
@@ -224,7 +224,7 @@ export default function ContactPage() {
                   Managed by Barrett Henry, REALTOR&reg;
                 </p>
                 <p className="mt-1 text-sm text-[var(--muted-text)]">
-                  Broker Associate | RE/MAX Collective
+                  Broker Associate | REMAX Collective
                 </p>
                 <p className="mt-1 text-sm text-[var(--muted-text)]">
                   23+ years of real estate experience

@@ -37,7 +37,15 @@ export default function FAQ({ items, heading }: FAQProps) {
 
       <div className="divide-y divide-[var(--card-border)]">
         {items.map((item, idx) => (
-          <div key={idx}>
+          <div
+            key={idx}
+            id={`faq-${item.q
+              .toLowerCase()
+              .replace(/[^a-z0-9\s-]/g, "")
+              .replace(/\s+/g, "-")
+              .slice(0, 60)
+              .replace(/-$/, "")}`}
+          >
             {/* Question button */}
             <button
               onClick={() => toggle(idx)}

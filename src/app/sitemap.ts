@@ -1,26 +1,60 @@
 // ============================================
 // sitemap.ts — Generate sitemap for all pages
+// including dynamic city pages
 // ============================================
 
 import type { MetadataRoute } from "next";
+import { getAllCitySlugs } from "@/lib/cities";
+import { getBlogPosts } from "@/lib/supabase";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = "https://vivipm.com";
 
   // All static pages on the site
-  const pages = [
+  const staticPages = [
     { path: "/", priority: 1, changeFrequency: "weekly" as const },
     { path: "/services", priority: 0.8, changeFrequency: "monthly" as const },
     { path: "/pricing", priority: 0.8, changeFrequency: "monthly" as const },
-    { path: "/areas", priority: 0.7, changeFrequency: "monthly" as const },
+    { path: "/areas", priority: 0.8, changeFrequency: "monthly" as const },
     { path: "/owners", priority: 0.8, changeFrequency: "monthly" as const },
     { path: "/tenants", priority: 0.7, changeFrequency: "monthly" as const },
     { path: "/about", priority: 0.8, changeFrequency: "monthly" as const },
     { path: "/contact", priority: 0.6, changeFrequency: "yearly" as const },
     { path: "/rental-analysis", priority: 0.9, changeFrequency: "monthly" as const },
+    { path: "/blog", priority: 0.8, changeFrequency: "weekly" as const },
   ];
 
-  return pages.map((page) => ({
+  // County landing pages — high priority for local SEO
+  const countyPages = [
+    "hillsborough-county",
+    "pinellas-county",
+    "pasco-county",
+    "polk-county",
+    "manatee-county",
+  ].map((slug) => ({
+    path: `/areas/${slug}`,
+    priority: 0.9,
+    changeFrequency: "monthly" as const,
+  }));
+
+  // Dynamic city pages — high priority for local SEO
+  const cityPages = getAllCitySlugs().map((slug) => ({
+    path: `/areas/${slug}`,
+    priority: 0.8,
+    changeFrequency: "monthly" as const,
+  }));
+
+  // Blog posts from Supabase
+  const posts = await getBlogPosts();
+  const blogPages = posts.map((post) => ({
+    path: `/blog/${post.slug}`,
+    priority: 0.7,
+    changeFrequency: "monthly" as const,
+  }));
+
+  const allPages = [...staticPages, ...countyPages, ...cityPages, ...blogPages];
+
+  return allPages.map((page) => ({
     url: `${baseUrl}${page.path}`,
     lastModified: new Date(),
     changeFrequency: page.changeFrequency,

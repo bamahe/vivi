@@ -27,7 +27,7 @@ export default function AboutPage() {
         name: "ViVi Property Management",
         url: "https://vivipm.com",
         description:
-          "Professional property management across Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties in Florida. Full-service management at 8-12% of rent collected with in-house maintenance through Best Bay Services.",
+          "Professional property management across Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties in Tampa Bay. Full-service management at 8-12% of rent collected with in-house maintenance through Best Bay Services.",
         foundingDate: "2015",
         areaServed: [
           { "@type": "AdministrativeArea", name: "Hillsborough County, FL" },
@@ -39,7 +39,7 @@ export default function AboutPage() {
         founder: { "@id": "https://vivipm.com/#person-barrett-henry" },
         contactPoint: {
           "@type": "ContactPoint",
-          telephone: "+1-813-733-7907",
+          telephone: "+1-813-428-9800",
           email: "barrett@nowtb.com",
           contactType: "customer service",
           availableLanguage: "English",
@@ -70,7 +70,7 @@ export default function AboutPage() {
           { "@type": "EducationalOccupationalCredential", credentialCategory: "SRS" },
         ],
         email: "barrett@nowtb.com",
-        telephone: "+1-813-733-7907",
+        telephone: "+1-813-428-9800",
         url: "https://vivipm.com/about",
         sameAs: [
           "https://www.facebook.com/BarrettHenryREALTOR",
@@ -179,7 +179,7 @@ export default function AboutPage() {
             Where does ViVi Property Management operate?
           </h2>
           <p className="mx-auto mb-10 max-w-2xl text-center text-[var(--muted-text)] leading-relaxed">
-            ViVi actively manages properties across five Florida counties, with statewide expansion underway to cover all 67 counties.
+            ViVi manages properties across five Tampa Bay counties — from urban Tampa to suburban Lakeland and coastal Bradenton.
           </p>
 
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -239,10 +239,10 @@ export default function AboutPage() {
               Free Rent Analysis
             </Link>
             <a
-              href="tel:+18137337907"
+              href="tel:+18134289800"
               className="rounded-full border border-white/30 px-10 py-4 text-sm font-semibold text-white transition-colors hover:bg-white/10"
             >
-              Call (813) 733-7907
+              Call (813) 428-9800
             </a>
           </div>
         </div>

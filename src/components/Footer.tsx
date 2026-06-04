@@ -15,11 +15,11 @@ export default function Footer() {
           {/* Column 1 — Brand */}
           <div>
             <Link href="/" className="inline-block">
-              <span className="font-display text-3xl font-bold text-accent">ViVi</span>
-              <span className="ml-1.5 text-sm text-[var(--footer-text)]">Property Management</span>
+              <span className="font-display text-3xl font-bold text-white">ViVi</span>
+              <span className="ml-1.5 text-sm text-white/70">Property Management</span>
             </Link>
             <p className="mt-4 text-sm leading-relaxed">
-              Professional property management across Florida. Protect your investment, maximize your returns.
+              Professional property management across Tampa Bay. Protect your investment, maximize your returns.
             </p>
           </div>
 
@@ -42,7 +42,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/rental-analysis"
-                  className="text-sm font-medium text-accent transition-colors hover:text-accent-light"
+                  className="text-sm font-medium text-accent-light transition-colors hover:text-white"
                 >
                   Free Rent Analysis
                 </Link>
@@ -58,12 +58,14 @@ export default function Footer() {
             <ul className="space-y-2.5">
               {COUNTIES.filter((c) => c.active).map((county) => (
                 <li key={county.name} className="text-sm">
-                  {county.name}
+                  <Link
+                    href="/areas"
+                    className="transition-colors hover:text-white"
+                  >
+                    {county.name}
+                  </Link>
                 </li>
               ))}
-              <li className="pt-1 text-xs text-accent">
-                Expanding to all 67 FL counties
-              </li>
             </ul>
           </div>
 
@@ -88,12 +90,33 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* ---- Divider ---- */}
+        {/* ---- REMAX Offices ---- */}
         <div className="mt-14 border-t border-white/10 pt-8">
+          <h3 className="mb-6 font-sans text-xs font-semibold uppercase tracking-widest text-white">
+            REMAX Collective Offices
+          </h3>
+          <div className="grid gap-6 sm:grid-cols-3">
+            <div>
+              <p className="text-sm font-medium text-white">Tampa</p>
+              <p className="mt-1 text-xs leading-relaxed">14310 N Dale Mabry Hwy, Ste 100<br />Tampa, FL 33618</p>
+            </div>
+            <div>
+              <p className="text-sm font-medium text-white">Largo</p>
+              <p className="mt-1 text-xs leading-relaxed">11200 Seminole Blvd, Ste 202<br />Largo, FL 33778</p>
+            </div>
+            <div>
+              <p className="text-sm font-medium text-white">Brandon</p>
+              <p className="mt-1 text-xs leading-relaxed">417 Lithia Pinecrest Rd<br />Brandon, FL 33511</p>
+            </div>
+          </div>
+        </div>
+
+        {/* ---- Copyright ---- */}
+        <div className="mt-10 border-t border-white/10 pt-8">
           <div className="flex flex-col items-center justify-between gap-4 text-xs sm:flex-row">
             <p>&copy; {new Date().getFullYear()} {SITE.name}. All rights reserved.</p>
             <p>
-              Managed by Barrett Henry, REALTOR&reg; | REMAX Collective
+              Barrett Henry, REALTOR&reg; | REMAX Collective
             </p>
           </div>
         </div>

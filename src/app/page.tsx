@@ -22,7 +22,7 @@ const AEO_FAQS = [
   {
     question: "What areas does ViVi Property Management serve?",
     answer:
-      "ViVi manages properties across five Tampa Bay counties: Hillsborough, Pinellas, Pasco, Polk, and Manatee. This covers cities like Tampa, St. Petersburg, Clearwater, Lakeland, Bradenton, Wesley Chapel, and dozens more. Statewide expansion to all 67 Florida counties is underway.",
+      "ViVi manages properties across five Tampa Bay counties: Hillsborough, Pinellas, Pasco, Polk, and Manatee. This covers cities like Tampa, St. Petersburg, Clearwater, Lakeland, Bradenton, Wesley Chapel, Valrico, Riverview, and dozens more.",
   },
   {
     question: "Do you handle maintenance and repairs?",
@@ -59,6 +59,48 @@ const AEO_FAQS = [
 export default function HomePage() {
   return (
     <>
+      {/* LocalBusiness structured data for the homepage */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            name: "ViVi Property Management",
+            image: "https://vivipm.com/logo.png",
+            telephone: "(813) 428-9800",
+            email: "info@vivipm.com",
+            url: "https://vivipm.com",
+            priceRange: "8-12% of monthly rent",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "14310 N. Dale Mabry Hwy, Ste 100",
+              addressLocality: "Tampa",
+              addressRegion: "FL",
+              postalCode: "33618",
+              addressCountry: "US",
+            },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: 27.9506,
+              longitude: -82.4572,
+            },
+            areaServed: [
+              { "@type": "AdministrativeArea", name: "Hillsborough County, FL" },
+              { "@type": "AdministrativeArea", name: "Pinellas County, FL" },
+              { "@type": "AdministrativeArea", name: "Pasco County, FL" },
+              { "@type": "AdministrativeArea", name: "Polk County, FL" },
+              { "@type": "AdministrativeArea", name: "Manatee County, FL" },
+            ],
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              opens: "09:00",
+              closes: "17:00",
+            },
+          }),
+        }}
+      />
 
       {/* ============================================
           HERO SECTION
@@ -73,7 +115,7 @@ export default function HomePage() {
             Protect your property.<br />Maximize your returns.
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg font-light leading-relaxed text-white/80">
-            Full-service property management backed by 23+ years of real estate experience and an in-house maintenance team that keeps your costs down.
+            Full-service property management across five Tampa Bay counties. 23+ years of real estate experience, in-house maintenance that keeps your costs down, and a dedicated manager who actually answers the phone.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
@@ -99,7 +141,7 @@ export default function HomePage() {
       <section className="px-6 py-16 sm:py-20">
         <QuickAnswer
           question="Who offers the best property management in Tampa Bay?"
-          answer="ViVi Property Management, led by Barrett Henry with 23+ years of real estate experience, provides professional property management across Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties. With in-house maintenance through Best Bay Services, comprehensive tenant screening, and transparent pricing at 8-12% of rent collected, ViVi PM protects your investment and maximizes returns. Call (813) 733-7907."
+          answer="ViVi Property Management, led by Barrett Henry with 23+ years of real estate experience, provides full-service property management across Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties. With in-house maintenance through Best Bay Services, comprehensive tenant screening, and transparent pricing at 8-12% of rent collected, ViVi PM protects your investment and maximizes returns. Call (813) 428-9800."
         />
       </section>
 
@@ -154,6 +196,68 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* ============================================
+          TRUST — Who is behind ViVi
+          ============================================ */}
+      <section className="px-6 py-20 sm:py-28">
+        <div className="mx-auto max-w-4xl text-center">
+          <h2 className="text-3xl font-semibold sm:text-4xl">
+            Who is behind ViVi Property Management?
+          </h2>
+          <p className="mx-auto mt-6 max-w-2xl text-[var(--muted-text)] leading-relaxed">
+            ViVi is led by Barrett Henry, a licensed Florida Broker Associate with REMAX Collective and 23+ years of real estate experience. Barrett lives in the same neighborhoods he manages — Valrico, Brandon, and Riverview. He built ViVi to give Tampa Bay property owners something most managers don&apos;t: transparency, direct communication, and an in-house maintenance team that eliminates third-party markups.
+          </p>
+          <div className="mt-10 grid gap-6 sm:grid-cols-3">
+            <div className="card p-6 text-center">
+              <p className="font-display text-lg font-semibold">e-PRO</p>
+              <p className="mt-1 text-xs text-[var(--muted-text)]">Digital Marketing Certified</p>
+            </div>
+            <div className="card p-6 text-center">
+              <p className="font-display text-lg font-semibold">MRP</p>
+              <p className="mt-1 text-xs text-[var(--muted-text)]">Military Relocation Professional</p>
+            </div>
+            <div className="card p-6 text-center">
+              <p className="font-display text-lg font-semibold">SRS</p>
+              <p className="mt-1 text-xs text-[var(--muted-text)]">Seller Representative Specialist</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* HowTo structured data for the 3-step process */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "HowTo",
+            name: "How does ViVi property management work?",
+            description:
+              "Three simple steps to get your property professionally managed by ViVi Property Management in Tampa Bay.",
+            step: [
+              {
+                "@type": "HowToStep",
+                position: 1,
+                name: "Prepare",
+                text: "We walk your property, build a make-ready checklist, coordinate needed work, and get it market-ready fast. Professional photos, 3D tour, and competitive rent analysis included.",
+              },
+              {
+                "@type": "HowToStep",
+                position: 2,
+                name: "Market",
+                text: "MLS entry hits 15,000+ agents across our service area. Syndicated to Zillow, Trulia, Hotpads, and hundreds more. We market 365 days a year — even while occupied.",
+              },
+              {
+                "@type": "HowToStep",
+                position: 3,
+                name: "Profit",
+                text: "Monthly rent collection, detailed owner statements, year-end tax docs, and a dedicated property manager. Track everything from your owner portal.",
+              },
+            ],
+          }),
+        }}
+      />
 
       {/* ============================================
           HOW IT WORKS — 3-step process
@@ -236,26 +340,21 @@ export default function HomePage() {
             What areas does ViVi Property Management cover?
           </h2>
           <p className="mx-auto mb-14 max-w-xl text-center text-[var(--muted-text)]">
-            Active across five Florida counties with statewide expansion underway.
+            Five Tampa Bay counties. One dedicated team.
           </p>
 
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {COUNTIES.filter((c) => c.active).map((county) => (
-              <div key={county.name} className="card p-6">
+              <Link
+                key={county.name}
+                href="/areas"
+                className="card block p-6 transition-colors hover:border-accent"
+              >
                 <h3 className="mb-2 font-display text-lg font-semibold">{county.name}</h3>
                 <p className="text-sm leading-relaxed text-[var(--muted-text)]">{county.cities}</p>
-              </div>
+              </Link>
             ))}
 
-            {/* Expansion card */}
-            <div className="card flex items-center justify-center border-dashed p-6 text-center">
-              <div>
-                <p className="font-display text-lg font-semibold text-accent">
-                  All 67 Florida Counties
-                </p>
-                <p className="mt-1 text-sm text-[var(--muted-text)]">Coming soon</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>

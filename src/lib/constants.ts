@@ -5,8 +5,8 @@
 export const SITE = {
   name: "ViVi Property Management",
   shortName: "ViVi",
-  tagline: "Professional Property Management for Florida",
-  phone: "(813) 260-4663",
+  tagline: "Professional Property Management for Tampa Bay",
+  phone: "(813) 428-9800",
   email: "info@vivipm.com",
   address: "14310 N. Dale Mabry Hwy, Ste 100, Tampa, FL 33618",
   domain: "vivipm.com",
@@ -101,7 +101,7 @@ export const INCLUDED = [
 export const FAQS = [
   {
     q: "Where does ViVi manage properties?",
-    a: "We actively manage properties across five core counties: Hillsborough, Pinellas, Pasco, Polk, and Manatee. We're expanding statewide across all 67 Florida counties. If you own property elsewhere in Florida, reach out — we may already have coverage in your area or can get it set up quickly.",
+    a: "We manage properties across five Tampa Bay counties: Hillsborough, Pinellas, Pasco, Polk, and Manatee. That covers cities like Tampa, St. Petersburg, Clearwater, Lakeland, Bradenton, Wesley Chapel, Valrico, Riverview, and dozens more.",
   },
   {
     q: "I don't own an investment property yet. Can you help me buy one?",
@@ -156,6 +156,7 @@ export const NAV_LINKS = [
   { label: "Areas", href: "/areas" },
   { label: "Owners", href: "/owners" },
   { label: "Tenants", href: "/tenants" },
+  { label: "Blog", href: "/blog" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];
