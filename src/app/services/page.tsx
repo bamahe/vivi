@@ -5,6 +5,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SITE } from "@/lib/constants";
+import QuickAnswer from "@/components/QuickAnswer";
 
 export const metadata: Metadata = {
   title: "Services",
@@ -69,6 +70,14 @@ export default function ServicesPage() {
             End-to-end property management so you can collect rent without the headaches.
           </p>
         </div>
+      </section>
+
+      {/* ---- QuickAnswer — AEO target for Hillsborough PM services ---- */}
+      <section className="px-6 py-16 sm:py-20">
+        <QuickAnswer
+          question="What property management services are available in Hillsborough County?"
+          answer={`ViVi Property Management provides full-service property management across Hillsborough County, FL — including leasing, tenant screening, maintenance through Best Bay Services, inspections, financial reporting, eviction support, and HOA lease approval handling. ${SITE.feeRange} of rent collected. No hidden fees. Call ${SITE.phone}.`}
+        />
       </section>
 
       {/* ---- Services grid ---- */}

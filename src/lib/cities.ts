@@ -66,6 +66,14 @@ export const CITIES: CityData[] = [
         q: "How quickly do Tampa rentals lease?",
         a: "Most ViVi-managed Tampa properties lease within 14 days. We use professional photography, 3D tours, MLS syndication to 15,000+ agents, and distribution across Zillow, Trulia, and 200+ rental sites.",
       },
+      {
+        q: "What is the average rent in Tampa, FL?",
+        a: "Single-family rental homes in Tampa average around $2,100/month, though rents vary widely. South Tampa and Hyde Park can command $2,500-$3,500/month, while New Tampa and Town 'N' Country range from $1,800-$2,300. ViVi runs a free competitive market analysis to price your Tampa rental accurately.",
+      },
+      {
+        q: "Does ViVi manage condos and townhouses in Tampa?",
+        a: "Yes. We manage single-family homes, townhouses, and condos throughout Tampa. For condos with HOA or condo association lease approval requirements, we handle all paperwork and coordination at no additional charge.",
+      },
     ],
   },
   {
@@ -104,6 +112,14 @@ export const CITIES: CityData[] = [
       {
         q: "Do you manage properties in Bloomingdale?",
         a: "Yes. Bloomingdale is one of our core neighborhoods. The community's strong HOA, golf course, and top-rated schools make it one of the most desirable rental areas in Brandon.",
+      },
+      {
+        q: "How quickly do Brandon rentals lease?",
+        a: "Most Brandon properties lease within 14 days when priced correctly. Families searching for Hillsborough County school zones drive consistent demand, especially for 3+ bedroom homes near Bloomingdale, Newsome, and Riverview High School zones.",
+      },
+      {
+        q: "Is Brandon a good area for rental property investment?",
+        a: "Yes. Brandon combines strong rental demand, a diverse tenant pool (families, military, professionals), and moderate home prices. The area's central location with Selmon Expressway and I-75 access keeps vacancy rates low year-round.",
       },
     ],
   },
@@ -144,6 +160,14 @@ export const CITIES: CityData[] = [
         q: "Do Valrico rentals attract long-term tenants?",
         a: "Yes. Valrico tenants are predominantly families who stay 2-3+ years because of the schools. Lower turnover means fewer vacancy periods and less wear on your property.",
       },
+      {
+        q: "What is the average rent in Valrico, FL?",
+        a: "Single-family homes in Valrico typically rent for $1,900-$2,500/month, with the median around $2,100. Homes in River Hills and Buckhorn with 4+ bedrooms can command $2,400+. School zoning is the primary driver of premium rents in Valrico.",
+      },
+      {
+        q: "Does ViVi handle HOA requirements in Valrico?",
+        a: "Yes. Many Valrico communities — including Bloomingdale, River Hills, and Lake St. Charles — have HOAs that require lease approval. ViVi handles all HOA documentation and coordination as part of our standard management service at no extra charge.",
+      },
     ],
   },
   {
@@ -183,6 +207,14 @@ export const CITIES: CityData[] = [
         q: "Do you manage properties in FishHawk Ranch?",
         a: "Yes. FishHawk Ranch is one of our most active areas. We handle HOA lease approval coordination, which is required in FishHawk, as part of our standard management service.",
       },
+      {
+        q: "What is the average rent in Riverview, FL?",
+        a: "Riverview single-family homes typically rent for $1,800-$2,400/month with the median around $2,000. FishHawk Ranch and Panther Trace command the higher end due to community amenities and school zoning. Newer construction homes lease fastest.",
+      },
+      {
+        q: "How fast is Riverview growing?",
+        a: "Riverview is one of the fastest-growing communities in Hillsborough County, with new master-planned communities continuing to break ground. That growth drives strong rental demand from families relocating to Tampa Bay who rent while exploring the area before buying.",
+      },
     ],
   },
   {
@@ -217,6 +249,18 @@ export const CITIES: CityData[] = [
       {
         q: "How much do Plant City rentals rent for?",
         a: "Single-family homes in Plant City typically rent for $1,500-$2,000/month. Newer construction near Walden Lake commands higher rents, while older homes closer to downtown offer better cash flow ratios.",
+      },
+      {
+        q: "How much does property management cost in Plant City?",
+        a: "ViVi charges 8-12% of monthly rent collected for Plant City properties. Given Plant City's lower rent price points, the absolute dollar cost of management is very reasonable while still getting full-service coverage.",
+      },
+      {
+        q: "What types of tenants rent in Plant City?",
+        a: "Plant City attracts blue-collar workers, agricultural industry employees, and families priced out of Brandon and Valrico. Many tenants commute along I-4 to either Tampa or Lakeland. Demand is consistent and growing as the area develops.",
+      },
+      {
+        q: "Does ViVi manage properties with well water or septic in Plant City?",
+        a: "Yes. Many Plant City properties have well water and septic systems rather than city utilities. Our maintenance partner Best Bay Services has experience with these systems and handles inspections, repairs, and preventive maintenance.",
       },
     ],
   },
@@ -253,6 +297,18 @@ export const CITIES: CityData[] = [
         q: "What do Apollo Beach homes rent for?",
         a: "Apollo Beach rentals typically range from $2,000-$3,500/month depending on waterfront access, size, and community. MiraBay and Waterset command the highest rents in the area.",
       },
+      {
+        q: "How much does property management cost in Apollo Beach?",
+        a: "ViVi charges 8-12% of monthly rent collected for Apollo Beach properties. Given the higher rents waterfront properties command, management fees represent strong value — professional management typically costs less than one month of vacancy.",
+      },
+      {
+        q: "What maintenance challenges are unique to Apollo Beach?",
+        a: "Waterfront properties in Apollo Beach require attention to seawall conditions, dock maintenance, salt air corrosion on exterior fixtures, and flood insurance coordination. Our maintenance partner Best Bay Services handles these specialized needs.",
+      },
+      {
+        q: "Is Apollo Beach a good area for rental investment?",
+        a: "Apollo Beach offers premium rents and attracts higher-income tenants — professionals, retirees, and seasonal residents who want waterfront living. Properties with boat access or docks command the highest premiums and lease quickly.",
+      },
     ],
   },
   {
@@ -284,6 +340,22 @@ export const CITIES: CityData[] = [
         q: "What do Lithia homes rent for?",
         a: "Lithia rentals typically command $2,200-$3,000/month. Larger homes in FishHawk Ranch and newer communities near Triple Creek sit at the higher end due to school zoning and community amenities.",
       },
+      {
+        q: "How much does property management cost in Lithia?",
+        a: "ViVi charges 8-12% of monthly rent collected for Lithia properties. Lithia's higher rents and long-term tenants mean strong net income for owners even after management fees.",
+      },
+      {
+        q: "Why do Lithia tenants stay so long?",
+        a: "Families move to Lithia specifically for the schools — Newsome High School and FishHawk-area elementary schools are among the best rated in Hillsborough County. Once enrolled, families stay 3+ years. That means lower turnover and more stable income for property owners.",
+      },
+      {
+        q: "Does ViVi manage properties in FishHawk Ranch?",
+        a: "Yes. FishHawk Ranch spans both Lithia and Riverview, and it is one of our most active management areas. We handle HOA lease approval coordination, community compliance, and the premium marketing that FishHawk properties require.",
+      },
+      {
+        q: "Are Lithia properties harder to maintain?",
+        a: "Lithia properties tend to sit on larger lots with irrigation systems, and some have well or septic systems. Our maintenance partner Best Bay Services handles all of it — from standard repairs to the specialized needs of larger Lithia properties.",
+      },
     ],
   },
   {
@@ -313,6 +385,22 @@ export const CITIES: CityData[] = [
       {
         q: "Is Seffner a good area for rental investment?",
         a: "Seffner offers some of the best cash flow in the Brandon-Valrico corridor due to lower acquisition costs. Properties rent quickly and consistently due to the central location.",
+      },
+      {
+        q: "How much does property management cost in Seffner?",
+        a: "ViVi charges 8-12% of monthly rent collected for Seffner properties. Seffner's lower rent points mean lower absolute management costs, while you still get full-service coverage including screening, maintenance, and reporting.",
+      },
+      {
+        q: "What do Seffner homes rent for?",
+        a: "Single-family homes in Seffner typically rent for $1,600-$2,100/month. The lower price point compared to neighboring Brandon and Valrico attracts a steady stream of tenants looking for affordable homes with I-4 access.",
+      },
+      {
+        q: "What types of tenants rent in Seffner?",
+        a: "Seffner attracts working professionals commuting to Tampa or Lakeland via I-4, small families priced out of Brandon and Valrico, and USF-area workers. Demand is consistent year-round thanks to the central location.",
+      },
+      {
+        q: "Does Seffner's older housing stock require more maintenance?",
+        a: "Many Seffner homes are older than those in newer-build areas like Riverview, which can mean more frequent maintenance. Our partner Best Bay Services handles repairs at no markup, keeping your total cost of ownership manageable.",
       },
     ],
   },
@@ -344,6 +432,22 @@ export const CITIES: CityData[] = [
       {
         q: "Do you manage rentals near USF?",
         a: "Yes. We manage single-family and townhouse rentals in Temple Terrace and surrounding USF-area neighborhoods. We handle the unique screening and lease-cycle timing that university-adjacent rentals require.",
+      },
+      {
+        q: "How much does property management cost in Temple Terrace?",
+        a: "ViVi charges 8-12% of monthly rent collected for Temple Terrace properties. Full-service management includes tenant screening, maintenance through Best Bay Services, rent collection, and financial reporting.",
+      },
+      {
+        q: "What do Temple Terrace homes rent for?",
+        a: "Temple Terrace single-family homes typically rent for $1,700-$2,200/month. Properties closest to USF and the medical corridor along Bruce B. Downs Boulevard command the highest rents due to proximity to major employers.",
+      },
+      {
+        q: "Is Temple Terrace good for rental investment?",
+        a: "Temple Terrace benefits from USF's 50,000+ student body, Moffitt Cancer Center, and James A. Haley Veterans Hospital — all within minutes. That employer concentration creates consistent rental demand from students, faculty, and medical professionals year-round.",
+      },
+      {
+        q: "How does ViVi handle lease timing near universities?",
+        a: "University-adjacent markets like Temple Terrace have unique lease-cycle dynamics. ViVi times lease expirations to align with academic calendars, avoiding costly vacancies between terms. We also screen carefully to ensure tenant quality regardless of age or student status.",
       },
     ],
   },

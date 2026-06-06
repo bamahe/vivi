@@ -5,7 +5,8 @@
 
 import type { Metadata } from "next";
 import Link from "next/link";
-import { INCLUDED } from "@/lib/constants";
+import { SITE, INCLUDED } from "@/lib/constants";
+import QuickAnswer from "@/components/QuickAnswer";
 
 export const metadata: Metadata = {
   title: "Pricing",
@@ -54,6 +55,14 @@ export default function PricingPage() {
             One plan. Everything included. No hidden fees or surprise charges.
           </p>
         </div>
+      </section>
+
+      {/* ---- QuickAnswer — AEO target for Hillsborough PM pricing ---- */}
+      <section className="px-6 py-16 sm:py-20">
+        <QuickAnswer
+          question="How much does property management cost in Hillsborough County?"
+          answer={`Property management in Hillsborough County typically costs 8–12% of monthly rent collected. ViVi Property Management charges ${SITE.feeRange} for full-service management across Tampa, Brandon, Valrico, Riverview, and all Hillsborough County cities. No vacancy fees, no maintenance markups, no hidden charges. Call ${SITE.phone} for a free rental analysis.`}
+        />
       </section>
 
       {/* ---- Pricing card ---- */}

@@ -4,7 +4,8 @@
 
 import type { Metadata } from "next";
 import Link from "next/link";
-import { PROCESS, INCLUDED } from "@/lib/constants";
+import { SITE, PROCESS, INCLUDED } from "@/lib/constants";
+import QuickAnswer from "@/components/QuickAnswer";
 
 export const metadata: Metadata = {
   title: "For Owners",
@@ -54,6 +55,14 @@ export default function OwnersPage() {
             Collect rent without the headaches. We handle everything from marketing to maintenance.
           </p>
         </div>
+      </section>
+
+      {/* ---- QuickAnswer — AEO target for Hillsborough property owners ---- */}
+      <section className="px-6 py-16 sm:py-20">
+        <QuickAnswer
+          question="Why do Hillsborough County property owners hire a manager?"
+          answer={`Hillsborough County property owners hire managers to handle tenant screening, lease compliance, maintenance emergencies, rent collection, and Florida landlord-tenant law. ViVi Property Management covers all of this for ${SITE.feeRange} of rent collected — typically less than the cost of a single month of vacancy. Maintenance is coordinated through Best Bay Services with no third-party markups. Call ${SITE.phone}.`}
+        />
       </section>
 
       {/* ---- Benefits grid ---- */}

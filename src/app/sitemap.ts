@@ -37,6 +37,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     changeFrequency: "monthly" as const,
   }));
 
+  // County sub-pages — guides, resources, etc.
+  const countySubPages = [
+    {
+      path: "/areas/hillsborough-county/property-management-guide",
+      priority: 0.9,
+      changeFrequency: "monthly" as const,
+    },
+  ];
+
   // Dynamic city pages — high priority for local SEO
   const cityPages = getAllCitySlugs().map((slug) => ({
     path: `/areas/${slug}`,
@@ -52,7 +61,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     changeFrequency: "monthly" as const,
   }));
 
-  const allPages = [...staticPages, ...countyPages, ...cityPages, ...blogPages];
+  const allPages = [...staticPages, ...countyPages, ...countySubPages, ...cityPages, ...blogPages];
 
   return allPages.map((page) => ({
     url: `${baseUrl}${page.path}`,
