@@ -7,7 +7,9 @@
 
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import QuickAnswer from "@/components/QuickAnswer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "About Us — Barrett Henry, Broker",
@@ -135,8 +137,16 @@ export default function AboutPage() {
         }}
       />
 
-      {/* ---- Hero ---- */}
+      {/* ---- Hero with background image ---- */}
       <section className="gradient-accent relative overflow-hidden px-6 py-20 text-center text-white sm:py-28">
+        <Image
+          src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80"
+          alt="Aerial view of Tampa Bay suburban neighborhood served by ViVi Property Management"
+          fill
+          priority
+          className="object-cover opacity-15"
+          sizes="100vw"
+        />
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.08)_0%,transparent_70%)]" />
         <div className="relative mx-auto max-w-3xl">
           <h1 className="text-4xl font-bold leading-tight sm:text-5xl">
@@ -147,6 +157,14 @@ export default function AboutPage() {
           </p>
         </div>
       </section>
+
+      {/* ---- Breadcrumbs ---- */}
+      <Breadcrumbs
+        items={[
+          { name: "Home", href: "/" },
+          { name: "About", href: "/about" },
+        ]}
+      />
 
       {/* ---- QuickAnswer — AEO extraction target ---- */}
       <section className="px-6 py-16 sm:py-20">

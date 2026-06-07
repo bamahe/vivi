@@ -5,7 +5,9 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import Image from "next/image";
 import { SITE } from "@/lib/constants";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export default function ContactPage() {
   // Form field state
@@ -40,15 +42,31 @@ export default function ContactPage() {
 
   return (
     <>
-      {/* ---- Page header ---- */}
-      <section className="gradient-accent px-6 py-20 text-center text-white sm:py-28">
-        <div className="mx-auto max-w-3xl">
+      {/* ---- Page header with hero image ---- */}
+      <section className="gradient-accent relative overflow-hidden px-6 py-20 text-center text-white sm:py-28">
+        <Image
+          src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80"
+          alt="Keys to a rental property representing getting started with ViVi Property Management"
+          fill
+          priority
+          className="object-cover opacity-15"
+          sizes="100vw"
+        />
+        <div className="relative mx-auto max-w-3xl">
           <h1 className="text-4xl font-bold sm:text-5xl">Get in touch</h1>
           <p className="mx-auto mt-6 max-w-xl text-lg text-white/80">
             Questions about property management? Ready to get started? We are here to help.
           </p>
         </div>
       </section>
+
+      {/* ---- Breadcrumbs ---- */}
+      <Breadcrumbs
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Contact", href: "/contact" },
+        ]}
+      />
 
       {/* ---- Form + contact info grid ---- */}
       <section className="px-6 py-20 sm:py-28">

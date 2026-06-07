@@ -4,7 +4,9 @@
 
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { SITE } from "@/lib/constants";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Tenant Portal, Maintenance & FAQs",
@@ -55,9 +57,17 @@ const RESOURCES = [
 export default function TenantsPage() {
   return (
     <>
-      {/* ---- Page header ---- */}
-      <section className="gradient-accent px-6 py-20 text-center text-white sm:py-28">
-        <div className="mx-auto max-w-3xl">
+      {/* ---- Page header with hero image ---- */}
+      <section className="gradient-accent relative overflow-hidden px-6 py-20 text-center text-white sm:py-28">
+        <Image
+          src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&q=80"
+          alt="Modern apartment interior with natural light representing quality rental living in Tampa Bay"
+          fill
+          priority
+          className="object-cover opacity-15"
+          sizes="100vw"
+        />
+        <div className="relative mx-auto max-w-3xl">
           <h1 className="text-4xl font-bold sm:text-5xl">
             For tenants
           </h1>
@@ -66,6 +76,14 @@ export default function TenantsPage() {
           </p>
         </div>
       </section>
+
+      {/* ---- Breadcrumbs ---- */}
+      <Breadcrumbs
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Tenants", href: "/tenants" },
+        ]}
+      />
 
       {/* ---- How to apply ---- */}
       <section className="px-6 py-20 sm:py-28">

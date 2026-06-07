@@ -4,8 +4,10 @@
 
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { SITE } from "@/lib/constants";
 import QuickAnswer from "@/components/QuickAnswer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Our Property Management Services",
@@ -60,9 +62,17 @@ const ALL_SERVICES = [
 export default function ServicesPage() {
   return (
     <>
-      {/* ---- Page header ---- */}
-      <section className="gradient-accent px-6 py-20 text-center text-white sm:py-28">
-        <div className="mx-auto max-w-3xl">
+      {/* ---- Page header with hero image ---- */}
+      <section className="gradient-accent relative overflow-hidden px-6 py-20 text-center text-white sm:py-28">
+        <Image
+          src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200&q=80"
+          alt="Residential rental property exterior managed by ViVi Property Management in Tampa Bay"
+          fill
+          priority
+          className="object-cover opacity-15"
+          sizes="100vw"
+        />
+        <div className="relative mx-auto max-w-3xl">
           <h1 className="text-4xl font-bold sm:text-5xl">
             What we handle for you
           </h1>
@@ -71,6 +81,14 @@ export default function ServicesPage() {
           </p>
         </div>
       </section>
+
+      {/* ---- Breadcrumbs ---- */}
+      <Breadcrumbs
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Services", href: "/services" },
+        ]}
+      />
 
       {/* ---- QuickAnswer — AEO target for Hillsborough PM services ---- */}
       <section className="px-6 py-16 sm:py-20">

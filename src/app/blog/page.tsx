@@ -6,6 +6,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getBlogPosts } from "@/lib/supabase";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Property Management Blog & Tips",
@@ -33,6 +34,14 @@ export default async function BlogPage() {
           </p>
         </div>
       </section>
+
+      {/* ---- Breadcrumbs ---- */}
+      <Breadcrumbs
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Blog", href: "/blog" },
+        ]}
+      />
 
       {/* ---- Posts grid ---- */}
       <section className="px-6 py-20 sm:py-28">

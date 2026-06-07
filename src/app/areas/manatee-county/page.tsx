@@ -10,6 +10,7 @@ import { CITIES } from "@/lib/cities";
 import { SITE, INCLUDED } from "@/lib/constants";
 import FAQSchema from "@/components/FAQSchema";
 import QuickAnswer from "@/components/QuickAnswer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 // Static metadata for Manatee County page
 export const metadata: Metadata = {
@@ -131,6 +132,15 @@ export default function ManateeCountyPage() {
           </div>
         </div>
       </section>
+
+      {/* ---- Breadcrumbs ---- */}
+      <Breadcrumbs
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Areas", href: "/areas" },
+          { name: "Manatee County", href: "/areas/manatee-county" },
+        ]}
+      />
 
       {/* ---- QuickAnswer — AEO target ---- */}
       <section className="px-6 py-16 sm:py-20">

@@ -5,8 +5,10 @@
 
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { SITE, INCLUDED } from "@/lib/constants";
 import QuickAnswer from "@/components/QuickAnswer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Pricing — Transparent PM Fees",
@@ -45,9 +47,17 @@ const COMPETITOR_VS_VIVI = [
 export default function PricingPage() {
   return (
     <>
-      {/* ---- Page header ---- */}
-      <section className="gradient-accent px-6 py-20 text-center text-white sm:py-28">
-        <div className="mx-auto max-w-3xl">
+      {/* ---- Page header with hero image ---- */}
+      <section className="gradient-accent relative overflow-hidden px-6 py-20 text-center text-white sm:py-28">
+        <Image
+          src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80"
+          alt="Modern rental home exterior representing transparent property management pricing in Tampa Bay"
+          fill
+          priority
+          className="object-cover opacity-15"
+          sizes="100vw"
+        />
+        <div className="relative mx-auto max-w-3xl">
           <h1 className="text-4xl font-bold sm:text-5xl">
             Simple, transparent pricing
           </h1>
@@ -56,6 +66,14 @@ export default function PricingPage() {
           </p>
         </div>
       </section>
+
+      {/* ---- Breadcrumbs ---- */}
+      <Breadcrumbs
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Pricing", href: "/pricing" },
+        ]}
+      />
 
       {/* ---- QuickAnswer — AEO target for Hillsborough PM pricing ---- */}
       <section className="px-6 py-16 sm:py-20">

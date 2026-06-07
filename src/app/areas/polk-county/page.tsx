@@ -10,6 +10,7 @@ import { CITIES } from "@/lib/cities";
 import { SITE, INCLUDED } from "@/lib/constants";
 import FAQSchema from "@/components/FAQSchema";
 import QuickAnswer from "@/components/QuickAnswer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 // Static metadata for Polk County page
 export const metadata: Metadata = {
@@ -131,6 +132,15 @@ export default function PolkCountyPage() {
           </div>
         </div>
       </section>
+
+      {/* ---- Breadcrumbs ---- */}
+      <Breadcrumbs
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Areas", href: "/areas" },
+          { name: "Polk County", href: "/areas/polk-county" },
+        ]}
+      />
 
       {/* ---- QuickAnswer — AEO target ---- */}
       <section className="px-6 py-16 sm:py-20">

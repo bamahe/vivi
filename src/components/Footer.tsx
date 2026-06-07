@@ -28,8 +28,16 @@ export default function Footer() {
               <span className="ml-1.5 text-sm text-white/70">Property Management</span>
             </Link>
             <p className="mt-4 text-sm leading-relaxed">
-              Professional property management across Tampa Bay. Protect your investment, maximize your returns.
+              Professional property management across Tampa Bay. Maintenance handled by{" "}
+              <a href="https://bestbayservices.com" target="_blank" rel="noopener noreferrer" className="text-white underline decoration-white/30 hover:decoration-white transition-colors">Best Bay Services</a>.
+              Part of Barrett Henry&apos;s{" "}
+              <a href="https://nowtb.com" target="_blank" rel="noopener noreferrer" className="text-white underline decoration-white/30 hover:decoration-white transition-colors">real estate team</a>.
             </p>
+            <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs">
+              <a href="https://valricopropertymgmt.com" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-white">Valrico PM</a>
+              <a href="https://buythe.biz" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-white">Buy/Sell a Business</a>
+              <a href="https://buildtb.com" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-white">New Construction</a>
+            </div>
           </div>
 
           {/* Column 2 — Quick links */}

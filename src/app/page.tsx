@@ -5,6 +5,7 @@
 // ============================================
 
 import Link from "next/link";
+import Image from "next/image";
 import { SITE, SERVICES, PROCESS, INCLUDED, COUNTIES, FAQS } from "@/lib/constants";
 import FAQ from "@/components/FAQ";
 import FAQSchema from "@/components/FAQSchema";
@@ -107,6 +108,15 @@ export default function HomePage() {
           Purple gradient, headline, two CTA buttons
           ============================================ */}
       <section className="gradient-accent relative overflow-hidden px-6 py-24 text-center text-white sm:py-32 lg:py-40">
+        {/* Background hero image — Tampa Bay skyline */}
+        <Image
+          src="https://images.unsplash.com/photo-1562040506-a9b32cb51b94?w=1200&q=80"
+          alt="Tampa Bay skyline at sunset showcasing the waterfront properties managed by ViVi Property Management"
+          fill
+          priority
+          className="object-cover opacity-20"
+          sizes="100vw"
+        />
         {/* Subtle radial glow behind the text */}
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.08)_0%,transparent_70%)]" />
 
@@ -179,6 +189,18 @@ export default function HomePage() {
           BEST BAY SERVICES CALLOUT
           ============================================ */}
       <section className="section-alt px-6 py-20 sm:py-28">
+        <div className="mx-auto max-w-4xl">
+          {/* Residential neighborhood image */}
+          <div className="relative mx-auto mb-12 aspect-[16/7] max-w-3xl overflow-hidden rounded-2xl">
+            <Image
+              src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200&q=80"
+              alt="Modern residential home in Tampa Bay neighborhood managed by ViVi Property Management"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 768px"
+            />
+          </div>
+        </div>
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-semibold sm:text-4xl">
             How does maintenance through Best Bay Services save you money?

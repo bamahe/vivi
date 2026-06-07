@@ -4,8 +4,10 @@
 
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { SITE, PROCESS, INCLUDED } from "@/lib/constants";
 import QuickAnswer from "@/components/QuickAnswer";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "For Property Owners — Why ViVi",
@@ -45,9 +47,17 @@ const BENEFITS = [
 export default function OwnersPage() {
   return (
     <>
-      {/* ---- Page header ---- */}
-      <section className="gradient-accent px-6 py-20 text-center text-white sm:py-28">
-        <div className="mx-auto max-w-3xl">
+      {/* ---- Page header with hero image ---- */}
+      <section className="gradient-accent relative overflow-hidden px-6 py-20 text-center text-white sm:py-28">
+        <Image
+          src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80"
+          alt="Beautiful rental property home exterior representing passive income for Tampa Bay property owners"
+          fill
+          priority
+          className="object-cover opacity-15"
+          sizes="100vw"
+        />
+        <div className="relative mx-auto max-w-3xl">
           <h1 className="text-4xl font-bold sm:text-5xl">
             For property owners
           </h1>
@@ -56,6 +66,14 @@ export default function OwnersPage() {
           </p>
         </div>
       </section>
+
+      {/* ---- Breadcrumbs ---- */}
+      <Breadcrumbs
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Owners", href: "/owners" },
+        ]}
+      />
 
       {/* ---- QuickAnswer — AEO target for Hillsborough property owners ---- */}
       <section className="px-6 py-16 sm:py-20">
