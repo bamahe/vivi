@@ -110,8 +110,8 @@ export default function HomePage() {
       <section className="gradient-accent relative overflow-hidden px-6 py-24 text-center text-white sm:py-32 lg:py-40">
         {/* Background hero image — Tampa Bay skyline */}
         <Image
-          src="https://images.unsplash.com/photo-1562040506-a9b32cb51b94?w=1200&q=80"
-          alt="Tampa Bay skyline at sunset showcasing the waterfront properties managed by ViVi Property Management"
+          src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1400&q=80"
+          alt="Modern single-family rental home with manicured lawn in Tampa Bay Florida managed by ViVi Property Management"
           fill
           priority
           className="object-cover opacity-20"
