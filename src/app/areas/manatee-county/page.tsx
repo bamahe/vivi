@@ -15,11 +15,17 @@ import QuickAnswer from "@/components/QuickAnswer";
 export const metadata: Metadata = {
   title: "Property Management in Manatee County, FL",
   description:
-    "Professional property management across Manatee County, Florida — Bradenton, Lakewood Ranch, Parrish, and Palmetto. 8–12% of rent collected. Maintenance through Best Bay Services. No hidden fees. Call (813) 428-9800.",
+    "Property management in Manatee County, FL — Bradenton, Lakewood Ranch, Parrish, and Palmetto. 8-12% of rent collected. No hidden fees.",
   openGraph: {
     title: "Property Management in Manatee County, FL | ViVi PM",
     description:
       "Full-service property management across Manatee County. Premium communities to waterfront living. 8–12% management fee. No hidden fees.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Property Management in Manatee County, FL | ViVi PM",
+    description:
+      "Full-service property management across Manatee County. 8-12% of rent collected. No hidden fees.",
   },
   alternates: { canonical: "/areas/manatee-county" },
 };

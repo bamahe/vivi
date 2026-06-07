@@ -8,7 +8,7 @@ import { COUNTIES } from "@/lib/constants";
 import { CITIES } from "@/lib/cities";
 
 export const metadata: Metadata = {
-  title: "Service Areas",
+  title: "Tampa Bay Service Areas We Manage",
   description:
     "ViVi Property Management serves Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties across Tampa Bay. See all cities we manage.",
   alternates: { canonical: "/areas" },

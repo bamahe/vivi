@@ -96,6 +96,40 @@ export default function Footer() {
               </li>
               <li className="leading-relaxed">{SITE.address}</li>
             </ul>
+
+            {/* Social media links */}
+            <h3 className="mb-3 mt-6 font-sans text-xs font-semibold uppercase tracking-widest text-white">
+              Follow Us
+            </h3>
+            <div className="flex gap-4">
+              <a
+                href="https://www.facebook.com/vivipropertymanagement"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="text-sm transition-colors hover:text-white"
+              >
+                Facebook
+              </a>
+              <a
+                href="https://www.instagram.com/vivipm"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="text-sm transition-colors hover:text-white"
+              >
+                Instagram
+              </a>
+              <a
+                href="https://www.linkedin.com/company/vivi-property-management"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className="text-sm transition-colors hover:text-white"
+              >
+                LinkedIn
+              </a>
+            </div>
           </div>
         </div>
 

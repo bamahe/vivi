@@ -15,11 +15,17 @@ import QuickAnswer from "@/components/QuickAnswer";
 export const metadata: Metadata = {
   title: "Property Management in Pinellas County, FL",
   description:
-    "Professional property management across Pinellas County, Florida — St. Petersburg, Clearwater, Largo, Dunedin, and Seminole. 8–12% of rent collected. Maintenance through Best Bay Services. No hidden fees. Call (813) 428-9800.",
+    "Property management in Pinellas County, FL — St. Petersburg, Clearwater, Largo, Dunedin, and Seminole. 8-12% of rent collected. No hidden fees.",
   openGraph: {
     title: "Property Management in Pinellas County, FL | ViVi PM",
     description:
       "Full-service property management across Pinellas County. Gulf Coast expertise. 8–12% management fee. No hidden fees.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Property Management in Pinellas County, FL | ViVi PM",
+    description:
+      "Full-service property management across Pinellas County. 8-12% of rent collected. No hidden fees.",
   },
   alternates: { canonical: "/areas/pinellas-county" },
 };

@@ -75,12 +75,6 @@ export default function RentalAnalysisPage() {
 
   return (
     <>
-      <title>Free Rental Analysis | ViVi Property Management</title>
-      <meta
-        name="description"
-        content="Get a free rental analysis for your property. Find out what your home could rent for with ViVi Property Management. No obligation."
-      />
-
       {/* ---- Page header ---- */}
       <section className="gradient-accent px-6 py-20 text-center text-white sm:py-28">
         <div className="mx-auto max-w-3xl">

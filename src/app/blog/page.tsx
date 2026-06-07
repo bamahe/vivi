@@ -8,7 +8,7 @@ import Link from "next/link";
 import { getBlogPosts } from "@/lib/supabase";
 
 export const metadata: Metadata = {
-  title: "Blog",
+  title: "Property Management Blog & Tips",
   description:
     "Property management tips, Tampa Bay rental market updates, landlord guides, and investor insights from ViVi Property Management.",
   alternates: { canonical: "/blog" },

@@ -8,7 +8,7 @@ import { SITE } from "@/lib/constants";
 import QuickAnswer from "@/components/QuickAnswer";
 
 export const metadata: Metadata = {
-  title: "Services",
+  title: "Our Property Management Services",
   description: `Full-service property management from ${SITE.name}. Leasing, tenant screening, maintenance through Best Bay Services, inspections, financial reporting, and eviction support.`,
   alternates: { canonical: "/services" },
 };

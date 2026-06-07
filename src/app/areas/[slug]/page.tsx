@@ -31,10 +31,15 @@ export async function generateMetadata({
 
   return {
     title: `Property Management in ${city.name}, FL`,
-    description: `Professional property management in ${city.name}, ${city.county}, Florida. ${SITE.feeRange} of rent collected. Maintenance through Best Bay Services, comprehensive tenant screening, and a dedicated property manager. Call ${SITE.phone}.`,
+    description: `Property management in ${city.name}, FL. ${SITE.feeRange} of rent collected. Maintenance via Best Bay Services, tenant screening, and no hidden fees.`,
     openGraph: {
       title: `Property Management in ${city.name}, FL | ViVi PM`,
       description: `Full-service property management in ${city.name}. ${city.medianRent} median rent. ${SITE.feeRange} management fee. No hidden fees.`,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `Property Management in ${city.name}, FL | ViVi PM`,
+      description: `Full-service property management in ${city.name}. ${SITE.feeRange} of rent collected. No hidden fees.`,
     },
     alternates: { canonical: `/areas/${slug}` },
   };

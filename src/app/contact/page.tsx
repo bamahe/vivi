@@ -7,10 +7,6 @@
 import { useState, type FormEvent } from "react";
 import { SITE } from "@/lib/constants";
 
-// Metadata has to be exported from a server component,
-// so we set it via a separate metadata file or the layout.
-// For client components, we use a <title> tag as fallback.
-
 export default function ContactPage() {
   // Form field state
   const [form, setForm] = useState({
@@ -44,12 +40,6 @@ export default function ContactPage() {
 
   return (
     <>
-      <title>Contact | ViVi Property Management</title>
-      <meta
-        name="description"
-        content="Contact ViVi Property Management. Call (813) 428-9800 or fill out our form. 14310 N. Dale Mabry Hwy, Ste 100, Tampa, FL 33618."
-      />
-
       {/* ---- Page header ---- */}
       <section className="gradient-accent px-6 py-20 text-center text-white sm:py-28">
         <div className="mx-auto max-w-3xl">

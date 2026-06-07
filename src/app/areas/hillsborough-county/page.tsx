@@ -13,13 +13,19 @@ import QuickAnswer from "@/components/QuickAnswer";
 
 // Static metadata for Hillsborough County page
 export const metadata: Metadata = {
-  title: "Property Management in Hillsborough County, FL",
+  title: "Hillsborough County, FL Rentals",
   description:
-    "Professional property management across Hillsborough County, Florida — Tampa, Brandon, Valrico, Riverview, Plant City, Apollo Beach, Lithia, Seffner, and Temple Terrace. 8–12% of rent collected. No hidden fees. Call (813) 428-9800.",
+    "Property management across Hillsborough County, FL — Tampa, Brandon, Valrico, Riverview, and more. 8-12% of rent collected. No hidden fees.",
   openGraph: {
     title: "Property Management in Hillsborough County, FL | ViVi PM",
     description:
       "Full-service property management across all of Hillsborough County. 8–12% management fee. Maintenance through Best Bay Services. No hidden fees.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hillsborough County, FL Property Management | ViVi PM",
+    description:
+      "Full-service property management across Hillsborough County. 8-12% of rent collected. No hidden fees.",
   },
   alternates: { canonical: "/areas/hillsborough-county" },
 };

@@ -8,7 +8,7 @@ import { SITE, PROCESS, INCLUDED } from "@/lib/constants";
 import QuickAnswer from "@/components/QuickAnswer";
 
 export const metadata: Metadata = {
-  title: "For Owners",
+  title: "For Property Owners — Why ViVi",
   description:
     "Why property owners choose ViVi Property Management. Maintenance through Best Bay Services, comprehensive screening, transparent pricing, and a dedicated property manager.",
   alternates: { canonical: "/owners" },

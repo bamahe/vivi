@@ -7,7 +7,7 @@ import Link from "next/link";
 import { SITE } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "For Tenants",
+  title: "Tenant Portal, Maintenance & FAQs",
   description:
     "Information for tenants managed by ViVi Property Management. How to apply, submit maintenance requests, pay rent, and access your tenant portal.",
   alternates: { canonical: "/tenants" },

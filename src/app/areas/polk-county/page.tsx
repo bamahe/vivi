@@ -15,11 +15,17 @@ import QuickAnswer from "@/components/QuickAnswer";
 export const metadata: Metadata = {
   title: "Property Management in Polk County, FL",
   description:
-    "Professional property management across Polk County, Florida — Lakeland, Winter Haven, and Davenport. 8–12% of rent collected. Maintenance through Best Bay Services. Strong cash flow market. Call (813) 428-9800.",
+    "Property management in Polk County, FL — Lakeland, Winter Haven, and Davenport. 8-12% of rent collected. Strong cash flow market. No hidden fees.",
   openGraph: {
     title: "Property Management in Polk County, FL | ViVi PM",
     description:
       "Full-service property management across Polk County. I-4 corridor cash flow. 8–12% management fee. No hidden fees.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Property Management in Polk County, FL | ViVi PM",
+    description:
+      "Full-service property management across Polk County. 8-12% of rent collected. No hidden fees.",
   },
   alternates: { canonical: "/areas/polk-county" },
 };

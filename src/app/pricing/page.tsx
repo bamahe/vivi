@@ -9,7 +9,7 @@ import { SITE, INCLUDED } from "@/lib/constants";
 import QuickAnswer from "@/components/QuickAnswer";
 
 export const metadata: Metadata = {
-  title: "Pricing",
+  title: "Pricing — Transparent PM Fees",
   description:
     "Transparent property management pricing. 8-12% of monthly rent collected. No hidden fees. Everything included from photography to eviction support.",
   alternates: { canonical: "/pricing" },

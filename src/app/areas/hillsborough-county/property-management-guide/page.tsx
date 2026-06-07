@@ -15,14 +15,20 @@ import FAQSchema from "@/components/FAQSchema";
 
 // Metadata targeting "property management hillsborough county" and long-tail variants
 export const metadata: Metadata = {
-  title: "Complete Guide to Property Management in Hillsborough County, FL",
+  title: "Hillsborough County PM Guide",
   description:
-    "Everything landlords need to know about property management in Hillsborough County, FL — rental market data, landlord-tenant law, average rents by city, how to choose a property manager, maintenance tips, and tax benefits. By ViVi Property Management.",
+    "Hillsborough County PM guide — rental market data, landlord-tenant law, average rents by city, choosing a manager, and tax benefits.",
   openGraph: {
-    title: "Complete Guide to Property Management in Hillsborough County, FL | ViVi PM",
+    title: "Hillsborough County Property Management Guide | ViVi PM",
     description:
       "Comprehensive guide covering Hillsborough County rental market, landlord-tenant law, average rents, choosing a PM, Florida climate maintenance, and tax benefits for rental property owners.",
     type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hillsborough County Property Management Guide | ViVi PM",
+    description:
+      "Complete guide to property management in Hillsborough County — rents, laws, maintenance tips, and tax benefits.",
   },
   alternates: { canonical: "/areas/hillsborough-county/property-management-guide" },
 };

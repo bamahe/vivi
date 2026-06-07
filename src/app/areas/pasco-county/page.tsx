@@ -15,11 +15,17 @@ import QuickAnswer from "@/components/QuickAnswer";
 export const metadata: Metadata = {
   title: "Property Management in Pasco County, FL",
   description:
-    "Professional property management across Pasco County, Florida — Wesley Chapel, Land O' Lakes, New Port Richey, and Zephyrhills. 8–12% of rent collected. Maintenance through Best Bay Services. No hidden fees. Call (813) 428-9800.",
+    "Property management in Pasco County, FL — Wesley Chapel, Land O' Lakes, New Port Richey, and Zephyrhills. 8-12% of rent. No hidden fees.",
   openGraph: {
     title: "Property Management in Pasco County, FL | ViVi PM",
     description:
       "Full-service property management across Pasco County. New construction expertise. 8–12% management fee. No hidden fees.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Property Management in Pasco County, FL | ViVi PM",
+    description:
+      "Full-service property management across Pasco County. 8-12% of rent collected. No hidden fees.",
   },
   alternates: { canonical: "/areas/pasco-county" },
 };
