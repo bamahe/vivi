@@ -1,5 +1,5 @@
 // ============================================
-// Apple Touch Icon — Navy "ViVi" with roofline
+// Apple Touch Icon — Navy "ViVi"
 // 180x180 for iOS home screen
 // ============================================
 
@@ -16,23 +16,16 @@ export default function AppleIcon() {
           width: "100%",
           height: "100%",
           display: "flex",
-          flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
           backgroundColor: "#0F2B5B",
           borderRadius: "36px",
-          gap: "4px",
         }}
       >
-        {/* Roofline */}
-        <svg width="100" height="35" viewBox="0 0 100 35">
-          <polygon points="5,35 50,2 95,35" fill="white" />
-        </svg>
-        {/* ViVi text */}
         <span
           style={{
             fontFamily: "Georgia, serif",
-            fontSize: "56px",
+            fontSize: "72px",
             fontWeight: 700,
             color: "#ffffff",
             lineHeight: 1,
