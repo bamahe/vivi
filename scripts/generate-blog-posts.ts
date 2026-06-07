@@ -166,7 +166,7 @@ async function generatePost(topic: {
   console.log(`  Generating: "${topic.title}"...`);
 
   const message = await anthropic.messages.create({
-    model: "claude-sonnet-4-20250514",
+    model: "claude-sonnet-4-6",
     max_tokens: 4096,
     messages: [
       {
@@ -223,12 +223,8 @@ async function insertPost(
     title: topic.title,
     body_mdx: content.body_mdx,
     excerpt: content.excerpt,
-    category: topic.category,
-    read_time: content.read_time,
     status: "published",
     published_at: publishDate,
-    hero_image_url: null,
-    hero_image_credit: null,
   });
 
   if (error) {
