@@ -400,6 +400,38 @@ export default function HomePage() {
       </section>
 
       {/* ============================================
+          RESOURCES & TOOLS — cross-links to new pages
+          ============================================ */}
+      <section className="section-alt px-6 py-20 sm:py-28">
+        <div className="mx-auto max-w-6xl">
+          <h2 className="mb-4 text-center text-3xl font-semibold sm:text-4xl">
+            Resources for Property Owners and Investors
+          </h2>
+          <p className="mx-auto mb-14 max-w-xl text-center text-[var(--muted-text)]">
+            Tools, guides, and insights to help you make confident decisions about your rental property.
+          </p>
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            <Link href="/guarantees" className="card block p-6 transition-colors hover:border-accent">
+              <p className="mb-2 font-display text-lg font-semibold">Our Guarantees</p>
+              <p className="text-sm leading-relaxed text-[var(--muted-text)]">5 named guarantees that protect your investment — from 21-day leasing to 30-day cancellation.</p>
+            </Link>
+            <Link href="/compare" className="card block p-6 transition-colors hover:border-accent">
+              <p className="mb-2 font-display text-lg font-semibold">Self-Manage vs. Hire</p>
+              <p className="text-sm leading-relaxed text-[var(--muted-text)]">Side-by-side comparison of self-managing, hiring ViVi, or using another PM company.</p>
+            </Link>
+            <Link href="/tools/roi-calculator" className="card block p-6 transition-colors hover:border-accent">
+              <p className="mb-2 font-display text-lg font-semibold">ROI Calculator</p>
+              <p className="text-sm leading-relaxed text-[var(--muted-text)]">Run the numbers on any Tampa Bay rental property — cash flow, cap rate, and cash-on-cash return.</p>
+            </Link>
+            <Link href="/investors" className="card block p-6 transition-colors hover:border-accent">
+              <p className="mb-2 font-display text-lg font-semibold">For Investors</p>
+              <p className="text-sm leading-relaxed text-[var(--muted-text)]">Out-of-state owners, first-time landlords, inherited property — we handle it all.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ============================================
           BOTTOM CTA
           ============================================ */}
       <section className="gradient-accent px-6 py-20 text-center text-white sm:py-28">

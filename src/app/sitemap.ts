@@ -22,6 +22,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: "/contact", priority: 0.6, changeFrequency: "yearly" as const },
     { path: "/rental-analysis", priority: 0.9, changeFrequency: "monthly" as const },
     { path: "/blog", priority: 0.8, changeFrequency: "weekly" as const },
+    { path: "/guarantees", priority: 0.8, changeFrequency: "monthly" as const },
+    { path: "/compare", priority: 0.8, changeFrequency: "monthly" as const },
+    { path: "/investors", priority: 0.8, changeFrequency: "monthly" as const },
+    { path: "/tools/roi-calculator", priority: 0.7, changeFrequency: "monthly" as const },
   ];
 
   // County landing pages — high priority for local SEO
@@ -41,6 +45,26 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const countySubPages = [
     {
       path: "/areas/hillsborough-county/property-management-guide",
+      priority: 0.9,
+      changeFrequency: "monthly" as const,
+    },
+    {
+      path: "/areas/pinellas-county/property-management-guide",
+      priority: 0.9,
+      changeFrequency: "monthly" as const,
+    },
+    {
+      path: "/areas/pasco-county/property-management-guide",
+      priority: 0.9,
+      changeFrequency: "monthly" as const,
+    },
+    {
+      path: "/areas/polk-county/property-management-guide",
+      priority: 0.9,
+      changeFrequency: "monthly" as const,
+    },
+    {
+      path: "/areas/manatee-county/property-management-guide",
       priority: 0.9,
       changeFrequency: "monthly" as const,
     },
