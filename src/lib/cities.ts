@@ -451,6 +451,334 @@ export const CITIES: CityData[] = [
       },
     ],
   },
+  {
+    slug: "lutz",
+    name: "Lutz",
+    county: "Hillsborough County",
+    state: "FL",
+    zip: "33549",
+    lat: 28.1511,
+    lng: -82.4615,
+    population: "28,000+",
+    medianRent: "$2,300",
+    medianHome: "$530,000",
+    headline: "Property Management in Lutz, FL",
+    intro:
+      "Lutz straddles the Hillsborough-Pasco county line, creating a unique suburban market with top-rated schools, golf communities, and lake-front living. The east side offers larger lots with a rural feel while the west side features master-planned communities like Cheval and Heritage Harbor. Renters pay a premium for Lutz because of the school zoning and space.",
+    whyManage:
+      "Lutz properties often sit in HOA-governed communities with strict lease approval requirements. ViVi PM handles HOA coordination, tenant screening, and the premium marketing that Lutz's higher-end rental market demands. With over half of residents holding a bachelor's degree or higher, tenants here expect responsive management and well-maintained properties.",
+    rentalMarket:
+      "Lutz attracts educated professionals and families relocating to Tampa Bay. Only 21% of housing is renter-occupied, which means less competition for good tenants but also a smaller pool — pricing must be precise. I-75 and the Veterans Expressway put downtown Tampa 15 minutes away, making Lutz a commuter favorite.",
+    neighborhoods: [
+      "Cheval", "Heritage Harbor", "Calusa Trace", "Cypress Ranch",
+      "Cordoba Ranch", "Crystal Lakes", "Oakstead", "Liberty Oaks",
+    ],
+    nearbyAttractions:
+      "Lettuce Lake Regional Park offers 240 acres of boardwalks and nature trails. Brooker Creek Preserve provides hiking and wildlife viewing. The Upper Tampa Bay Trail runs 7 miles with bay views. Tampa Premium Outlets and The Shops at Wiregrass are minutes away.",
+    faqs: [
+      {
+        q: "How much does property management cost in Lutz?",
+        a: "ViVi charges 8-12% of monthly rent collected for Lutz properties. Lutz's higher rents and long-term tenant base — families who stay 2-3+ years for the schools — mean strong net income even after management fees.",
+      },
+      {
+        q: "What do Lutz homes rent for?",
+        a: "Single-family homes in Lutz typically rent for $2,100-$2,800/month. Homes in golf communities like Cheval and Heritage Harbor can command $2,800+ depending on size and amenities. School zoning is the primary driver of premium rents.",
+      },
+      {
+        q: "Which schools drive rental demand in Lutz?",
+        a: "McKitrick Elementary, Lutz Preparatory School, and Martinez Middle School are all top-10% rated schools in Florida. Families specifically target Lutz for these school zones, which is why Lutz tenants tend to stay longer than average.",
+      },
+      {
+        q: "Is Lutz in Hillsborough or Pasco County?",
+        a: "Both. Lutz straddles the Hillsborough-Pasco county line. The Hillsborough side has a more rural feel with larger lots, while the Pasco side features newer master-planned communities. ViVi manages properties on both sides.",
+      },
+      {
+        q: "Do Lutz renters stay long-term?",
+        a: "Yes. Lutz's median age is 41, over 50% of residents have a bachelor's degree, and families move here specifically for schools. These demographics translate to stable, long-term tenants who typically stay 2-3+ years.",
+      },
+    ],
+  },
+  {
+    slug: "ruskin",
+    name: "Ruskin",
+    county: "Hillsborough County",
+    state: "FL",
+    zip: "33570",
+    lat: 27.7209,
+    lng: -82.4332,
+    population: "30,000+",
+    medianRent: "$2,200",
+    medianHome: "$345,000",
+    headline: "Property Management in Ruskin, FL",
+    intro:
+      "Ruskin sits along Tampa Bay in south Hillsborough County where agricultural roots are giving way to rapid residential development. The Little Manatee River, waterfront access, and affordable pricing compared to Tampa proper attract families and professionals looking for space and value. With 17% population growth since 2019, Ruskin is one of south Hillsborough's hottest rental markets.",
+    whyManage:
+      "Ruskin's mix of newer developments and older waterfront properties creates varied management needs. Homes in communities like Cypress Creek need HOA coordination while older properties near the river may need more hands-on maintenance. ViVi PM and our maintenance partner Best Bay Services handle both — from HOA lease approvals to waterfront property upkeep.",
+    rentalMarket:
+      "Ruskin's tenant pool is family-heavy — 70% of renter households are families with children, and the median household size is 3.0. That drives strong demand for 3+ bedroom homes. Amazon's massive distribution center and growing retail and healthcare sectors provide stable employment for the local workforce.",
+    neighborhoods: [
+      "Cypress Creek", "Hawks Point", "Bahia Lakes", "Mira Lago",
+      "Little Harbor", "Shell Cove", "Southshore Pointe",
+    ],
+    nearbyAttractions:
+      "The Manatee Viewing Center at the TECO power plant is a winter wildlife destination. Little Manatee River State Park offers kayaking and hiking. Cockroach Bay Aquatic Preserve covers 4,800+ acres of coastal habitat. The Alley at Southshore provides family entertainment with bowling, arcade, and dining.",
+    faqs: [
+      {
+        q: "How much does property management cost in Ruskin?",
+        a: "ViVi charges 8-12% of monthly rent collected for Ruskin properties. Ruskin's newer communities typically need less maintenance, keeping your total cost of ownership competitive.",
+      },
+      {
+        q: "What do Ruskin homes rent for?",
+        a: "Ruskin single-family homes typically rent for $1,900-$2,500/month. Newer homes in Cypress Creek and Hawks Point command the upper end. Waterfront-adjacent properties also carry a premium.",
+      },
+      {
+        q: "Is Ruskin a good area for rental investment?",
+        a: "Yes. Ruskin offers 30-40% lower entry prices than direct Tampa while maintaining strong rental demand from Amazon and distribution center employees, families, and south county commuters. Population growth of 3.4% annually supports continued demand.",
+      },
+      {
+        q: "What types of tenants rent in Ruskin?",
+        a: "Ruskin attracts young families (70% of renter households include children), logistics and distribution workers from Amazon and JCPenney, healthcare employees, and outdoor enthusiasts drawn to the waterfront lifestyle. The tenant base is diverse and growing.",
+      },
+      {
+        q: "Does ViVi manage waterfront properties in Ruskin?",
+        a: "Yes. We manage properties throughout Ruskin including waterfront and water-access homes near the Little Manatee River and Tampa Bay. Our maintenance partner Best Bay Services handles the unique needs of waterfront properties.",
+      },
+    ],
+  },
+  {
+    slug: "sun-city-center",
+    name: "Sun City Center",
+    county: "Hillsborough County",
+    state: "FL",
+    zip: "33573",
+    lat: 27.708,
+    lng: -82.3558,
+    population: "35,000+",
+    medianRent: "$2,100",
+    medianHome: "$275,000",
+    headline: "Property Management in Sun City Center, FL",
+    intro:
+      "Sun City Center is one of Florida's largest 55+ active adult communities — a self-contained retirement destination with 8 golf courses, 200+ clubs, and golf cart-friendly streets. Property management here requires specialized knowledge of age-restricted deed covenants, multiple HOA layers, and the seasonal rhythms of a snowbird-heavy community.",
+    whyManage:
+      "Sun City Center's age-restricted deed covenants, sub-HOAs (Kings Point, Renaissance, Sun Lakes), and seasonal population swings create management complexity that self-managing owners struggle with. ViVi PM navigates the 55+ occupancy rules (at least one resident must be 55+, no one under 19 for more than 90 days per year), HOA lease approvals across multiple campuses, and the seasonal turnover that snowbird tenants bring.",
+    rentalMarket:
+      "Sun City Center attracts retirees and semi-retirees on fixed incomes who want resort-style amenities without buying. Seasonal snowbird demand peaks January through April. Median home prices around $275,000 keep acquisition affordable, and the 55+ restriction creates a built-in tenant quality filter. Turnover is moderate, driven by health changes and seasonal moves.",
+    neighborhoods: [
+      "Kings Point", "Sun Lakes", "Renaissance Club", "Fairway Pointe",
+      "Villages of Cypress Creek", "La Paloma Village",
+    ],
+    nearbyAttractions:
+      "Sun City Center has three amenity campuses with pools, fitness centers, tennis, pickleball, bocce, shuffleboard, lawn bowling, woodworking shops, and arts studios. The community hosts its own golf carts on public roads. Bullfrog Creek Wildlife Area borders the community. I-75 access connects to Tampa (30 min) and Sarasota (40 min).",
+    faqs: [
+      {
+        q: "Can anyone rent a home in Sun City Center?",
+        a: "No. Sun City Center has deed-restricted age requirements: at least one occupant must be 55 or older, and no one under 19 can reside in the home for more than 90 days per year. ViVi PM screens tenants for age compliance as part of our standard process.",
+      },
+      {
+        q: "How much does property management cost in Sun City Center?",
+        a: "ViVi charges 8-12% of monthly rent collected. Given Sun City Center's HOA complexity (multiple sub-HOAs, CDD assessments, and deed-restriction compliance), professional management prevents costly violations and ensures your property stays compliant.",
+      },
+      {
+        q: "Do you manage seasonal or snowbird rentals in Sun City Center?",
+        a: "ViVi focuses on annual leases (12+ months). For Sun City Center owners considering year-round leasing vs. seasonal, we can analyze which strategy nets more income after accounting for vacancy, turnover costs, and seasonal rate premiums.",
+      },
+      {
+        q: "What are HOA fees like in Sun City Center?",
+        a: "Sun City Center HOA fees average around $345-$375/month depending on property type and sub-community. These cover amenity access, common area maintenance, and community governance. HOA fees are typically the tenant's responsibility, built into the total lease amount.",
+      },
+      {
+        q: "What makes Sun City Center different from other rental markets?",
+        a: "Sun City Center is a self-contained 55+ community with 8 golf courses, 200+ clubs, and golf cart transportation. The age restriction creates a built-in tenant quality filter. Management requires expertise in deed-restricted community compliance — ViVi PM handles all of it.",
+      },
+    ],
+  },
+  {
+    slug: "gibsonton",
+    name: "Gibsonton",
+    county: "Hillsborough County",
+    state: "FL",
+    zip: "33534",
+    lat: 27.8536,
+    lng: -82.3826,
+    population: "20,000+",
+    medianRent: "$2,000",
+    medianHome: "$335,000",
+    headline: "Property Management in Gibsonton, FL",
+    intro:
+      "Gibsonton is a working-class community along the US-41 corridor in central-south Hillsborough County. Known historically as the winter home of carnival and circus performers, Gibsonton today offers affordable housing with easy I-75 access and proximity to both Tampa and Riverview. The median age of 34 makes it one of the youngest communities in the county.",
+    whyManage:
+      "Gibsonton's affordable price point attracts a steady stream of tenants, but the lower rent market demands careful screening to protect your investment. ViVi PM's comprehensive tenant screening — credit, criminal, employment, and rental history verification — ensures you get reliable tenants. Our maintenance partner Best Bay Services handles repairs without markups.",
+    rentalMarket:
+      "Gibsonton draws young families and working professionals attracted to affordable rents and I-75 commuter access. The median household income of $80,000 is higher than you might expect, reflecting the area's working middle-class base. The multicultural community — 38% Hispanic/Latino — means bilingual marketing is an advantage.",
+    neighborhoods: [
+      "South Gibsonton", "East Gibsonton", "North Gibsonton",
+      "Alafia River Corridor",
+    ],
+    nearbyAttractions:
+      "The International Independent Showmen's Museum preserves Gibsonton's unique carnival history. The Alafia River provides boating and fishing access. Riverview's shopping and dining are minutes away, and I-75 connects to downtown Tampa in 20 minutes.",
+    faqs: [
+      {
+        q: "How much does property management cost in Gibsonton?",
+        a: "ViVi charges 8-12% of monthly rent collected. Gibsonton's moderate rents mean management fees are very affordable in absolute dollars while still providing full-service coverage.",
+      },
+      {
+        q: "What do Gibsonton homes rent for?",
+        a: "Single-family homes in Gibsonton typically rent for $1,800-$2,300/month. The affordable price point relative to nearby Riverview and Apollo Beach keeps demand strong from working families and commuters.",
+      },
+      {
+        q: "Is Gibsonton a good area for cash flow investing?",
+        a: "Yes. Gibsonton's lower acquisition costs and solid rental demand create strong cash-on-cash returns. Homes here are priced 15-20% below neighboring Riverview, but rents are only 5-10% lower — the math favors cash flow investors.",
+      },
+      {
+        q: "What is Gibsonton's tenant pool like?",
+        a: "Gibsonton attracts young families (median age 34), working professionals with I-75 commutes, and a diverse multicultural community. The tenant pool is price-conscious but stable, with higher household incomes than the area's reputation might suggest.",
+      },
+      {
+        q: "Does ViVi manage in the Alafia River area of Gibsonton?",
+        a: "Yes. We manage properties throughout Gibsonton including homes near the Alafia River. Waterfront-adjacent properties may have unique maintenance needs that our partner Best Bay Services is equipped to handle.",
+      },
+    ],
+  },
+  {
+    slug: "wimauma",
+    name: "Wimauma",
+    county: "Hillsborough County",
+    state: "FL",
+    zip: "33598",
+    lat: 27.7125,
+    lng: -82.2989,
+    population: "15,000+",
+    medianRent: "$2,200",
+    medianHome: "$365,000",
+    headline: "Property Management in Wimauma, FL",
+    intro:
+      "Wimauma is south Hillsborough County's fastest-growing community — population has surged 46% since 2020 as agricultural land converts to master-planned neighborhoods. New developments like Valencia Lakes and Ayersworth Glen attract families looking for affordable new construction with space to spread out. For investors, Wimauma offers ground-floor entry into a market that's still building out.",
+    whyManage:
+      "Wimauma's rapid development means many properties are new construction with builder warranties and HOA requirements. ViVi PM coordinates warranty claims, handles HOA lease approvals, and manages the nuances of renting in a community where new residents are still establishing the neighborhood's identity.",
+    rentalMarket:
+      "Wimauma's tenant base is family-oriented — young families drawn to new construction, space, and affordability. The agricultural workforce is still present but the demographic is shifting toward suburban commuters. Amazon and distribution center jobs in nearby Ruskin provide stable employment for many renters.",
+    neighborhoods: [
+      "Valencia Lakes", "Ayersworth Glen", "Balm", "North Wimauma",
+      "South Wimauma",
+    ],
+    nearbyAttractions:
+      "Little Manatee River State Park offers kayaking, hiking, and picnicking. Lake Wimauma provides fishing and birdwatching. Seasonal strawberry picking at local farms connects to Hillsborough County's agricultural heritage. Sun City Center's amenities are minutes away.",
+    faqs: [
+      {
+        q: "Is Wimauma a good area for rental investment?",
+        a: "Wimauma is one of the best emerging markets in south Hillsborough County. Population growth of 3.6% annually, new construction, and affordable entry prices create strong fundamentals for rental investors. Newer homes mean lower maintenance costs in the early years.",
+      },
+      {
+        q: "How much does property management cost in Wimauma?",
+        a: "ViVi charges 8-12% of monthly rent collected for Wimauma properties. Full-service management includes tenant screening, maintenance through Best Bay Services, rent collection, inspections, and financial reporting.",
+      },
+      {
+        q: "What do Wimauma homes rent for?",
+        a: "Wimauma single-family homes typically rent for $1,900-$2,400/month. Newer construction in Valencia Lakes and Ayersworth Glen sits at the higher end. Demand is strong from families seeking affordable new homes.",
+      },
+      {
+        q: "How fast is Wimauma growing?",
+        a: "Wimauma's population has grown 46% since 2020, making it one of the fastest-growing communities in Hillsborough County. Agricultural land is converting to residential at a rapid pace, with new master-planned communities breaking ground regularly.",
+      },
+      {
+        q: "What types of tenants rent in Wimauma?",
+        a: "Wimauma attracts young families seeking affordable new construction, Amazon and logistics workers from nearby distribution centers, and commuters who trade a longer drive for more space and lower costs. The community is growing and diversifying rapidly.",
+      },
+    ],
+  },
+  {
+    slug: "thonotosassa",
+    name: "Thonotosassa",
+    county: "Hillsborough County",
+    state: "FL",
+    zip: "33592",
+    lat: 28.0614,
+    lng: -82.3023,
+    population: "15,000+",
+    medianRent: "$2,000",
+    medianHome: "$350,000",
+    headline: "Property Management in Thonotosassa, FL",
+    intro:
+      "Thonotosassa is a quiet, rural community in northeast Hillsborough County along the Hillsborough River. The area attracts families and nature lovers who want larger lots, lake access (Lake Thonotosassa is the county's largest natural lake), and proximity to I-4 without the density of suburban Tampa. Properties here tend toward established homes on acreage rather than cookie-cutter subdivisions.",
+    whyManage:
+      "Thonotosassa's rural properties often feature well water, septic systems, and larger lots that require a different maintenance approach than suburban homes. ViVi PM's maintenance partner Best Bay Services handles these specialized needs. We also understand the rural-suburban tenant expectations — tenants here value privacy and space, not amenity centers.",
+    rentalMarket:
+      "Thonotosassa's rental market is smaller but stable. Tenants are typically established families (median age 42) and working professionals who commute to Tampa via I-4 or to Plant City and Lakeland eastbound. The rural character means lower turnover — once families settle in Thonotosassa, they tend to stay.",
+    neighborhoods: [
+      "Lake Thonotosassa", "Hillsborough River Corridor",
+      "Central Thonotosassa", "East Thonotosassa",
+    ],
+    nearbyAttractions:
+      "Hillsborough River State Park features hiking trails, canoe launches, and a historic suspension bridge. Lake Thonotosassa — the county's largest natural lake — offers boating, fishing, and paddling. The area is 25 minutes from downtown Tampa and 45 minutes from Orlando via I-4.",
+    faqs: [
+      {
+        q: "How much does property management cost in Thonotosassa?",
+        a: "ViVi charges 8-12% of monthly rent collected. Thonotosassa properties may require more specialized maintenance (well/septic, larger lots), which makes professional management through our partner Best Bay Services especially valuable.",
+      },
+      {
+        q: "What do Thonotosassa homes rent for?",
+        a: "Single-family homes in Thonotosassa typically rent for $1,800-$2,300/month. Homes on acreage or with lake access command higher rents. The market is smaller than suburban areas, so accurate pricing is essential.",
+      },
+      {
+        q: "What types of tenants rent in Thonotosassa?",
+        a: "Thonotosassa attracts established families, outdoor enthusiasts, and I-4 commuters who want rural space without being truly remote. Tenants tend to be stable and long-term — they choose Thonotosassa specifically for the lifestyle.",
+      },
+      {
+        q: "Does ViVi manage properties with well water and septic in Thonotosassa?",
+        a: "Yes. Many Thonotosassa properties have well water and septic systems rather than city utilities. Our maintenance partner Best Bay Services has experience with these systems and handles inspections, maintenance, and repairs.",
+      },
+      {
+        q: "Is Thonotosassa a good area for rental investment?",
+        a: "Thonotosassa is a niche market best suited for investors who already own property there or want rural-character rentals. It offers lower turnover and stable tenants but a smaller rental pool. Pricing must be precise, and marketing should target nature-oriented families seeking space.",
+      },
+    ],
+  },
+  {
+    slug: "dover",
+    name: "Dover",
+    county: "Hillsborough County",
+    state: "FL",
+    zip: "33527",
+    lat: 27.9942,
+    lng: -82.2195,
+    population: "3,000+",
+    medianRent: "$1,800",
+    medianHome: "$350,000",
+    headline: "Property Management in Dover, FL",
+    intro:
+      "Dover is a small, rural community in east Hillsborough County — right in the heart of Florida's strawberry country. With larger lots, agricultural character, and proximity to Plant City and Brandon, Dover appeals to tenants who want country living with suburban convenience. It is one of the most affordable pockets in east Hillsborough.",
+    whyManage:
+      "Dover's rural properties often sit on larger lots with well/septic systems, irrigation, and outbuildings that need a different maintenance approach. ViVi PM's partner Best Bay Services handles these specialized needs. Managing from a distance in a rural market also means having someone local who can respond to tenant needs quickly.",
+    rentalMarket:
+      "Dover's rental market is small but steady. Nearly 44% of housing is renter-occupied — one of the highest renter rates in east Hillsborough. Tenants include agricultural workers, families priced out of Brandon and Valrico, and commuters heading to Plant City or Tampa. The small inventory means well-priced rentals lease quickly.",
+    neighborhoods: [
+      "Central Dover", "McIntosh Road Area", "Gallagher Road Area",
+    ],
+    nearbyAttractions:
+      "Dover is surrounded by pick-your-own strawberry farms (Favorite Farms, Pigeon Cove, Shady Acres) with seasons running December through April. The Florida Strawberry Festival in Plant City draws 650,000+ visitors annually. Hillsborough River State Park is 20 miles north. Brandon's shopping and dining are 15 minutes west.",
+    faqs: [
+      {
+        q: "How much does property management cost in Dover?",
+        a: "ViVi charges 8-12% of monthly rent collected. Dover's lower rents keep absolute management costs very affordable while providing full-service coverage including screening, maintenance, and reporting.",
+      },
+      {
+        q: "What do Dover homes rent for?",
+        a: "Dover single-family homes typically rent for $1,600-$2,100/month. Homes on larger lots or with agricultural zoning may command more or less depending on condition and features. The market is price-sensitive, so accurate pricing is critical.",
+      },
+      {
+        q: "Is Dover a good area for rental investment?",
+        a: "Dover is a niche market that works well for investors focused on cash flow from affordable properties. With 44% renter occupancy, demand is real. Entry prices are below the county average, and the rural character attracts stable, long-term tenants.",
+      },
+      {
+        q: "Does ViVi manage rural properties in Dover?",
+        a: "Yes. We manage properties with well water, septic systems, larger lots, and other rural characteristics. Our maintenance partner Best Bay Services handles the specialized needs of Dover's agricultural-character properties.",
+      },
+      {
+        q: "What types of tenants rent in Dover?",
+        a: "Dover attracts working families who want affordable rural living, agricultural workers, and commuters heading to Plant City, Brandon, or Tampa. The small-town character appeals to tenants seeking quiet neighborhoods and space.",
+      },
+    ],
+  },
   // ============================================
   // PINELLAS COUNTY
   // ============================================
