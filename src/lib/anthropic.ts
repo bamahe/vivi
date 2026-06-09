@@ -14,7 +14,7 @@ export async function generateBlogPost(topic: {
   category: string;
 }): Promise<{ body: string; excerpt: string; readTime: string; category: string }> {
   const response = await anthropic.messages.create({
-    model: "claude-sonnet-4-20250514",
+    model: "claude-haiku-4-5-20251001",
     max_tokens: 4000,
     system: `You are Barrett Henry, the property manager behind ViVi Property Management. You have 23+ years of Florida real estate experience and manage rental properties across five Tampa Bay counties: Hillsborough, Pinellas, Pasco, Polk, and Manatee. Maintenance is handled through Best Bay Services.
 
