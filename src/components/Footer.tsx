@@ -42,9 +42,9 @@ export default function Footer() {
 
           {/* Column 2 — Quick links */}
           <div>
-            <h3 className="mb-4 font-sans text-xs font-semibold uppercase tracking-widest text-white">
+            <p className="mb-4 font-sans text-xs font-semibold uppercase tracking-widest text-white">
               Quick Links
-            </h3>
+            </p>
             <ul className="space-y-2.5">
               {NAV_LINKS.map((link) => (
                 <li key={link.href}>
@@ -69,9 +69,9 @@ export default function Footer() {
 
           {/* Column 3 — Service areas */}
           <div>
-            <h3 className="mb-4 font-sans text-xs font-semibold uppercase tracking-widest text-white">
+            <p className="mb-4 font-sans text-xs font-semibold uppercase tracking-widest text-white">
               Service Areas
-            </h3>
+            </p>
             <ul className="space-y-2.5">
               {COUNTIES.filter((c) => c.active).map((county) => (
                 <li key={county.name} className="text-sm">
@@ -88,9 +88,9 @@ export default function Footer() {
 
           {/* Column 4 — Contact */}
           <div>
-            <h3 className="mb-4 font-sans text-xs font-semibold uppercase tracking-widest text-white">
+            <p className="mb-4 font-sans text-xs font-semibold uppercase tracking-widest text-white">
               Contact
-            </h3>
+            </p>
             <ul className="space-y-2.5 text-sm">
               <li>
                 <a href={`tel:${SITE.phone.replace(/[^0-9+]/g, "")}`} className="transition-colors hover:text-white">
@@ -106,9 +106,9 @@ export default function Footer() {
             </ul>
 
             {/* Social media links */}
-            <h3 className="mb-3 mt-6 font-sans text-xs font-semibold uppercase tracking-widest text-white">
+            <p className="mb-3 mt-6 font-sans text-xs font-semibold uppercase tracking-widest text-white">
               Follow Us
-            </h3>
+            </p>
             <div className="flex gap-4">
               <a
                 href="https://www.facebook.com/vivipropertymanagement"
@@ -143,9 +143,9 @@ export default function Footer() {
 
         {/* ---- REMAX Offices ---- */}
         <div className="mt-14 border-t border-white/10 pt-8">
-          <h3 className="mb-6 font-sans text-xs font-semibold uppercase tracking-widest text-white">
+          <p className="mb-6 font-sans text-xs font-semibold uppercase tracking-widest text-white">
             REMAX Collective Offices
-          </h3>
+          </p>
           <div className="grid gap-6 sm:grid-cols-3">
             <div>
               <p className="text-sm font-medium text-white">Tampa</p>

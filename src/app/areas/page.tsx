@@ -47,7 +47,7 @@ export default function AreasPage() {
         />
         <div className="relative mx-auto max-w-3xl">
           <h1 className="text-4xl font-bold sm:text-5xl">
-            Where we manage
+            Tampa Bay Property Management Areas
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg text-white/80">
             Five Tampa Bay counties. One dedicated team.

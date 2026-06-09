@@ -10,7 +10,7 @@ import QuickAnswer from "@/components/QuickAnswer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Our Property Management Services",
+  title: "Tampa Bay Property Management Services",
   description: `Full-service property management from ${SITE.name}. Leasing, tenant screening, maintenance through Best Bay Services, inspections, financial reporting, and eviction support.`,
   alternates: { canonical: "/services" },
 };
@@ -74,7 +74,7 @@ export default function ServicesPage() {
         />
         <div className="relative mx-auto max-w-3xl">
           <h1 className="text-4xl font-bold sm:text-5xl">
-            What we handle for you
+            Tampa Bay Property Management Services
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg text-white/80">
             End-to-end property management so you can collect rent without the headaches.

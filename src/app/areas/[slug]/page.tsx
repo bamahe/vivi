@@ -30,18 +30,18 @@ export async function generateMetadata({
   if (!city) return {};
 
   return {
-    title: `Property Management in ${city.name}, FL`,
-    description: `Property management in ${city.name}, FL. ${SITE.feeRange} of rent collected. Maintenance via Best Bay Services, tenant screening, and no hidden fees.`,
+    title: `Property Management in ${city.name}, ${city.county}, FL`,
+    description: `Property management in ${city.name}, FL. ${SITE.feeRange}. Maintenance via Best Bay Services, tenant screening, and no hidden fees.`,
     openGraph: {
-      title: `Property Management in ${city.name}, FL | ViVi PM`,
-      description: `Full-service property management in ${city.name}. ${city.medianRent} median rent. ${SITE.feeRange} management fee. No hidden fees.`,
+      title: `Property Management in ${city.name}, ${city.county}, FL | ViVi PM`,
+      description: `Full-service property management in ${city.name}. ${city.medianRent} median rent. ${SITE.feeRange}. No hidden fees.`,
     },
     twitter: {
       card: "summary_large_image",
-      title: `Property Management in ${city.name}, FL | ViVi PM`,
-      description: `Full-service property management in ${city.name}. ${SITE.feeRange} of rent collected. No hidden fees.`,
+      title: `Property Management in ${city.name}, ${city.county}, FL | ViVi PM`,
+      description: `Full-service property management in ${city.name}. ${SITE.feeRange}. No hidden fees.`,
     },
-    alternates: { canonical: `/areas/${slug}` },
+    alternates: { canonical: `https://vivipm.com/areas/${slug}` },
   };
 }
 

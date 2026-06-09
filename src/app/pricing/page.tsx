@@ -59,7 +59,7 @@ export default function PricingPage() {
         />
         <div className="relative mx-auto max-w-3xl">
           <h1 className="text-4xl font-bold sm:text-5xl">
-            Simple, transparent pricing
+            Property Management Pricing — Tampa Bay
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg text-white/80">
             One plan. Everything included. No hidden fees or surprise charges.

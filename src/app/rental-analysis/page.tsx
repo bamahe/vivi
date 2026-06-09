@@ -89,7 +89,7 @@ export default function RentalAnalysisPage() {
         />
         <div className="relative mx-auto max-w-3xl">
           <h1 className="text-4xl font-bold sm:text-5xl">
-            Free rental analysis
+            Free Tampa Bay Rental Analysis
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg text-white/80">
             Find out what your property could rent for. No obligation, no pressure. Just numbers.
@@ -265,6 +265,27 @@ export default function RentalAnalysisPage() {
                 )}
               </form>
             )}
+
+            {/* Response time guarantee + trust signals */}
+            <div className="mt-8 space-y-3 rounded-lg border border-[var(--card-border)] bg-[var(--card-bg)] p-6">
+              <p className="text-sm font-semibold text-accent">
+                We respond within 2 hours during business hours — usually faster.
+              </p>
+              <ul className="flex flex-wrap gap-x-6 gap-y-2 text-xs text-[var(--muted-text)]">
+                <li className="flex items-center gap-1.5">
+                  <span aria-hidden="true" className="text-accent">&#10003;</span>
+                  23+ years of real estate experience
+                </li>
+                <li className="flex items-center gap-1.5">
+                  <span aria-hidden="true" className="text-accent">&#10003;</span>
+                  Free — no obligation
+                </li>
+                <li className="flex items-center gap-1.5">
+                  <span aria-hidden="true" className="text-accent">&#10003;</span>
+                  Confidential
+                </li>
+              </ul>
+            </div>
           </div>
 
           {/* Benefits sidebar */}

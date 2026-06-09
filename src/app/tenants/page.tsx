@@ -7,6 +7,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { SITE } from "@/lib/constants";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import FAQSchema from "@/components/FAQSchema";
 
 export const metadata: Metadata = {
   title: "Tenant Portal, Maintenance & FAQs",
@@ -69,7 +70,7 @@ export default function TenantsPage() {
         />
         <div className="relative mx-auto max-w-3xl">
           <h1 className="text-4xl font-bold sm:text-5xl">
-            For tenants
+            Tenant Resources and Information
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg text-white/80">
             Everything you need to apply, pay rent, and request maintenance.
@@ -131,13 +132,54 @@ export default function TenantsPage() {
           <p className="mx-auto mt-6 max-w-lg text-[var(--muted-text)] leading-relaxed">
             Pay rent, submit maintenance requests, and access documents from your tenant portal. Available 24/7 from any device.
           </p>
+          {/* Portal access — direct tenants to contact us for login credentials */}
           <div className="card mx-auto mt-10 max-w-md p-10">
-            <p className="text-lg font-medium text-[var(--muted-text)]">Portal login coming soon</p>
+            <p className="text-lg font-medium">Need portal access?</p>
             <p className="mt-2 text-sm text-[var(--muted-text)]">
-              Current tenants: contact us for portal access.
+              Contact us to get your login credentials and start using the tenant portal.
             </p>
+            <a
+              href={`tel:${SITE.phone.replace(/[^0-9+]/g, "")}`}
+              className="mt-4 inline-block rounded-full bg-accent px-6 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-accent-dark"
+            >
+              Call {SITE.phone}
+            </a>
           </div>
         </div>
+      </section>
+
+      {/* ---- Tenant FAQs with JSON-LD schema ---- */}
+      <section className="px-6 py-20 sm:py-28">
+        <FAQSchema
+          heading="Frequently Asked Questions"
+          items={[
+            {
+              question: "How do I pay rent?",
+              answer:
+                "Rent is paid online through the tenant portal. You can set up automatic monthly payments or make one-time payments with a bank account or debit card. No more writing checks or mailing payments.",
+            },
+            {
+              question: "How do I submit a maintenance request?",
+              answer:
+                "Log into the tenant portal and submit a maintenance request with a description and photos. Our maintenance partner Best Bay Services handles repairs directly. For after-hours emergencies like flooding or gas leaks, call our emergency maintenance line for immediate response.",
+            },
+            {
+              question: "What are the lease terms?",
+              answer:
+                "Most leases are 12 months. Your lease outlines rent amount, due dates, pet policies, maintenance responsibilities, and move-out procedures. You can access your full lease agreement anytime through the tenant portal.",
+            },
+            {
+              question: "What does the move-in process look like?",
+              answer:
+                "After your application is approved, you sign the lease and pay the security deposit. We schedule a move-in inspection where we walk through the property together to document its condition. You receive your keys and portal login credentials the same day.",
+            },
+            {
+              question: "How much is the security deposit and when do I get it back?",
+              answer:
+                "Security deposit amounts vary by property and are listed on each rental listing. After you move out, we conduct a move-out inspection and compare it to the move-in report. Per Florida law, your deposit is returned within 15 to 30 days minus any deductions for damages beyond normal wear and tear.",
+            },
+          ]}
+        />
       </section>
 
       {/* ---- Contact info ---- */}
