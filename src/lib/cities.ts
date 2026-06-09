@@ -85,7 +85,7 @@ export const CITIES: CityData[] = [
     lat: 27.9378,
     lng: -82.2859,
     population: "115,000+",
-    medianRent: "$1,950",
+    medianRent: "$2,050",
     medianHome: "$370,000",
     headline: "Property Management in Brandon, FL",
     intro:
@@ -107,7 +107,7 @@ export const CITIES: CityData[] = [
       },
       {
         q: "What should my Brandon rental rent for?",
-        a: "Brandon single-family homes typically rent for $1,700-$2,400/month depending on size, condition, and neighborhood. We run a free competitive market analysis to price your property right.",
+        a: "Brandon single-family homes typically rent for $1,800-$2,400/month depending on size, condition, and neighborhood. We run a free competitive market analysis to price your property right.",
       },
       {
         q: "Do you manage properties in Bloomingdale?",
@@ -226,7 +226,7 @@ export const CITIES: CityData[] = [
     lat: 28.0186,
     lng: -82.1193,
     population: "40,000+",
-    medianRent: "$1,750",
+    medianRent: "$1,850",
     medianHome: "$320,000",
     headline: "Property Management in Plant City, FL",
     intro:
@@ -248,7 +248,7 @@ export const CITIES: CityData[] = [
       },
       {
         q: "How much do Plant City rentals rent for?",
-        a: "Single-family homes in Plant City typically rent for $1,500-$2,000/month. Newer construction near Walden Lake commands higher rents, while older homes closer to downtown offer better cash flow ratios.",
+        a: "Single-family homes in Plant City typically rent for $1,600-$2,100/month. Newer construction near Walden Lake commands higher rents, while older homes closer to downtown offer better cash flow ratios.",
       },
       {
         q: "How much does property management cost in Plant City?",
@@ -507,7 +507,7 @@ export const CITIES: CityData[] = [
     lat: 27.7209,
     lng: -82.4332,
     population: "30,000+",
-    medianRent: "$2,200",
+    medianRent: "$2,100",
     medianHome: "$345,000",
     headline: "Property Management in Ruskin, FL",
     intro:
@@ -554,7 +554,7 @@ export const CITIES: CityData[] = [
     lat: 27.708,
     lng: -82.3558,
     population: "35,000+",
-    medianRent: "$2,100",
+    medianRent: "$2,000",
     medianHome: "$275,000",
     headline: "Property Management in Sun City Center, FL",
     intro:
@@ -601,7 +601,7 @@ export const CITIES: CityData[] = [
     lat: 27.8536,
     lng: -82.3826,
     population: "20,000+",
-    medianRent: "$2,000",
+    medianRent: "$2,050",
     medianHome: "$335,000",
     headline: "Property Management in Gibsonton, FL",
     intro:
@@ -648,7 +648,7 @@ export const CITIES: CityData[] = [
     lat: 27.7125,
     lng: -82.2989,
     population: "15,000+",
-    medianRent: "$2,200",
+    medianRent: "$2,100",
     medianHome: "$365,000",
     headline: "Property Management in Wimauma, FL",
     intro:
@@ -695,7 +695,7 @@ export const CITIES: CityData[] = [
     lat: 28.0614,
     lng: -82.3023,
     population: "15,000+",
-    medianRent: "$2,000",
+    medianRent: "$1,900",
     medianHome: "$350,000",
     headline: "Property Management in Thonotosassa, FL",
     intro:
@@ -742,7 +742,7 @@ export const CITIES: CityData[] = [
     lat: 27.9942,
     lng: -82.2195,
     population: "3,000+",
-    medianRent: "$1,800",
+    medianRent: "$1,850",
     medianHome: "$350,000",
     headline: "Property Management in Dover, FL",
     intro:
