@@ -8,6 +8,7 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond, Outfit } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { ClientWidgets } from "@/components/ClientWidgets";
 import "./globals.css";
 
 // Display/heading font — Cormorant Garamond
@@ -128,6 +129,9 @@ export default function RootLayout({
 
         {/* Shared site footer */}
         <Footer />
+
+        {/* Lazy-loaded client widgets (chatbot, etc.) */}
+        <ClientWidgets />
       </body>
     </html>
   );
