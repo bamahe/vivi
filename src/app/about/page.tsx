@@ -177,6 +177,15 @@ export default function AboutPage() {
       {/* ---- About Barrett ---- */}
       <section className="section-alt px-6 py-20 sm:py-28">
         <div className="mx-auto max-w-4xl">
+          <div className="flex flex-col items-center mb-10">
+            <Image
+              src="/images/barrett-henry.png"
+              alt="Barrett Henry, Broker Associate and Designated Property Manager at ViVi Property Management"
+              width={200}
+              height={200}
+              className="rounded-full border-4 border-accent/20"
+            />
+          </div>
           <h2 className="mb-6 text-center text-3xl font-semibold sm:text-4xl">
             What experience does Barrett Henry bring to property management?
           </h2>
@@ -185,7 +194,7 @@ export default function AboutPage() {
               Barrett Henry holds a Florida Broker Associate license with REMAX Collective and carries three professional designations: <strong>e-PRO</strong> (digital marketing), <strong>MRP</strong> (Military Relocation Professional), and <strong>SRS</strong> (Seller Representative Specialist). With 23+ years of real estate experience, Barrett founded The NOW Team in 2015 and later launched ViVi Property Management to give property owners a transparent, full-service option across Tampa Bay.
             </p>
             <p>
-              Barrett also co-runs <strong>Best Bay Services</strong>, the maintenance partner that handles all repairs and upkeep for ViVi-managed properties. No third-party markups, faster response times, and quality the team personally stands behind. This vertically integrated model is what sets ViVi apart from traditional property managers.
+              Maintenance is handled through <strong>Best Bay Services</strong>, the dedicated partner that handles all repairs and upkeep for ViVi-managed properties. No third-party markups, faster response times, and quality the team personally stands behind. This vertically integrated model is what sets ViVi apart from traditional property managers.
             </p>
           </div>
         </div>
