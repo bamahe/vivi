@@ -53,6 +53,9 @@ export default function AboutPage() {
           "https://www.linkedin.com/in/barretthenry",
           "https://x.com/BHrealestatetb",
           "https://www.youtube.com/@nowtampa",
+          "https://nowtb.com",
+          "https://hencre.com",
+          "https://valricopropertymgmt.com",
         ],
       },
       // --- Person: Barrett Henry ---
@@ -83,6 +86,9 @@ export default function AboutPage() {
           "https://www.youtube.com/@nowtampa",
           "https://www.zillow.com/profile/barretthenry",
           "https://www.realtor.com/realestateagents/56d5364fde071e01006256cd",
+          "https://nowtb.com",
+          "https://hencre.com",
+          "https://valricopropertymgmt.com",
         ],
       },
       // --- REMAX Office: Tampa ---
@@ -191,10 +197,13 @@ export default function AboutPage() {
           </h2>
           <div className="space-y-6 text-[var(--muted-text)] leading-relaxed">
             <p>
-              Barrett Henry holds a Florida Broker Associate license with REMAX Collective and carries three professional designations: <strong>e-PRO</strong> (digital marketing), <strong>MRP</strong> (Military Relocation Professional), and <strong>SRS</strong> (Seller Representative Specialist). With 23+ years of real estate experience, Barrett founded The NOW Team in 2015 and later launched ViVi Property Management to give property owners a transparent, full-service option across Tampa Bay.
+              Barrett Henry holds a Florida Broker Associate license with REMAX Collective and carries three professional designations: <strong>e-PRO</strong> (digital marketing), <strong>MRP</strong> (Military Relocation Professional), and <strong>SRS</strong> (Seller Representative Specialist). With 23+ years of real estate experience, Barrett founded <a href="https://nowtb.com" target="_blank" rel="noopener noreferrer" className="font-medium text-accent underline hover:text-accent-dark">The NOW Team</a> in 2015 and later launched ViVi Property Management to give property owners a transparent, full-service option across Tampa Bay. Barrett also publishes authoritative commercial real estate content at <a href="https://hencre.com" target="_blank" rel="noopener noreferrer" className="font-medium text-accent underline hover:text-accent-dark">hencre.com</a>.
             </p>
             <p>
               Maintenance is handled through <strong>Best Bay Services</strong>, the dedicated partner that handles all repairs and upkeep for ViVi-managed properties. No third-party markups, faster response times, and quality the team personally stands behind. This vertically integrated model is what sets ViVi apart from traditional property managers.
+            </p>
+            <p>
+              For property owners in the Valrico, Brandon, and Riverview area specifically, Barrett also operates <a href="https://valricopropertymgmt.com" target="_blank" rel="noopener noreferrer" className="font-medium text-accent underline hover:text-accent-dark">Valrico Property Management</a>, focused on east Hillsborough County neighborhoods.
             </p>
           </div>
         </div>

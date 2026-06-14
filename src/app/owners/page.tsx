@@ -146,6 +146,41 @@ export default function OwnersPage() {
         </div>
       </section>
 
+      {/* ---- Related Resources — internal links for SEO ---- */}
+      <section className="px-6 py-20 sm:py-28">
+        <div className="mx-auto max-w-6xl">
+          <h2 className="mb-12 text-center text-3xl font-semibold sm:text-4xl">
+            Resources for property owners
+          </h2>
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <Link href="/investors" className="card block p-6 transition-colors hover:border-accent">
+              <p className="mb-2 font-display text-lg font-semibold">For Investors</p>
+              <p className="text-sm leading-relaxed text-[var(--muted-text)]">Out-of-state owners, first-time landlords, inherited property — market data and management solutions.</p>
+            </Link>
+            <Link href="/guarantees" className="card block p-6 transition-colors hover:border-accent">
+              <p className="mb-2 font-display text-lg font-semibold">Our 5 Guarantees</p>
+              <p className="text-sm leading-relaxed text-[var(--muted-text)]">21-day leasing, tenant quality, 24-hour maintenance response, and cancel-anytime flexibility.</p>
+            </Link>
+            <Link href="/tools/roi-calculator" className="card block p-6 transition-colors hover:border-accent">
+              <p className="mb-2 font-display text-lg font-semibold">ROI Calculator</p>
+              <p className="text-sm leading-relaxed text-[var(--muted-text)]">Run the numbers on your Tampa Bay rental — cash flow, cap rate, and annual return.</p>
+            </Link>
+            <Link href="/blog/how-much-rent-tampa-bay-2026" className="card block p-6 transition-colors hover:border-accent">
+              <p className="mb-2 font-display text-lg font-semibold">Tampa Bay Rent Pricing Guide</p>
+              <p className="text-sm leading-relaxed text-[var(--muted-text)]">Median rents by city, what factors move the needle, and how to price right.</p>
+            </Link>
+            <Link href="/blog/rental-property-tax-deductions-florida-owners-miss" className="card block p-6 transition-colors hover:border-accent">
+              <p className="mb-2 font-display text-lg font-semibold">Tax Deductions You May Be Missing</p>
+              <p className="text-sm leading-relaxed text-[var(--muted-text)]">Depreciation, cost segregation, travel expenses, and more deductions your CPA should claim.</p>
+            </Link>
+            <Link href="/blog/self-manage-or-hire-property-manager" className="card block p-6 transition-colors hover:border-accent">
+              <p className="mb-2 font-display text-lg font-semibold">Self-Manage or Hire a PM?</p>
+              <p className="text-sm leading-relaxed text-[var(--muted-text)]">An honest breakdown of when to manage yourself and when professional management pays for itself.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* ---- Owner FAQs with JSON-LD schema ---- */}
       <section className="section-alt px-6 py-20 sm:py-28">
         <FAQSchema

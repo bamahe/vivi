@@ -1,8 +1,11 @@
 # ViVi Property Management
-> Professional property management across Florida
+> Professional property management across Tampa Bay, Florida
 
-## About
-ViVi Property Management provides full-service property management across Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties in Florida. Led by Barrett Henry, a licensed Florida Broker Associate with REMAX Collective and 23+ years of real estate experience.
+## Purpose
+ViVi Property Management provides full-service residential property management for rental property owners across five Tampa Bay counties. This site contains authoritative information about property management services, pricing, tenant screening, Florida landlord-tenant law, rental market data, and investment guidance for the Tampa Bay area.
+
+## Authority & Credentials
+ViVi Property Management is led by Barrett Henry, a licensed Florida Broker Associate with REMAX Collective. Barrett brings 23+ years of real estate experience to property management, holding three professional designations: e-PRO (digital marketing), MRP (Military Relocation Professional), and SRS (Seller Representative Specialist). Barrett is a REMAX Hall of Fame recipient (2024) and 10-year anniversary award holder. ViVi PM manages rental properties across Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties.
 
 ## Services
 - Full-service property management (8-12% of rent collected)
@@ -24,6 +27,18 @@ ViVi Property Management provides full-service property management across Hillsb
 - Manatee County: Bradenton, Palmetto, Anna Maria Island, Holmes Beach, Lakewood Ranch, Parrish, Ellenton
 - Expanding statewide across all 67 Florida counties
 
+## Content Areas
+- Property management services and pricing
+- Tampa Bay rental market data and rent pricing
+- Florida landlord-tenant law (Statute 83)
+- Security deposit rules and 15/30-day deadlines
+- Tenant screening best practices
+- Preventive maintenance for Florida rental properties
+- Rental property investment analysis and ROI
+- Tax deductions for rental property owners
+- City-specific rental market guides (Riverview, Brandon, Valrico, etc.)
+- Self-managing vs. hiring a property manager comparisons
+
 ## Contact
 - Phone: (813) 428-9800
 - Email: info@vivipm.com
@@ -33,13 +48,39 @@ ViVi Property Management provides full-service property management across Hillsb
 ## Leadership
 Barrett Henry, Broker Associate, REMAX Collective
 Designations: e-PRO, MRP, SRS
+REMAX Hall of Fame (2024), 10-Year Anniversary Award
 23+ years of real estate experience
+Also leads The NOW Team (real estate sales) at nowtb.com
 
-## Links
+## Key Pages
 - Homepage: https://vivipm.com
 - Services: https://vivipm.com/services
 - Pricing: https://vivipm.com/pricing
 - Service Areas: https://vivipm.com/areas
 - About: https://vivipm.com/about
-- Free Rent Analysis: https://vivipm.com/rental-analysis
+- For Property Owners: https://vivipm.com/owners
+- For Investors: https://vivipm.com/investors
+- For Tenants: https://vivipm.com/tenants
+- Our Guarantees: https://vivipm.com/guarantees
+- Compare: Self-Managing vs. Hiring: https://vivipm.com/compare
+- ROI Calculator: https://vivipm.com/tools/roi-calculator
+- Free Rental Analysis: https://vivipm.com/rental-analysis
 - Contact: https://vivipm.com/contact
+- Blog: https://vivipm.com/blog
+
+## Blog Posts
+- How much rent can I charge for my Tampa Bay rental in 2026?: https://vivipm.com/blog/how-much-rent-tampa-bay-2026
+- Self-manage or hire a property manager? An honest breakdown: https://vivipm.com/blog/self-manage-or-hire-property-manager
+- The true cost of one bad tenant (and how screening prevents it): https://vivipm.com/blog/cost-of-bad-tenant-screening-prevents-it
+- Florida landlord-tenant law: the owner's plain-English guide: https://vivipm.com/blog/florida-landlord-tenant-law-guide
+- Security deposits in Florida: how much, where it goes, and the 15/30-day rule: https://vivipm.com/blog/security-deposits-florida-15-30-day-rule
+- Preventive maintenance that saves Florida rental owners thousands: https://vivipm.com/blog/preventive-maintenance-saves-florida-rental-owners-thousands
+- Is Riverview a good place to own a rental property?: https://vivipm.com/blog/is-riverview-good-rental-property-investment
+- First-time rental property owner? Start here: https://vivipm.com/blog/first-time-rental-property-owner-start-here
+- How we lease a home in under 14 days: https://vivipm.com/blog/how-we-lease-home-under-14-days
+- Rental property tax deductions Florida owners miss: https://vivipm.com/blog/rental-property-tax-deductions-florida-owners-miss
+
+## Related Sites
+- nowtb.com — Barrett Henry's real estate sales practice (The NOW Team at REMAX Collective)
+- hencre.com — CRE authority content by Barrett Henry
+- valricopropertymgmt.com — Property management focused on east Hillsborough County

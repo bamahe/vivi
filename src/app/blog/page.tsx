@@ -4,6 +4,7 @@
 // ============================================
 
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { getBlogPosts } from "@/lib/supabase";
 import { STATIC_BLOG_POSTS } from "@/lib/blog-posts";
@@ -72,6 +73,19 @@ export default async function BlogPage() {
                   href={`/blog/${posts[0].slug}`}
                   className="card mb-12 block overflow-hidden transition-colors hover:border-accent"
                 >
+                  {/* Featured post hero image */}
+                  {posts[0].hero_image_url && (
+                    <div className="relative aspect-[1200/630] w-full">
+                      <Image
+                        src={posts[0].hero_image_url}
+                        alt={posts[0].title}
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
+                        priority
+                      />
+                    </div>
+                  )}
                   <div className="p-8 sm:p-10">
                     {posts[0].category && (
                       <span className="mb-3 inline-block rounded-full bg-accent/10 px-3 py-1 text-xs font-semibold text-accent">
@@ -108,6 +122,18 @@ export default async function BlogPage() {
                       href={`/blog/${post.slug}`}
                       className="card overflow-hidden transition-colors hover:border-accent"
                     >
+                      {/* Card hero image thumbnail */}
+                      {post.hero_image_url && (
+                        <div className="relative aspect-[16/9] w-full">
+                          <Image
+                            src={post.hero_image_url}
+                            alt={post.title}
+                            fill
+                            className="object-cover"
+                            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                          />
+                        </div>
+                      )}
                       <div className="p-6">
                         {post.category && (
                           <span className="mb-3 inline-block rounded-full bg-accent/10 px-3 py-1 text-xs font-semibold text-accent">

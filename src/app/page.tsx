@@ -206,7 +206,7 @@ export default function HomePage() {
             How does maintenance through Best Bay Services save you money?
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-[var(--muted-text)] leading-relaxed">
-            Most property managers outsource repairs and mark them up. We own Best Bay Services, our maintenance partner. That means faster response times, no third-party markups, and quality we personally stand behind. When something breaks at your property, our team handles it directly.
+            According to the National Association of Residential Property Managers, maintenance markups of 10-20% are standard in the property management industry. ViVi eliminates that cost entirely. Best Bay Services is our maintenance partner — no third-party markups, faster response times, and quality we personally stand behind. When something breaks at your property, our team handles it directly.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link

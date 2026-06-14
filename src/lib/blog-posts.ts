@@ -20,8 +20,8 @@ export const STATIC_BLOG_POSTS: BlogPost[] = [
     title: "How much rent can I charge for my Tampa Bay rental in 2026?",
     excerpt:
       "Median rents in Tampa Bay range from $1,650 to $2,400 depending on city, bedroom count, and condition. Here's how to price your rental right without leaving money on the table.",
-    hero_image_url: null,
-    hero_image_credit: null,
+    hero_image_url: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&h=630&fit=crop&q=80",
+    hero_image_credit: "Francesca Tosolini",
     published_at: "2026-06-10T09:00:00Z",
     status: "published",
     category: "Market",
@@ -90,6 +90,13 @@ Your Tampa Bay rental is worth what the market says it's worth — and the marke
 
 Want to know exactly what your property would rent for? [Get a free rental analysis](/rental-analysis) — no strings, no pressure. We'll pull the comps and give you a straight answer.
 
+## Related reading
+
+- Not sure whether to manage it yourself? Read our [honest breakdown of self-managing vs. hiring a property manager](/blog/self-manage-or-hire-property-manager).
+- Worried about finding the right tenant? See [the true cost of one bad tenant](/blog/cost-of-bad-tenant-screening-prevents-it).
+- Want to run the numbers? Use our [ROI calculator](/tools/roi-calculator).
+- Compare our [transparent pricing](/pricing) and [5 guarantees](/guarantees) to any manager in Tampa Bay.
+
 ## Frequently Asked Questions
 
 ### How often should I check my rental's market value?
@@ -118,8 +125,8 @@ Extended vacancy. Every week your property sits empty costs you roughly 25% of o
     title: "Self-manage or hire a property manager? An honest breakdown",
     excerpt:
       "Property management fees eat into profit — but so does a 2 AM water heater call, a missed lease violation, and a costly eviction. Here's how to decide what's right for you.",
-    hero_image_url: null,
-    hero_image_credit: null,
+    hero_image_url: "https://images.unsplash.com/photo-1450101499163-c8848e968f63?w=1200&h=630&fit=crop&q=80",
+    hero_image_credit: "Alejandro Escamilla",
     published_at: "2026-06-03T09:00:00Z",
     status: "published",
     category: "Management",
@@ -190,6 +197,13 @@ If you live outside Tampa Bay, self-managing is almost always a mistake. You can
 
 We manage properties for owners across the country. Your owner portal gives you real-time access to financials, maintenance tickets, and lease documents. [Learn more about our services](/services).
 
+## Related reading
+
+- Just bought your first rental? Start with our [first-time rental property owner playbook](/blog/first-time-rental-property-owner-start-here).
+- See the full [cost comparison between self-managing, ViVi, and a typical PM](/compare).
+- Understand [how much rent you can charge in Tampa Bay in 2026](/blog/how-much-rent-tampa-bay-2026).
+- Don't miss these [tax deductions Florida rental owners leave on the table](/blog/rental-property-tax-deductions-florida-owners-miss).
+
 ## Frequently Asked Questions
 
 ### Can I switch from self-managing to hiring a property manager mid-lease?
@@ -218,8 +232,8 @@ Management agreements typically have a 30-day cancellation clause. If you're unh
     title: "The true cost of one bad tenant (and how screening prevents it)",
     excerpt:
       "A bad tenant can cost you $5,000 to $15,000 in damages, lost rent, and legal fees. Professional screening isn't optional — it's the most important investment you make.",
-    hero_image_url: null,
-    hero_image_credit: null,
+    hero_image_url: "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1200&h=630&fit=crop&q=80",
+    hero_image_credit: "Brian Wangenheim",
     published_at: "2026-05-27T09:00:00Z",
     status: "published",
     category: "Screening",
@@ -290,6 +304,13 @@ Good screening means:
 
 We back our screening with a [guarantee](/guarantees). If a tenant we place needs to be evicted within the first 12 months, we re-lease the property at no additional cost. That's how confident we are in the process.
 
+## Related reading
+
+- Understand [Florida landlord-tenant law in plain English](/blog/florida-landlord-tenant-law-guide) — including security deposit rules that trip up most landlords.
+- Know the [15/30-day security deposit rule](/blog/security-deposits-florida-15-30-day-rule) before a bad tenant moves out.
+- See how we [lease homes in under 14 days](/blog/how-we-lease-home-under-14-days) through professional marketing.
+- New to landlording? Start with our [first-time rental property owner guide](/blog/first-time-rental-property-owner-start-here).
+
 ## Frequently Asked Questions
 
 ### Can I deny a tenant for bad credit?
@@ -318,8 +339,8 @@ Yes. Every adult (18+) who will live in the property should complete a full appl
     title: "Florida landlord-tenant law: the owner's plain-English guide",
     excerpt:
       "Florida Statute 83 Part II governs every residential rental in the state. Here's what you actually need to know — without the legal jargon.",
-    hero_image_url: null,
-    hero_image_credit: null,
+    hero_image_url: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&h=630&fit=crop&q=80",
+    hero_image_credit: "Sasun Bughdaryan",
     published_at: "2026-05-20T09:00:00Z",
     status: "published",
     category: "Legal",
@@ -417,6 +438,13 @@ A strong Florida-compliant lease should cover:
 
 We use attorney-drafted leases customized for each property. This isn't a template from the internet — it's a document that protects your investment. Our [services](/services) include lease preparation for every property we manage.
 
+## Related reading
+
+- The most common legal mistake landlords make involves security deposits. Read our [guide to the 15/30-day security deposit rule](/blog/security-deposits-florida-15-30-day-rule).
+- Understand [how proper screening prevents bad tenants](/blog/cost-of-bad-tenant-screening-prevents-it) — your first line of legal defense.
+- New landlord? Our [first-time rental property owner guide](/blog/first-time-rental-property-owner-start-here) covers insurance, banking, and legal setup.
+- See all [services included in ViVi management](/services) and our [5 guarantees](/guarantees).
+
 ## Frequently Asked Questions
 
 ### Can I evict a tenant for having an unauthorized pet?
@@ -445,8 +473,8 @@ A tenant can request early termination, but they're generally responsible for re
     title: "Security deposits in Florida: how much, where it goes, and the 15/30-day rule",
     excerpt:
       "Florida's security deposit rules are strict. Miss the 30-day claim window and you forfeit your right to keep any of it. Here's exactly how it works.",
-    hero_image_url: null,
-    hero_image_credit: null,
+    hero_image_url: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=630&fit=crop&q=80",
+    hero_image_credit: "Tierra Mallorca",
     published_at: "2026-05-13T09:00:00Z",
     status: "published",
     category: "Legal",
@@ -536,6 +564,13 @@ This is one of the biggest headaches we take off your plate. One missed deadline
 
 Only if the lease specifically designates a portion of the deposit as "last month's rent." Otherwise, the security deposit is for damages and unpaid obligations — not a pre-paid rent substitute. Tenants who try to use their deposit as last month's rent are violating the lease.
 
+## Related reading
+
+- Read the full [Florida landlord-tenant law guide](/blog/florida-landlord-tenant-law-guide) — covering notices, entry rights, and eviction procedures.
+- Proper [tenant screening](/blog/cost-of-bad-tenant-screening-prevents-it) reduces the likelihood of deposit disputes in the first place.
+- Understand our [management services](/services) and how we handle deposit compliance for every property.
+- See our [transparent pricing](/pricing) — no hidden fees on deposit handling or move-out coordination.
+
 ## Frequently Asked Questions
 
 ### What if the tenant doesn't provide a forwarding address?
@@ -564,8 +599,8 @@ If the tenant objects in writing within 15 days of receiving your claim notice, 
     title: "Preventive maintenance that saves Florida rental owners thousands",
     excerpt:
       "A $150 AC tune-up prevents a $6,000 compressor replacement. A $200 roof inspection catches a $15,000 leak. Preventive maintenance isn't optional in Florida — it's survival.",
-    hero_image_url: null,
-    hero_image_credit: null,
+    hero_image_url: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200&h=630&fit=crop&q=80",
+    hero_image_credit: "Roselyn Tirado",
     published_at: "2026-05-06T09:00:00Z",
     status: "published",
     category: "Maintenance",
@@ -657,6 +692,13 @@ If you own rental property in Tampa Bay, hurricane preparation is part of the de
 
 We send hurricane prep reminders to every tenant and owner before each season. This is part of managing in Florida — you can't skip it.
 
+## Related reading
+
+- Thinking about [Riverview as a rental investment](/blog/is-riverview-good-rental-property-investment)? We break down the market numbers, risks, and best property types.
+- Maintenance costs are tax-deductible. See our [complete guide to rental property tax deductions](/blog/rental-property-tax-deductions-florida-owners-miss).
+- Know your legal obligations under [Florida landlord-tenant law](/blog/florida-landlord-tenant-law-guide) — including what you must maintain.
+- Our [guarantees](/guarantees) include 24-hour maintenance response backed by Best Bay Services.
+
 ## Frequently Asked Questions
 
 ### Who pays for maintenance — the owner or the tenant?
@@ -685,8 +727,8 @@ Generally, no. Home warranties have coverage limits, exclusions, and slow respon
     title: "Is Riverview a good place to own a rental property?",
     excerpt:
       "Riverview is one of the fastest-growing communities in Hillsborough County with strong rental demand, newer housing stock, and median rents of $1,700–$2,100. Here's the full picture.",
-    hero_image_url: null,
-    hero_image_credit: null,
+    hero_image_url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=630&fit=crop&q=80",
+    hero_image_credit: "Ralph (Ravi) Kayden",
     published_at: "2026-04-29T09:00:00Z",
     status: "published",
     category: "Areas",
@@ -771,6 +813,13 @@ At these numbers, the property is slightly cash-flow negative on a traditional m
 
 Want us to run the actual numbers on a specific property? Use our [ROI calculator](/tools/roi-calculator) or request a [free rental analysis](/rental-analysis).
 
+## Related reading
+
+- Find out [how much rent you can charge in Tampa Bay in 2026](/blog/how-much-rent-tampa-bay-2026) — city-by-city breakdown.
+- Buying your first investment property? Read our [first-time rental owner playbook](/blog/first-time-rental-property-owner-start-here).
+- Protect your Riverview rental with [preventive maintenance that saves thousands](/blog/preventive-maintenance-saves-florida-rental-owners-thousands).
+- Maximize deductions with our [Florida rental property tax guide](/blog/rental-property-tax-deductions-florida-owners-miss).
+
 ## Frequently Asked Questions
 
 ### What's the average rent increase in Riverview year over year?
@@ -799,8 +848,8 @@ The same way we manage across all [five counties](/areas) — dedicated property
     title: "First-time rental property owner? Start here",
     excerpt:
       "You bought a rental property — now what? Here's the step-by-step playbook for first-time landlords in Tampa Bay, from insurance to tenant placement.",
-    hero_image_url: null,
-    hero_image_credit: null,
+    hero_image_url: "https://images.unsplash.com/photo-1560184897-ae75f418493e?w=1200&h=630&fit=crop&q=80",
+    hero_image_credit: "Breno Assis",
     published_at: "2026-04-22T09:00:00Z",
     status: "published",
     category: "Getting Started",
@@ -916,6 +965,13 @@ If you value your time, live far from the property, or own more than one rental,
 
 Our [pricing](/pricing) is transparent, and we offer [guarantees](/guarantees) that put our money where our mouth is.
 
+## Related reading
+
+- Know the law before you start. Read our [plain-English guide to Florida landlord-tenant law](/blog/florida-landlord-tenant-law-guide).
+- Understand the [15/30-day security deposit rule](/blog/security-deposits-florida-15-30-day-rule) — the #1 mistake new landlords make.
+- See how we [lease homes in under 14 days](/blog/how-we-lease-home-under-14-days) through professional marketing.
+- Investing in Riverview? Read [is Riverview a good rental investment?](/blog/is-riverview-good-rental-property-investment) for market data.
+
 ## Frequently Asked Questions
 
 ### How much should I set aside for maintenance reserves?
@@ -944,8 +1000,8 @@ Start marketing 30–45 days before it's available. If you have a current tenant
     title: "How we lease a home in under 14 days",
     excerpt:
       "Every vacant day costs you money. Our leasing process — from professional photography to signed lease — averages under 14 days. Here's exactly how we do it.",
-    hero_image_url: null,
-    hero_image_credit: null,
+    hero_image_url: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&h=630&fit=crop&q=80",
+    hero_image_credit: "Douglas Sheppard",
     published_at: "2026-04-15T09:00:00Z",
     status: "published",
     category: "Leasing",
@@ -1034,6 +1090,13 @@ We don't just list and wait. We actively monitor days on market, showing feedbac
 
 Our leasing fee covers all of this — marketing, photography, showings, screening, lease execution, and move-in coordination. Check our [pricing page](/pricing) for the full breakdown, and see our [guarantees](/guarantees) that back up our performance.
 
+## Related reading
+
+- What happens after placement? Our [preventive maintenance guide](/blog/preventive-maintenance-saves-florida-rental-owners-thousands) keeps your property in shape year-round.
+- New to renting? Start with our [first-time rental property owner playbook](/blog/first-time-rental-property-owner-start-here).
+- Understand [how screening prevents costly bad tenants](/blog/cost-of-bad-tenant-screening-prevents-it) — our screening backs the leasing process.
+- Considering self-management instead? Read our [honest comparison](/blog/self-manage-or-hire-property-manager).
+
 ## Frequently Asked Questions
 
 ### Do you charge the owner if the property doesn't lease?
@@ -1062,8 +1125,8 @@ We can screen your prospect through our standard process. If they pass, we'll ex
     title: "Rental property tax deductions Florida owners miss",
     excerpt:
       "Most rental property owners leave thousands in deductions on the table. From depreciation to travel expenses, here are the write-offs your CPA should be claiming.",
-    hero_image_url: null,
-    hero_image_credit: null,
+    hero_image_url: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&h=630&fit=crop&q=80",
+    hero_image_credit: "Kelly Sikkema",
     published_at: "2026-04-01T09:00:00Z",
     status: "published",
     category: "Financial",
@@ -1176,6 +1239,13 @@ If your adjusted gross income (AGI) is under $100,000 and you **actively partici
 This phases out between $100,000 and $150,000 AGI. Above $150,000, rental losses are passive and can only offset passive income (unless you qualify as a real estate professional).
 
 This is another reason to track your rental activity. "Active participation" has specific IRS criteria — work with your CPA to document it.
+
+## Related reading
+
+- According to the IRS, maintenance costs coordinated through a property manager are fully deductible. See our [full service breakdown](/services).
+- Understand [how much rent to charge in Tampa Bay](/blog/how-much-rent-tampa-bay-2026) — rent pricing directly affects your taxable income.
+- Maintenance expenses are deductible in the year incurred. Our [preventive maintenance guide](/blog/preventive-maintenance-saves-florida-rental-owners-thousands) shows what to budget.
+- Considering hiring a PM? The management fee is deductible too. Read our [self-manage vs. hire comparison](/blog/self-manage-or-hire-property-manager).
 
 ## Frequently Asked Questions
 

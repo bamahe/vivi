@@ -193,6 +193,33 @@ export default function PricingPage() {
         </div>
       </section>
 
+      {/* ---- Related Resources — internal links for SEO ---- */}
+      <section className="section-alt px-6 py-20 sm:py-28">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="mb-12 text-center text-3xl font-semibold sm:text-4xl">
+            Make a confident decision
+          </h2>
+          <div className="grid gap-6 sm:grid-cols-2">
+            <Link href="/compare" className="card block p-6 transition-colors hover:border-accent">
+              <p className="mb-2 font-display text-lg font-semibold">Full Comparison: Self-Manage vs. Hire</p>
+              <p className="text-sm leading-relaxed text-[var(--muted-text)]">See the real costs, hidden fees, and what Tampa Bay landlords actually pay with each option.</p>
+            </Link>
+            <Link href="/guarantees" className="card block p-6 transition-colors hover:border-accent">
+              <p className="mb-2 font-display text-lg font-semibold">Our 5 Guarantees</p>
+              <p className="text-sm leading-relaxed text-[var(--muted-text)]">21-day leasing, tenant quality, 24-hour maintenance response, transparency, and cancel-anytime flexibility.</p>
+            </Link>
+            <Link href="/services" className="card block p-6 transition-colors hover:border-accent">
+              <p className="mb-2 font-display text-lg font-semibold">Full Service Breakdown</p>
+              <p className="text-sm leading-relaxed text-[var(--muted-text)]">Everything included in your management fee — from photography to eviction support.</p>
+            </Link>
+            <Link href="/tools/roi-calculator" className="card block p-6 transition-colors hover:border-accent">
+              <p className="mb-2 font-display text-lg font-semibold">ROI Calculator</p>
+              <p className="text-sm leading-relaxed text-[var(--muted-text)]">Run the numbers on any Tampa Bay rental — cash flow, cap rate, and cash-on-cash return.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* ---- Bottom CTA ---- */}
       <section className="gradient-accent px-6 py-20 text-center text-white sm:py-28">
         <div className="mx-auto max-w-2xl">

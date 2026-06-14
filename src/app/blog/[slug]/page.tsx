@@ -5,6 +5,7 @@
 // ============================================
 
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getBlogPostBySlug, getBlogPosts } from "@/lib/supabase";
@@ -35,6 +36,9 @@ export async function generateMetadata({
       type: "article",
       publishedTime: post.published_at,
       authors: ["Barrett Henry"],
+      ...(post.hero_image_url
+        ? { images: [{ url: post.hero_image_url, width: 1200, height: 630 }] }
+        : {}),
     },
     alternates: { canonical: `/blog/${slug}` },
   };
@@ -227,6 +231,7 @@ export default async function BlogPostPage({
     headline: post.title,
     description: post.excerpt,
     url: `https://vivipm.com/blog/${post.slug}`,
+    ...(post.hero_image_url ? { image: post.hero_image_url } : {}),
     datePublished: post.published_at,
     dateModified: post.published_at,
     author: {
@@ -311,6 +316,36 @@ export default async function BlogPostPage({
         ]}
       />
 
+      {/* ---- Hero image ---- */}
+      {post.hero_image_url && (
+        <section className="px-6 pt-8 sm:pt-12">
+          <div className="mx-auto max-w-3xl overflow-hidden rounded-xl">
+            <Image
+              src={post.hero_image_url}
+              alt={post.title}
+              width={1200}
+              height={630}
+              className="h-auto w-full object-cover"
+              priority
+            />
+            {/* Photo credit — Unsplash requires attribution */}
+            {post.hero_image_credit && (
+              <p className="mt-2 text-xs text-[var(--muted-text)]">
+                Photo by {post.hero_image_credit} on{" "}
+                <a
+                  href="https://unsplash.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline"
+                >
+                  Unsplash
+                </a>
+              </p>
+            )}
+          </div>
+        </section>
+      )}
+
       {/* ---- Article body ---- */}
       <section className="px-6 py-16 sm:py-20">
         <article className="mx-auto max-w-3xl">
@@ -331,7 +366,9 @@ export default async function BlogPostPage({
               Collective. With 23+ years of real estate experience, Barrett and
               his team manage rental properties across five Tampa Bay counties —
               handling tenant screening, maintenance through Best Bay
-              Services, rent collection, and financial reporting.
+              Services, rent collection, and financial reporting. Barrett also leads{" "}
+              <a href="https://nowtb.com" target="_blank" rel="noopener noreferrer" className="font-medium text-accent underline hover:text-accent-dark">The NOW Team</a>{" "}
+              for real estate sales across Tampa Bay.
             </p>
             <div className="mt-4 flex gap-4">
               <Link

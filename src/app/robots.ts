@@ -35,6 +35,26 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: "GoogleOther",
         allow: "/",
       },
+      {
+        userAgent: "Google-Extended",
+        allow: "/",
+      },
+      {
+        userAgent: "Bytespider",
+        allow: "/",
+      },
+      {
+        userAgent: "ChatGPT-User",
+        allow: "/",
+      },
+      {
+        userAgent: "anthropic-ai",
+        allow: "/",
+      },
+      {
+        userAgent: "cohere-ai",
+        allow: "/",
+      },
       // Block known spam/scraper bots
       {
         userAgent: "AhrefsBot",
