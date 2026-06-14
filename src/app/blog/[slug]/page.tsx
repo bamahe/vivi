@@ -8,6 +8,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getBlogPostBySlug, getBlogPosts } from "@/lib/supabase";
+import { getStaticBlogPost, STATIC_BLOG_POSTS } from "@/lib/blog-posts";
 import { SITE } from "@/lib/constants";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
@@ -21,7 +22,8 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const post = await getBlogPostBySlug(slug);
+  // Try Supabase first, then fall back to static blog posts
+  const post = (await getBlogPostBySlug(slug)) ?? getStaticBlogPost(slug);
   if (!post) return {};
 
   return {
@@ -195,7 +197,8 @@ export default async function BlogPostPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const post = await getBlogPostBySlug(slug);
+  // Try Supabase first, then fall back to static blog posts
+  const post = (await getBlogPostBySlug(slug)) ?? getStaticBlogPost(slug);
   if (!post) notFound();
 
   // Format the date

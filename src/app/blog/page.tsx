@@ -6,6 +6,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getBlogPosts } from "@/lib/supabase";
+import { STATIC_BLOG_POSTS } from "@/lib/blog-posts";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
@@ -19,7 +20,9 @@ export const metadata: Metadata = {
 export const revalidate = 3600;
 
 export default async function BlogPage() {
-  const posts = await getBlogPosts();
+  // Fetch from Supabase first; fall back to static posts if empty
+  const supabasePosts = await getBlogPosts();
+  const posts = supabasePosts.length > 0 ? supabasePosts : STATIC_BLOG_POSTS;
 
   return (
     <>

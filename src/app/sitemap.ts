@@ -6,6 +6,7 @@
 import type { MetadataRoute } from "next";
 import { getAllCitySlugs } from "@/lib/cities";
 import { getBlogPosts } from "@/lib/supabase";
+import { STATIC_BLOG_POSTS } from "@/lib/blog-posts";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = "https://vivipm.com";
@@ -77,8 +78,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     changeFrequency: "monthly" as const,
   }));
 
-  // Blog posts from Supabase
-  const posts = await getBlogPosts();
+  // Blog posts from Supabase; fall back to static posts if empty
+  const supabasePosts = await getBlogPosts();
+  const posts = supabasePosts.length > 0 ? supabasePosts : STATIC_BLOG_POSTS;
   const blogPages = posts.map((post) => ({
     path: `/blog/${post.slug}`,
     priority: 0.7,
