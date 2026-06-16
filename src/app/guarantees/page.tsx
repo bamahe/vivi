@@ -100,9 +100,9 @@ const GUARANTEE_FAQS = [
   },
   {
     q: "Where can I see ViVi's full fee schedule?",
-    a: `Our complete fee schedule is published on our pricing page at vivipm.com/pricing. Management fee is ${SITE.feeRange} of rent collected, placement fee is the first month's rent, lease renewal is ${SITE.renewalFee}, and onboarding is ${SITE.setupFee}. No hidden fees beyond what is listed.`,
+    a: `Our complete fee schedule is published on our pricing page at vivipm.com/pricing. We offer three plans: Lease & List (placement only), Standard at 10% of rent, and Peace of Mind at $299/month flat. Placement fee is 100% of first month's rent, lease renewal is ${SITE.renewalFee}, and onboarding is ${SITE.setupFee}. No hidden fees beyond what is listed.`,
     question: "Where can I see ViVi's full fee schedule?",
-    answer: `Our complete fee schedule is published on our pricing page at vivipm.com/pricing. Management fee is ${SITE.feeRange} of rent collected, placement fee is the first month's rent, lease renewal is ${SITE.renewalFee}, and onboarding is ${SITE.setupFee}. No hidden fees beyond what is listed.`,
+    answer: `Our complete fee schedule is published on our pricing page at vivipm.com/pricing. We offer three plans: Lease & List (placement only), Standard at 10% of rent, and Peace of Mind at $299/month flat. Placement fee is 100% of first month's rent, lease renewal is ${SITE.renewalFee}, and onboarding is ${SITE.setupFee}. No hidden fees beyond what is listed.`,
   },
 ];
 

@@ -41,9 +41,9 @@ const BLOG_QUEUE = [
   { title: "Lease clauses that protect Florida owners (and ones that don't hold up)", angle: "Late fees, pet terms, maintenance responsibility. What FL courts actually enforce.", category: "Legal" },
 
   // --- Maintenance ---
-  { title: "Preventive maintenance that saves Florida rental owners thousands", angle: "HVAC, roof, plumbing, pest — FL-specific stuff. Coordinated through Best Bay Services in-house.", category: "Maintenance" },
+  { title: "Preventive maintenance that saves Florida rental owners thousands", angle: "HVAC, roof, plumbing, pest — FL-specific stuff. Coordinated through Best Bay Services, our dedicated maintenance partner.", category: "Maintenance" },
   { title: "Florida heat, humidity, and your rental: the maintenance reality", angle: "AC load, mold prevention, exterior wear, pest pressure. Seasonal checklist for Tampa Bay properties.", category: "Maintenance" },
-  { title: "What a proper rental turnover actually includes", angle: "Clean, repair, repaint, re-key, photos, list — the checklist. How Best Bay handles it in-house.", category: "Maintenance" },
+  { title: "What a proper rental turnover actually includes", angle: "Clean, repair, repaint, re-key, photos, list — the checklist. How Best Bay Services handles turnovers.", category: "Maintenance" },
   { title: "Hurricane season prep for rental property owners", angle: "Pre-storm checklist, insurance review, tenant communication, post-storm process. Tampa Bay specific.", category: "Maintenance" },
   { title: "Why maintenance through Best Bay Services saves you more than you think", angle: "No third-party markup, faster response, quality control. How Best Bay Services works inside ViVi PM.", category: "Maintenance" },
 
@@ -61,7 +61,7 @@ const BLOG_QUEUE = [
   { title: "Rental property tax deductions Florida owners miss", angle: "Depreciation, repairs vs improvements, mileage, management fees, travel to property.", category: "Financial" },
   { title: "How owners get paid: draws, statements, and year-end reporting", angle: "Monthly disbursement timeline, owner portal, 1099 prep. Transparency in action.", category: "Financial" },
   { title: "Should you sell or keep renting? A framework for Florida owners", angle: "Equity, market conditions, hassle factor, tax implications. Decision guide, not a sales pitch.", category: "Financial" },
-  { title: "How much does property management actually cost in Tampa Bay?", angle: "Break down the fee: 8-12%, what's included, what competitors charge extra for. Total cost comparison.", category: "Financial" },
+  { title: "How much does property management actually cost in Tampa Bay?", angle: "Break down the fee: three plans (10% or $299/mo flat), what's included, what competitors charge extra for. Total cost comparison.", category: "Financial" },
 
   // --- Getting started ---
   { title: "Accidental landlord? What to do when you can't sell and have to rent", angle: "Inherited home, relocation, underwater — how to convert a home to a rental cleanly and quickly.", category: "Getting Started" },
@@ -70,7 +70,7 @@ const BLOG_QUEUE = [
   { title: "How to get your home rent-ready in Tampa Bay", angle: "The make-ready checklist: paint, clean, repairs, photos, pricing. What to spend money on and what to skip.", category: "Getting Started" },
 
   // --- Leasing & operations ---
-  { title: "How we lease a home in under 14 days", angle: "Step by step: photos, 3D tour, MLS, 200+ sites, showing strategy, application processing. The ViVi approach.", category: "Leasing" },
+  { title: "How we lease a home in under 14 days", angle: "Step by step: photos, MLS, 200+ sites, showing strategy, application processing. The ViVi approach.", category: "Leasing" },
   { title: "Lease renewals: when to raise rent and by how much", angle: "Market-based increases, retention math, FL notice requirements. When holding steady is the smart move.", category: "Leasing" },
   { title: "Turnover season in Tampa Bay: timing your vacancy to lease fast", angle: "Best months to list, turnover prep, how to minimize vacancy days between tenants.", category: "Leasing" },
   { title: "Section 8 and housing vouchers in Tampa Bay: should owners participate?", angle: "How it works, pros/cons, inspection requirements, guaranteed rent angle. County-specific details.", category: "Leasing" },

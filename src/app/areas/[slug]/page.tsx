@@ -31,15 +31,15 @@ export async function generateMetadata({
 
   return {
     title: `Property Management in ${city.name}, ${city.county}, FL`,
-    description: `Property management in ${city.name}, FL. ${SITE.feeRange}. Maintenance via Best Bay Services, tenant screening, and no hidden fees.`,
+    description: `Property management in ${city.name}, FL. Three plans from 10% of rent. Maintenance via Best Bay Services, tenant screening, and no hidden fees.`,
     openGraph: {
       title: `Property Management in ${city.name}, ${city.county}, FL | ViVi PM`,
-      description: `Full-service property management in ${city.name}. ${city.medianRent} median rent. ${SITE.feeRange}. No hidden fees.`,
+      description: `Full-service property management in ${city.name}. ${city.medianRent} median rent. Three plans from 10% of rent. No hidden fees.`,
     },
     twitter: {
       card: "summary_large_image",
       title: `Property Management in ${city.name}, ${city.county}, FL | ViVi PM`,
-      description: `Full-service property management in ${city.name}. ${SITE.feeRange}. No hidden fees.`,
+      description: `Full-service property management in ${city.name}. Three plans from 10% of rent. No hidden fees.`,
     },
     alternates: { canonical: `https://vivipm.com/areas/${slug}` },
   };
@@ -94,7 +94,7 @@ export default async function CityPage({
         name: city.county,
       },
     },
-    priceRange: SITE.feeRange,
+    priceRange: "10% monthly or $299/month flat",
   };
 
   return (
@@ -150,7 +150,7 @@ export default async function CityPage({
       <section className="px-6 py-16 sm:py-20">
         <QuickAnswer
           question={`Who provides property management in ${city.name}, Florida?`}
-          answer={`ViVi Property Management provides full-service property management in ${city.name}, ${city.county}. Led by Barrett Henry with 23+ years of real estate experience, ViVi charges ${SITE.feeRange} of rent collected with no hidden fees. Services include tenant screening, maintenance through Best Bay Services, rent collection, inspections, and financial reporting. Call ${SITE.phone}.`}
+          answer={`ViVi Property Management provides full-service property management in ${city.name}, ${city.county}. Led by Barrett Henry with 23+ years of real estate experience, ViVi offers three plans — placement-only, full management at 10%, or flat-fee at $299/month — with no hidden fees. Services include tenant screening, maintenance through Best Bay Services, rent collection, inspections, and financial reporting. Call ${SITE.phone}.`}
         />
       </section>
 
@@ -170,7 +170,7 @@ export default async function CityPage({
             <p className="mt-1 text-xs font-medium uppercase tracking-widest text-[var(--muted-text)]">Population</p>
           </div>
           <div className="text-center">
-            <p className="font-display text-3xl font-bold text-accent">{SITE.feeRange}</p>
+            <p className="font-display text-3xl font-bold text-accent">From 10%/month</p>
             <p className="mt-1 text-xs font-medium uppercase tracking-widest text-[var(--muted-text)]">Management fee</p>
           </div>
         </div>
@@ -222,7 +222,7 @@ export default async function CityPage({
             What does ViVi&apos;s {city.name} property management include?
           </h2>
           <p className="mb-10 text-[var(--muted-text)]">
-            One plan. Everything included. {SITE.feeRange} of monthly rent collected.
+            Three plans starting at 10% of rent. No maintenance markup. No vacancy fees.
           </p>
           <div className="grid gap-3 sm:grid-cols-2">
             {INCLUDED.map((item) => (

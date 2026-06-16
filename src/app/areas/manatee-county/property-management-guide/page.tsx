@@ -52,7 +52,7 @@ export default function ManateePMGuidePage() {
     {
       question: "What is the average property management fee in Manatee County?",
       answer:
-        "Most Manatee County property management companies charge between 8% and 12% of monthly rent collected. Additional fees may include a leasing or placement fee (typically 50-100% of one month's rent), a setup fee ($200-$500), and a lease renewal fee ($150-$300). ViVi Property Management charges 8-12% with no vacancy fees and no maintenance markups.",
+        "Most Manatee County property management companies charge between 8% and 12% of monthly rent collected. Additional fees may include a leasing or placement fee (typically 50-100% of one month's rent), a setup fee ($200-$500), and a lease renewal fee ($150-$300). ViVi Property Management offers three plans — Lease &amp; List (placement only), Standard at 10% of rent, or Peace of Mind at $299/month flat — with no vacancy fees and $0 maintenance markup through Best Bay Services.",
     },
     {
       question: "What makes Lakewood Ranch property management complex?",
@@ -262,7 +262,7 @@ export default function ManateePMGuidePage() {
 
             <h3 className="text-xl font-semibold text-[var(--foreground)]">Premium tenant expectations</h3>
             <p>
-              Lakewood Ranch tenants are typically higher-income professionals and families who expect a premium living experience. Properties must be well-maintained, landscaping must be impeccable (HOA violations for landscaping are common), and response times for maintenance requests must be fast. Professional photography and 3D tours are not optional — they are expected for properties at this price point.
+              Lakewood Ranch tenants are typically higher-income professionals and families who expect a premium living experience. Properties must be well-maintained, landscaping must be impeccable (HOA violations for landscaping are common), and response times for maintenance requests must be fast. Professional HDR photography is not optional — it is expected for properties at this price point.
             </p>
 
             <h3 className="text-xl font-semibold text-[var(--foreground)]">Age-restricted communities</h3>

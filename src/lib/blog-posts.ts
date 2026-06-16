@@ -162,14 +162,15 @@ If three or more of those don't apply, keep reading.
 
 ## What does a property manager actually cost?
 
-Let's use real numbers. Most Tampa Bay property managers charge between 8% and 12% of monthly rent collected. At [ViVi](/pricing), our fee structure is transparent:
+Let's use real numbers. Most Tampa Bay property managers charge between 8% and 12% of monthly rent collected. At [ViVi](/pricing), we offer three simple plans:
 
-- **Management fee:** 8–12% of rent collected (no rent collected = no fee)
-- **Leasing fee:** One month's rent for tenant placement
-- **Renewal fee:** $300 per lease renewal
-- **Setup fee:** $500 one-time per property
+- **Lease & List (Tenant Placement):** 100% of one month's rent — one-time fee. You self-manage after placement.
+- **Standard (Full Management):** 10% of monthly rent + 100% of first month's rent. Everything handled.
+- **Peace of Mind (Flat-Fee):** $299/month flat + 100% of first month's rent. Predictable billing for higher-rent properties.
+- **Setup/onboarding:** $250 one-time per property
+- **Lease renewal:** $250
 
-On a $2,000/month rental at 10%, that's $200/month in management fees. Sounds like a lot until you do the math on what self-managing costs you in time, mistakes, and vacancy.
+On a $2,000/month rental with the Standard plan, that's $200/month in management fees. Sounds like a lot until you do the math on what self-managing costs you in time, mistakes, and vacancy.
 
 ## What's the real cost of managing yourself?
 
@@ -187,7 +188,7 @@ If you decide to hire one, don't just pick the cheapest option. Here's what to l
 
 - **Local expertise:** They should know your [specific market area](/areas). Tampa Bay is not one market — Riverview is different from St. Pete is different from Wesley Chapel.
 - **Transparent fees:** No hidden charges. You should know exactly what you'll pay before signing. [Compare our pricing](/pricing) to anyone in the market.
-- **In-house maintenance:** This is rare but valuable. Our partnership with Best Bay Services means faster repairs at lower cost.
+- **Dedicated maintenance partner:** This is rare but valuable. Our partnership with Best Bay Services means faster repairs at lower cost.
 - **Communication:** You should be able to reach your property manager. We provide a dedicated manager for every property, not a call center.
 - **Guarantees:** We offer real [guarantees](/guarantees) — not marketing fluff. If we place a bad tenant, we replace them at our cost.
 
@@ -906,7 +907,7 @@ This is where most first-time landlords make their most expensive mistake: rushi
 
 ### Marketing your rental
 
-Professional photos are non-negotiable. A listing with cell phone photos gets 50% fewer inquiries. We use HDR photography and 3D virtual tours for every property we list. Your listing goes on the MLS (reaching 15,000+ local agents), Zillow, Trulia, Hotpads, and 200+ rental sites.
+Professional photos are non-negotiable. A listing with cell phone photos gets 50% fewer inquiries. We use HDR photography for every property we list. Your listing goes on the MLS (reaching 15,000+ local agents), Zillow, Trulia, Hotpads, and 200+ rental sites.
 
 ### Screening properly
 
@@ -1021,10 +1022,9 @@ Before we list anything, the property has to be ready. Not "good enough" — rea
 Then we bring in our photographer. Every ViVi listing gets:
 
 - **HDR photography** — professional quality, properly lit, wide-angle shots of every room
-- **3D virtual tour** — tenants can walk through the property online before scheduling an in-person showing
 - **Accurate floor plan** — square footage, room layout, and dimensions
 
-Why does this matter? Listings with professional photos get **3x more inquiries** than listings with phone photos. The 3D tour reduces no-shows by letting serious prospects pre-screen themselves.
+Why does this matter? Listings with professional photos get **3x more inquiries** than listings with phone photos.
 
 ## Day 2–3: Multi-channel marketing launch
 

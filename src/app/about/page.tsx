@@ -30,7 +30,7 @@ export default function AboutPage() {
         name: "ViVi Property Management",
         url: "https://vivipm.com",
         description:
-          "Professional property management across Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties in Tampa Bay. Full-service management at 8-12% of rent collected with maintenance through Best Bay Services.",
+          "Professional property management across Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties in Tampa Bay. Three plans — placement-only, full management at 10%, or flat-fee at $299/month. Maintenance through Best Bay Services with $0 markup.",
         foundingDate: "2015",
         areaServed: [
           { "@type": "AdministrativeArea", name: "Hillsborough County, FL" },
@@ -200,7 +200,10 @@ export default function AboutPage() {
               Barrett Henry holds a Florida Broker Associate license with REMAX Collective and carries three professional designations: <strong>e-PRO</strong> (digital marketing), <strong>MRP</strong> (Military Relocation Professional), and <strong>SRS</strong> (Seller Representative Specialist). With 23+ years of real estate experience, Barrett founded <a href="https://nowtb.com" target="_blank" rel="noopener noreferrer" className="font-medium text-accent underline hover:text-accent-dark">The NOW Team</a> in 2015 and later launched ViVi Property Management to give property owners a transparent, full-service option across Tampa Bay. Barrett also publishes authoritative commercial real estate content at <a href="https://hencre.com" target="_blank" rel="noopener noreferrer" className="font-medium text-accent underline hover:text-accent-dark">hencre.com</a>.
             </p>
             <p>
-              Maintenance is handled through <strong>Best Bay Services</strong>, the dedicated partner that handles all repairs and upkeep for ViVi-managed properties. No third-party markups, faster response times, and quality the team personally stands behind. This vertically integrated model is what sets ViVi apart from traditional property managers.
+              ViVi Property Management is the client-facing brand of <strong>Collective Rental Resource LLC (CRR)</strong>, a licensed Florida real estate brokerage. Broker of Record: <strong>Katie Crider, License BK644954</strong>. All management agreements, leases, and escrow are held under Collective Rental Resource LLC. Barrett Henry operates as a Broker Associate under CRR.
+            </p>
+            <p>
+              Maintenance is handled through <strong>Best Bay Services</strong>, ViVi&apos;s dedicated maintenance partner. Best Bay Services is owned by James Evans, spouse of Barrett Henry — this relationship is fully disclosed. Best Bay charges actual cost with no markup, and owners are free to choose any vendor they prefer. Faster response times, no third-party markups, and quality the team personally stands behind.
             </p>
             <p>
               For property owners in the Valrico, Brandon, and Riverview area specifically, Barrett also operates <a href="https://valricopropertymgmt.com" target="_blank" rel="noopener noreferrer" className="font-medium text-accent underline hover:text-accent-dark">Valrico Property Management</a>, focused on east Hillsborough County neighborhoods.

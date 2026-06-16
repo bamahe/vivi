@@ -52,7 +52,7 @@ export default function PinellasPMGuidePage() {
     {
       question: "What is the average property management fee in Pinellas County?",
       answer:
-        "Most Pinellas County property management companies charge between 8% and 12% of monthly rent collected. Additional fees may include a leasing or placement fee (typically 50-100% of one month's rent), a setup fee ($200-$500), and a lease renewal fee ($150-$300). ViVi Property Management charges 8-12% with no vacancy fees and no maintenance markups.",
+        "Most Pinellas County property management companies charge between 8% and 12% of monthly rent collected. Additional fees may include a leasing or placement fee (typically 50-100% of one month's rent), a setup fee ($200-$500), and a lease renewal fee ($150-$300). ViVi Property Management offers three plans — Lease &amp; List (placement only), Standard at 10% of rent, or Peace of Mind at $299/month flat — with no vacancy fees and $0 maintenance markup through Best Bay Services.",
     },
     {
       question: "What are the unique challenges of managing beach and waterfront properties in Pinellas County?",

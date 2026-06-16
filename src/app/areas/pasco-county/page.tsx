@@ -16,17 +16,17 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 export const metadata: Metadata = {
   title: "Property Management in Pasco County, FL",
   description:
-    "Property management in Pasco County, FL — Wesley Chapel, Land O' Lakes, New Port Richey, and Zephyrhills. 8-12% of rent. No hidden fees.",
+    "Property management in Pasco County, FL — Wesley Chapel, Land O' Lakes, New Port Richey, and Zephyrhills. Three plans from 10% of rent. No hidden fees.",
   openGraph: {
     title: "Property Management in Pasco County, FL | ViVi PM",
     description:
-      "Full-service property management across Pasco County. New construction expertise. 8–12% management fee. No hidden fees.",
+      "Full-service property management across Pasco County. New construction expertise. Three plans from 10% of rent. No hidden fees.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Property Management in Pasco County, FL | ViVi PM",
     description:
-      "Full-service property management across Pasco County. 8-12% of rent collected. No hidden fees.",
+      "Full-service property management across Pasco County. Three plans from 10% of rent. No hidden fees.",
   },
   alternates: { canonical: "/areas/pasco-county" },
 };
@@ -90,7 +90,7 @@ export default function PascoCountyPage() {
         name: "Florida",
       },
     },
-    priceRange: SITE.feeRange,
+    priceRange: "10% monthly or $299/month flat",
   };
 
   return (
@@ -146,7 +146,7 @@ export default function PascoCountyPage() {
       <section className="px-6 py-16 sm:py-20">
         <QuickAnswer
           question="Who provides property management in Pasco County?"
-          answer={`ViVi Property Management provides full-service property management across Pasco County, Florida — including Wesley Chapel, Land O' Lakes, New Port Richey, and Zephyrhills. Led by Barrett Henry with 23+ years of real estate experience, ViVi charges ${SITE.feeRange} of rent collected with no hidden fees. We specialize in new-construction communities and HOA lease coordination. Call ${SITE.phone}.`}
+          answer={`ViVi Property Management provides full-service property management across Pasco County, Florida — including Wesley Chapel, Land O' Lakes, New Port Richey, and Zephyrhills. Led by Barrett Henry with 23+ years of real estate experience, ViVi offers three plans — placement-only, full management at 10%, or flat-fee at $299/month — with no hidden fees. We specialize in new-construction communities and HOA lease coordination. Call ${SITE.phone}.`}
         />
       </section>
 
@@ -200,7 +200,7 @@ export default function PascoCountyPage() {
             What does ViVi&apos;s Pasco County management include?
           </h2>
           <p className="mb-10 text-[var(--muted-text)]">
-            One plan. Everything included. {SITE.feeRange} of monthly rent collected.
+            Three plans starting at 10% of rent. No maintenance markup. No vacancy fees.
           </p>
           <div className="grid gap-3 sm:grid-cols-2">
             {INCLUDED.map((item) => (

@@ -405,7 +405,7 @@ export default async function BlogPostPage({
               href="/pricing"
               className="card px-5 py-4 text-sm font-medium transition-colors hover:border-accent"
             >
-              Transparent Pricing: 8-12%
+              Transparent Pricing: Three Plans
             </Link>
             <Link
               href="/areas"

@@ -16,17 +16,17 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 export const metadata: Metadata = {
   title: "Property Management in Manatee County, FL",
   description:
-    "Property management in Manatee County, FL — Bradenton, Lakewood Ranch, Parrish, and Palmetto. 8-12% of rent collected. No hidden fees.",
+    "Property management in Manatee County, FL — Bradenton, Lakewood Ranch, Parrish, and Palmetto. Three plans from 10% of rent. No hidden fees.",
   openGraph: {
     title: "Property Management in Manatee County, FL | ViVi PM",
     description:
-      "Full-service property management across Manatee County. Premium communities to waterfront living. 8–12% management fee. No hidden fees.",
+      "Full-service property management across Manatee County. Premium communities to waterfront living. Three plans from 10% of rent. No hidden fees.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Property Management in Manatee County, FL | ViVi PM",
     description:
-      "Full-service property management across Manatee County. 8-12% of rent collected. No hidden fees.",
+      "Full-service property management across Manatee County. Three plans from 10% of rent. No hidden fees.",
   },
   alternates: { canonical: "/areas/manatee-county" },
 };
@@ -90,7 +90,7 @@ export default function ManateeCountyPage() {
         name: "Florida",
       },
     },
-    priceRange: SITE.feeRange,
+    priceRange: "10% monthly or $299/month flat",
   };
 
   return (
@@ -146,7 +146,7 @@ export default function ManateeCountyPage() {
       <section className="px-6 py-16 sm:py-20">
         <QuickAnswer
           question="Who provides property management in Manatee County?"
-          answer={`ViVi Property Management provides full-service property management across Manatee County, Florida — including Bradenton, Lakewood Ranch, Parrish, and Palmetto. Led by Barrett Henry with 23+ years of real estate experience, ViVi charges ${SITE.feeRange} of rent collected with no hidden fees. We handle HOA and CDD coordination for Lakewood Ranch and other master-planned communities. Call ${SITE.phone}.`}
+          answer={`ViVi Property Management provides full-service property management across Manatee County, Florida — including Bradenton, Lakewood Ranch, Parrish, and Palmetto. Led by Barrett Henry with 23+ years of real estate experience, ViVi offers three plans — placement-only, full management at 10%, or flat-fee at $299/month — with no hidden fees. We handle HOA and CDD coordination for Lakewood Ranch and other master-planned communities. Call ${SITE.phone}.`}
         />
       </section>
 
@@ -200,7 +200,7 @@ export default function ManateeCountyPage() {
             What does ViVi&apos;s Manatee County management include?
           </h2>
           <p className="mb-10 text-[var(--muted-text)]">
-            One plan. Everything included. {SITE.feeRange} of monthly rent collected.
+            Three plans starting at 10% of rent. No maintenance markup. No vacancy fees.
           </p>
           <div className="grid gap-3 sm:grid-cols-2">
             {INCLUDED.map((item) => (

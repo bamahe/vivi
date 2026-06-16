@@ -6,14 +6,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { SITE, INCLUDED } from "@/lib/constants";
+import { SITE, PRICING_TIERS, ADDITIONAL_FEES, TENANT_FEES } from "@/lib/constants";
 import QuickAnswer from "@/components/QuickAnswer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Pricing — Transparent PM Fees",
   description:
-    "Transparent property management pricing. 8-12% of monthly rent collected. No hidden fees. Everything included from photography to eviction support.",
+    "Professional Tampa Bay property management. Three simple plans — placement-only, full management at 10%, or flat-fee at $299/month. No maintenance markups. Maintenance through Best Bay Services.",
   alternates: { canonical: "/pricing" },
 };
 
@@ -33,14 +33,13 @@ const SELF_VS_VIVI = [
 
 // Comparison: typical competitors vs ViVi
 const COMPETITOR_VS_VIVI = [
-  { feature: "Management fee", competitor: "8-12%", vivi: "8-12%" },
-  { feature: "Leasing/placement fee", competitor: "50-100% first month", vivi: "First month's rent" },
-  { feature: "Maintenance markup", competitor: "10-20% markup", vivi: "Coordinated through Best Bay Services" },
+  { feature: "Management fee", competitor: "8-12%", vivi: "10% or $299/month flat" },
+  { feature: "Leasing/placement fee", competitor: "50-100% first month", vivi: "100% of first month's rent" },
+  { feature: "Maintenance markup", competitor: "10-20% markup", vivi: "$0 — Best Bay Services, actual cost" },
   { feature: "Vacancy fee", competitor: "$50-100/month", vivi: "No vacancy fees" },
-  { feature: "Lease renewal fee", competitor: "$150-300", vivi: "$300" },
-  { feature: "Setup/onboarding fee", competitor: "$200-500", vivi: "$500" },
+  { feature: "Lease renewal fee", competitor: "$150-300", vivi: "$250" },
+  { feature: "Setup/onboarding fee", competitor: "$200-500", vivi: "$250" },
   { feature: "Photography", competitor: "Extra charge", vivi: "Professional HDR included" },
-  { feature: "3D virtual tour", competitor: "Rarely offered", vivi: "Available" },
   { feature: "Dedicated manager", competitor: "Pool of agents", vivi: "Dedicated to you" },
 ];
 
@@ -62,7 +61,7 @@ export default function PricingPage() {
             Property Management Pricing — Tampa Bay
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg text-white/80">
-            One plan. Everything included. No hidden fees or surprise charges.
+            Three simple plans. No hidden fees. $0 maintenance markup.
           </p>
         </div>
       </section>
@@ -79,44 +78,101 @@ export default function PricingPage() {
       <section className="px-6 py-16 sm:py-20">
         <QuickAnswer
           question="How much does property management cost in Hillsborough County?"
-          answer={`Property management in Hillsborough County typically costs 8–12% of monthly rent collected. ViVi Property Management charges ${SITE.feeRange} for full-service management across Tampa, Brandon, Valrico, Riverview, and all Hillsborough County cities. No vacancy fees, no maintenance markups, no hidden charges. Call ${SITE.phone} for a free rental analysis.`}
+          answer={`ViVi Property Management offers three plans for Hillsborough County owners: Lease & List (tenant placement only) for 100% of one month's rent, Standard full management at 10% of monthly rent, and Peace of Mind flat-fee management at $299/month. Setup is $250 one-time. No vacancy fees, $0 maintenance markup through Best Bay Services. Call ${SITE.phone} for a free rental analysis.`}
         />
       </section>
 
-      {/* ---- Pricing card ---- */}
+      {/* ---- Three-tier pricing cards ---- */}
       <section className="px-6 py-20 sm:py-28">
-        <div className="mx-auto max-w-2xl">
-          <div className="card overflow-hidden">
-            <div className="gradient-accent px-8 py-8 text-center text-white">
-              <p className="text-sm font-medium uppercase tracking-widest opacity-80">
-                Full-Service Management
-              </p>
-              <p className="mt-3 font-display text-5xl font-bold">8&ndash;12%</p>
-              <p className="mt-2 text-base opacity-80">of monthly rent collected</p>
-              <p className="mt-1 text-sm opacity-60">
-                Percentage based on property type, location, and portfolio size
-              </p>
-            </div>
+        <div className="mx-auto max-w-6xl">
+          <div className="grid gap-8 lg:grid-cols-3">
+            {PRICING_TIERS.map((tier) => (
+              <div
+                key={tier.name}
+                className={`card overflow-hidden ${tier.popular ? "ring-2 ring-accent" : ""}`}
+              >
+                {/* Tier header */}
+                <div className={`px-6 py-8 text-center ${tier.popular ? "gradient-accent text-white" : "bg-[var(--card-bg)]"}`}>
+                  {tier.popular && (
+                    <p className="mb-2 text-xs font-semibold uppercase tracking-widest opacity-80">
+                      Most Popular
+                    </p>
+                  )}
+                  <p className="font-display text-2xl font-bold">{tier.name}</p>
+                  <p className={`mt-1 text-sm ${tier.popular ? "opacity-80" : "text-[var(--muted-text)]"}`}>
+                    {tier.subtitle}
+                  </p>
+                  <p className={`mt-4 font-display text-3xl font-bold ${tier.popular ? "" : "text-accent"}`}>
+                    {tier.price}
+                  </p>
+                  <p className={`mt-1 text-xs ${tier.popular ? "opacity-70" : "text-[var(--muted-text)]"}`}>
+                    {tier.priceNote}
+                  </p>
+                </div>
 
-            <div className="px-8 py-8">
-              <p className="mb-6 text-center text-xs font-semibold uppercase tracking-widest text-[var(--muted-text)]">
-                Everything included
-              </p>
-              <div className="grid gap-3 sm:grid-cols-2">
-                {INCLUDED.map((item) => (
-                  <div key={item} className="flex items-start gap-2.5 text-sm">
-                    <span className="mt-0.5 text-accent">&#10003;</span>
-                    <span>{item}</span>
+                {/* Tier details */}
+                <div className="px-6 py-6">
+                  <p className="mb-5 text-sm text-[var(--muted-text)]">{tier.description}</p>
+                  <ul className="space-y-2.5">
+                    {tier.includes.map((item) => (
+                      <li key={item} className="flex items-start gap-2.5 text-sm">
+                        <span className="mt-0.5 text-accent">&#10003;</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <div className="mt-8 text-center">
+                    <Link
+                      href="/rental-analysis"
+                      className={`inline-block rounded-full px-8 py-3.5 text-sm font-semibold transition-colors ${
+                        tier.popular
+                          ? "bg-accent text-white hover:bg-accent-dark"
+                          : "border border-accent text-accent hover:bg-accent hover:text-white"
+                      }`}
+                    >
+                      Get Your Free Rent Analysis
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Additional fees breakdown */}
+          <div className="mt-14 mx-auto max-w-3xl">
+            <h2 className="mb-6 text-center text-2xl font-semibold">Additional fees</h2>
+            <div className="card overflow-hidden">
+              <div className="divide-y divide-[var(--card-border)]">
+                {Object.values(ADDITIONAL_FEES).map((fee) => (
+                  <div key={fee.label} className="flex items-center justify-between px-6 py-4">
+                    <div>
+                      <p className="text-sm font-medium">{fee.label}</p>
+                      {fee.note && <p className="text-xs text-[var(--muted-text)]">{fee.note}</p>}
+                    </div>
+                    <p className="text-sm font-semibold text-accent">{fee.amount}</p>
                   </div>
                 ))}
               </div>
-              <div className="mt-8 text-center">
-                <Link
-                  href="/rental-analysis"
-                  className="inline-block rounded-full bg-accent px-8 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-accent-dark"
-                >
-                  Get Your Free Rent Analysis
-                </Link>
+            </div>
+          </div>
+
+          {/* Tenant-side fees */}
+          <div className="mt-10 mx-auto max-w-3xl">
+            <h2 className="mb-6 text-center text-2xl font-semibold">Tenant-paid fees</h2>
+            <p className="mb-4 text-center text-sm text-[var(--muted-text)]">
+              These fees are paid by the tenant, not the property owner.
+            </p>
+            <div className="card overflow-hidden">
+              <div className="divide-y divide-[var(--card-border)]">
+                {TENANT_FEES.map((fee) => (
+                  <div key={fee.label} className="flex items-center justify-between px-6 py-4">
+                    <div>
+                      <p className="text-sm font-medium">{fee.label}</p>
+                      {fee.note && <p className="text-xs text-[var(--muted-text)]">{fee.note}</p>}
+                    </div>
+                    <p className="text-sm font-semibold">{fee.amount}</p>
+                  </div>
+                ))}
               </div>
             </div>
           </div>

@@ -16,17 +16,17 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 export const metadata: Metadata = {
   title: "Property Management in Pinellas County, FL",
   description:
-    "Property management in Pinellas County, FL — St. Petersburg, Clearwater, Largo, Dunedin, and Seminole. 8-12% of rent collected. No hidden fees.",
+    "Property management in Pinellas County, FL — St. Petersburg, Clearwater, Largo, Dunedin, and Seminole. Three plans from 10% of rent. No hidden fees.",
   openGraph: {
     title: "Property Management in Pinellas County, FL | ViVi PM",
     description:
-      "Full-service property management across Pinellas County. Gulf Coast expertise. 8–12% management fee. No hidden fees.",
+      "Full-service property management across Pinellas County. Gulf Coast expertise. Three plans from 10% of rent. No hidden fees.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Property Management in Pinellas County, FL | ViVi PM",
     description:
-      "Full-service property management across Pinellas County. 8-12% of rent collected. No hidden fees.",
+      "Full-service property management across Pinellas County. Three plans from 10% of rent. No hidden fees.",
   },
   alternates: { canonical: "/areas/pinellas-county" },
 };
@@ -90,7 +90,7 @@ export default function PinellasCountyPage() {
         name: "Florida",
       },
     },
-    priceRange: SITE.feeRange,
+    priceRange: "10% monthly or $299/month flat",
   };
 
   return (
@@ -146,7 +146,7 @@ export default function PinellasCountyPage() {
       <section className="px-6 py-16 sm:py-20">
         <QuickAnswer
           question="Who provides property management in Pinellas County?"
-          answer={`ViVi Property Management provides full-service property management across Pinellas County, Florida — including St. Petersburg, Clearwater, Largo, Dunedin, and Seminole. Led by Barrett Henry with 23+ years of real estate experience, ViVi charges ${SITE.feeRange} of rent collected with no hidden fees. Maintenance through Best Bay Services handles coastal property needs. Call ${SITE.phone}.`}
+          answer={`ViVi Property Management provides full-service property management across Pinellas County, Florida — including St. Petersburg, Clearwater, Largo, Dunedin, and Seminole. Led by Barrett Henry with 23+ years of real estate experience, ViVi offers three plans — placement-only, full management at 10%, or flat-fee at $299/month — with no hidden fees. Maintenance through Best Bay Services handles coastal property needs. Call ${SITE.phone}.`}
         />
       </section>
 
@@ -200,7 +200,7 @@ export default function PinellasCountyPage() {
             What does ViVi&apos;s Pinellas County management include?
           </h2>
           <p className="mb-10 text-[var(--muted-text)]">
-            One plan. Everything included. {SITE.feeRange} of monthly rent collected.
+            Three plans starting at 10% of rent. No maintenance markup. No vacancy fees.
           </p>
           <div className="grid gap-3 sm:grid-cols-2">
             {INCLUDED.map((item) => (

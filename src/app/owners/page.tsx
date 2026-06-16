@@ -80,7 +80,7 @@ export default function OwnersPage() {
       <section className="px-6 py-16 sm:py-20">
         <QuickAnswer
           question="Why do Hillsborough County property owners hire a manager?"
-          answer={`Hillsborough County property owners hire managers to handle tenant screening, lease compliance, maintenance emergencies, rent collection, and Florida landlord-tenant law. ViVi Property Management covers all of this for ${SITE.feeRange} of rent collected — typically less than the cost of a single month of vacancy. Maintenance is coordinated through Best Bay Services with no third-party markups. Call ${SITE.phone}.`}
+          answer={`Hillsborough County property owners hire managers to handle tenant screening, lease compliance, maintenance emergencies, rent collection, and Florida landlord-tenant law. ViVi Property Management offers three plans — placement-only, full management at 10%, or flat-fee at $299/month — typically less than the cost of a single month of vacancy. Maintenance is coordinated through Best Bay Services with $0 markup. Call ${SITE.phone}.`}
         />
       </section>
 
@@ -199,17 +199,17 @@ export default function OwnersPage() {
             {
               question: "How do you handle maintenance and repairs?",
               answer:
-                "Maintenance is coordinated through Best Bay Services, our in-house maintenance partner. This means faster response times, no third-party markups, and quality we stand behind. For routine repairs, we handle everything. For larger expenses, we contact you for approval before any work begins.",
+                "Maintenance is coordinated through Best Bay Services, our dedicated maintenance partner. This means faster response times, no third-party markups, and quality we stand behind. For routine repairs, Best Bay handles everything. For larger expenses, we contact you for approval before any work begins.",
             },
             {
               question: "What does the onboarding process look like?",
               answer:
-                "We start with a free rental analysis to determine optimal rent pricing. Then we conduct a property inspection, handle any make-ready work, create professional listing photos and a 3D tour, and market the property across all major platforms. Most properties are tenant-ready within one to two weeks.",
+                "We start with a free rental analysis to determine optimal rent pricing. Then we conduct a property inspection, handle any make-ready work, create professional listing photos, and market the property across all major platforms. Most properties are tenant-ready within one to two weeks.",
             },
             {
               question: "How fast do you lease a property?",
               answer:
-                "Most properties lease within 14 to 30 days depending on condition, pricing, and market conditions. We use professional photography, 3D virtual tours, and syndicate listings across Zillow, Realtor.com, and dozens of other platforms to maximize exposure and reduce vacancy time.",
+                "Most properties lease within 14 to 30 days depending on condition, pricing, and market conditions. We use professional HDR photography and syndicate listings across Zillow, Realtor.com, and dozens of other platforms to maximize exposure and reduce vacancy time.",
             },
           ]}
         />

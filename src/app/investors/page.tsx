@@ -109,7 +109,7 @@ export default function InvestorsPage() {
       <section className="px-6 py-16 sm:py-20">
         <QuickAnswer
           question="Is Tampa Bay a good market for rental property investment?"
-          answer={`Tampa Bay is one of the strongest rental markets in the Southeast. Population growth, a diverse job market anchored by MacDill AFB, USF, and major hospitals, no state income tax, and landlord-friendly Florida laws create favorable conditions for investors. Hillsborough County median rents hover around $2,050 with low vacancy in professionally managed properties. ViVi Property Management handles everything for ${SITE.feeRange} of rent collected. Call ${SITE.phone}.`}
+          answer={`Tampa Bay is one of the strongest rental markets in the Southeast. Population growth, a diverse job market anchored by MacDill AFB, USF, and major hospitals, no state income tax, and landlord-friendly Florida laws create favorable conditions for investors. Hillsborough County median rents hover around $2,050 with low vacancy in professionally managed properties. ViVi Property Management offers three plans — placement-only, full management at 10%, or flat-fee at $299/month. Call ${SITE.phone}.`}
         />
       </section>
 
@@ -162,7 +162,7 @@ export default function InvestorsPage() {
               <h3 className="mb-3 font-display text-xl font-semibold">Full-service management</h3>
               <p className="text-sm leading-relaxed text-[var(--muted-text)]">
                 Leasing, screening, rent collection, inspections, financial reporting, and eviction support.
-                Everything covered under one management fee of {SITE.feeRange}.
+                Three plans — placement-only, full management at 10%, or flat-fee at $299/month.
               </p>
               <Link
                 href="/services"
@@ -172,7 +172,7 @@ export default function InvestorsPage() {
               </Link>
             </div>
             <div className="card p-8 text-center">
-              <h3 className="mb-3 font-display text-xl font-semibold">In-house maintenance</h3>
+              <h3 className="mb-3 font-display text-xl font-semibold">Dedicated maintenance partner</h3>
               <p className="text-sm leading-relaxed text-[var(--muted-text)]">
                 Best Bay Services handles repairs directly. No third-party markups, faster response
                 times, and quality we stand behind. This alone saves most investors thousands per year.
@@ -256,7 +256,7 @@ export default function InvestorsPage() {
             },
             {
               question: "How much does property management cost for investors?",
-              answer: `ViVi Property Management charges ${SITE.feeRange} of rent collected with no hidden fees. There is a one-time tenant placement fee of ${SITE.placementFee} and a ${SITE.setupFee} onboarding fee for new properties. No monthly fees during vacancy — you only pay when your property is earning. Call ${SITE.phone} for a custom quote.`,
+              answer: `ViVi Property Management offers three plans: Lease & List (placement only) for 100% of one month's rent, Standard full management at 10% of monthly rent, or Peace of Mind flat-fee at $299/month. All plans include first month's rent as a placement fee. Setup is ${SITE.setupFee} one-time. No monthly fees during vacancy. Call ${SITE.phone} for a custom quote.`,
             },
             {
               question: "Can I manage a Tampa Bay rental from out of state?",

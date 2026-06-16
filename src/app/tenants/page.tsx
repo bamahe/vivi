@@ -21,7 +21,7 @@ const APP_STEPS = [
   {
     step: "01",
     title: "Find a property",
-    desc: "Browse our available listings online. Each listing includes professional photos, a 3D virtual tour, rent amount, and property details.",
+    desc: "Browse our available listings online. Each listing includes professional photos, rent amount, and property details.",
   },
   {
     step: "02",

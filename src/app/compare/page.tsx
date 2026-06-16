@@ -96,7 +96,7 @@ const COMPARISON_ROWS = [
   {
     category: "Monthly cost",
     self: "$0 visible, $3K-6K hidden losses",
-    vivi: "8-12% of rent",
+    vivi: "10% or $299/mo flat",
     typical: "8-15% + hidden fees",
     selfIcon: "✗",
     viviIcon: "✓",
@@ -217,7 +217,7 @@ export default function ComparePage() {
       <section className="px-6 py-16 sm:py-20">
         <QuickAnswer
           question="Is it worth hiring a property manager in Tampa Bay?"
-          answer={`For most Tampa Bay landlords, yes. Self-managing a rental property costs $0 in visible fees but typically results in $3,000 to $6,000 per year in hidden losses from vacancies, underpriced rent, and maintenance overspending. Professional management at ${SITE.feeRange} usually pays for itself through faster leasing, better tenants, and fewer costly mistakes. Call ${SITE.phone} for a free rental analysis.`}
+          answer={`For most Tampa Bay landlords, yes. Self-managing a rental property costs $0 in visible fees but typically results in $3,000 to $6,000 per year in hidden losses from vacancies, underpriced rent, and maintenance overspending. Professional management starting at 10% of rent usually pays for itself through faster leasing, better tenants, and fewer costly mistakes. Call ${SITE.phone} for a free rental analysis.`}
         />
       </section>
 
@@ -368,7 +368,7 @@ export default function ComparePage() {
                 Transparent pricing, no lock-in
               </h3>
               <p className="text-sm leading-relaxed text-[var(--muted-text)]">
-                {SITE.feeRange} of rent collected. No vacancy fees. No
+                Three plans — placement-only, 10% of rent, or $299/month flat. No vacancy fees. No
                 advertising fees. No surprise charges. And if you want to leave,
                 30 days notice is all it takes. No 12-month contracts, no early
                 termination penalties.

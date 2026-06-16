@@ -16,17 +16,17 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 export const metadata: Metadata = {
   title: "Hillsborough County, FL Rentals",
   description:
-    "Property management across Hillsborough County, FL — Tampa, Brandon, Valrico, Riverview, and more. 8-12% of rent collected. No hidden fees.",
+    "Property management across Hillsborough County, FL — Tampa, Brandon, Valrico, Riverview, and more. Three plans from 10% of rent. No hidden fees.",
   openGraph: {
     title: "Property Management in Hillsborough County, FL | ViVi PM",
     description:
-      "Full-service property management across all of Hillsborough County. 8–12% management fee. Maintenance through Best Bay Services. No hidden fees.",
+      "Full-service property management across all of Hillsborough County. Three plans from 10% of rent. Maintenance through Best Bay Services. No hidden fees.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Hillsborough County, FL Property Management | ViVi PM",
     description:
-      "Full-service property management across Hillsborough County. 8-12% of rent collected. No hidden fees.",
+      "Full-service property management across Hillsborough County. Three plans from 10% of rent. No hidden fees.",
   },
   alternates: { canonical: "/areas/hillsborough-county" },
 };
@@ -49,7 +49,7 @@ export default function HillsboroughCountyPage() {
       question:
         "How much does property management cost in Hillsborough County?",
       answer:
-        "ViVi charges 8–12% of monthly rent collected for full-service management across all Hillsborough County cities. The rate depends on property type and location. There are no hidden fees, no vacancy charges, and no maintenance markups.",
+        "ViVi offers three plans for Hillsborough County properties — Lease & List (placement only, 100% of one month's rent), Standard (10% monthly + first month's rent), or Peace of Mind ($299/month flat + first month's rent). No hidden fees, no vacancy charges, and no maintenance markups.",
     },
     {
       question:
@@ -73,13 +73,13 @@ export default function HillsboroughCountyPage() {
       question:
         "How long does it take to lease a rental in Hillsborough County?",
       answer:
-        "Most ViVi-managed Hillsborough County properties lease within 14 days of being market-ready. We use professional HDR photography, 3D virtual tours, MLS syndication to 15,000+ local agents, and distribution across Zillow, Trulia, Hotpads, and 200+ rental listing sites. Proper pricing from the start is the biggest factor — overpriced properties sit, and every vacant day costs you money.",
+        "Most ViVi-managed Hillsborough County properties lease within 14 days of being market-ready. We use professional HDR photography, MLS syndication to 15,000+ local agents, and distribution across Zillow, Trulia, Hotpads, and 200+ rental listing sites. Proper pricing from the start is the biggest factor — overpriced properties sit, and every vacant day costs you money.",
     },
     {
       question:
         "Do I need a property manager in Hillsborough County?",
       answer:
-        "You are not legally required to hire a property manager in Hillsborough County, but managing a rental yourself means handling tenant screening, lease compliance, Florida landlord-tenant law, maintenance emergencies, rent collection, evictions, and financial reporting. Most owners find that professional management pays for itself through faster leasing, better tenants, lower maintenance costs, and fewer legal mistakes. ViVi charges 8–12% of rent collected — less than the cost of one month of vacancy.",
+        "You are not legally required to hire a property manager in Hillsborough County, but managing a rental yourself means handling tenant screening, lease compliance, Florida landlord-tenant law, maintenance emergencies, rent collection, evictions, and financial reporting. Most owners find that professional management pays for itself through faster leasing, better tenants, lower maintenance costs, and fewer legal mistakes. ViVi's plans start at 10% monthly — less than the cost of one month of vacancy.",
     },
     {
       question:
@@ -126,7 +126,7 @@ export default function HillsboroughCountyPage() {
         name: "Florida",
       },
     },
-    priceRange: SITE.feeRange,
+    priceRange: "10% monthly or $299/month flat",
   };
 
   // JSON-LD: HowTo schema for the property management process
@@ -153,7 +153,7 @@ export default function HillsboroughCountyPage() {
         "@type": "HowToStep",
         position: 3,
         name: "Professional marketing and listing",
-        text: "Professional HDR photography, 3D virtual tour, MLS syndication across 15,000+ agents, and distribution to Zillow, Trulia, Hotpads, and 200+ rental sites. Most Hillsborough County properties lease within 14 days.",
+        text: "Professional HDR photography, MLS syndication across 15,000+ agents, and distribution to Zillow, Trulia, Hotpads, and 200+ rental sites. Most Hillsborough County properties lease within 14 days.",
       },
       {
         "@type": "HowToStep",
@@ -253,7 +253,7 @@ export default function HillsboroughCountyPage() {
       <section className="px-6 py-16 sm:py-20">
         <QuickAnswer
           question="Who provides property management in Hillsborough County?"
-          answer={`ViVi Property Management provides full-service property management across all of Hillsborough County, Florida — including Tampa, Brandon, Valrico, Riverview, Plant City, Apollo Beach, Lithia, Seffner, and Temple Terrace. Led by Barrett Henry with 23+ years of real estate experience, ViVi charges ${SITE.feeRange} of rent collected with no hidden fees. Call ${SITE.phone}.`}
+          answer={`ViVi Property Management provides full-service property management across all of Hillsborough County, Florida — including Tampa, Brandon, Valrico, Riverview, Plant City, Apollo Beach, Lithia, Seffner, and Temple Terrace. Led by Barrett Henry with 23+ years of real estate experience, ViVi offers three plans — placement-only, full management at 10%, or flat-fee at $299/month — with no hidden fees. Call ${SITE.phone}.`}
         />
       </section>
 
@@ -335,7 +335,7 @@ export default function HillsboroughCountyPage() {
               Most Hillsborough County property management companies charge between 8% and 12% of monthly rent collected, and ViVi falls within that standard range. The exact percentage depends on property type, location within the county, and portfolio size. Where ViVi differs from the typical Hillsborough County manager is in what is included at that rate and what is not stacked on top.
             </p>
             <p>
-              ViVi&apos;s management fee covers everything: professional HDR photography, 3D virtual tours, MLS syndication, tenant screening, attorney-drafted Florida leases, monthly rent collection, owner portal access, financial reporting, maintenance coordination through Best Bay Services, inspections, eviction coordination, HOA lease approval handling, and a dedicated property manager. There are no vacancy fees — you only pay when rent is collected.
+              ViVi&apos;s management fee covers everything: professional HDR photography, MLS syndication, tenant screening, attorney-drafted Florida leases, monthly rent collection, owner portal access, financial reporting, maintenance coordination through Best Bay Services, inspections, eviction coordination, HOA lease approval handling, and a dedicated property manager. There are no vacancy fees — you only pay when rent is collected.
             </p>
             <p>
               Many Hillsborough County managers advertise low management percentages but then charge separately for photography ($200–$500), lease renewals ($150–$300), maintenance markups (10–20% on top of repair costs), vacancy fees ($50–$100/month while empty), and setup fees. ViVi&apos;s setup fee is $500, lease renewal is $300, and placement is one month&apos;s rent. Beyond that, there are no surprise charges. Maintenance through Best Bay Services means no third-party markups on repair costs, which alone saves most owners hundreds per year.
@@ -392,7 +392,7 @@ export default function HillsboroughCountyPage() {
               <span className="mb-3 inline-block font-display text-4xl font-bold text-accent/30">01</span>
               <h3 className="mb-2 font-display text-xl font-semibold">Prepare</h3>
               <p className="text-sm leading-relaxed text-[var(--muted-text)]">
-                We walk your property, build a make-ready checklist, coordinate repairs through Best Bay Services, and get it market-ready. Professional photos, 3D tour, and competitive rent analysis included.
+                We walk your property, build a make-ready checklist, coordinate repairs through Best Bay Services, and get it market-ready. Professional photos and competitive rent analysis included.
               </p>
             </div>
             <div className="text-center">
@@ -441,7 +441,7 @@ export default function HillsboroughCountyPage() {
             What does ViVi&apos;s Hillsborough County management include?
           </h2>
           <p className="mb-10 text-[var(--muted-text)]">
-            One plan. Everything included. {SITE.feeRange} of monthly rent collected.
+            Three plans starting at 10% of rent. No maintenance markup. No vacancy fees.
           </p>
           <div className="grid gap-3 sm:grid-cols-2">
             {INCLUDED.map((item) => (

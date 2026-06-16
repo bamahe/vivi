@@ -11,12 +11,83 @@ export const SITE = {
   address: "14310 N. Dale Mabry Hwy, Ste 100, Tampa, FL 33618",
   domain: "vivipm.com",
   url: "https://vivipm.com",
-  feeRange: "8–12% of rent collected",
-  placementFee: "first month's rent",
-  renewalFee: "$300",
-  setupFee: "$500",
+  // Pricing — three tiers replace the old single "8-12%" model
+  feeRange: "10% of rent collected or $299/month flat",
+  placementFee: "100% of one month's rent",
+  renewalFee: "$250",
+  setupFee: "$250",
+  maintenanceMarkup: "$0",
   areas: "Hillsborough, Pinellas, Pasco, Polk & Manatee Counties",
 } as const;
+
+// Three-tier pricing model
+export const PRICING_TIERS = [
+  {
+    name: "Lease & List",
+    subtitle: "Tenant Placement",
+    price: "100% of one month's rent",
+    priceNote: "one-time fee",
+    description: "For owners who want a great tenant placed, then self-manage.",
+    popular: false,
+    includes: [
+      "Professional HDR photography",
+      "MLS + 200+ site syndication",
+      "Comprehensive tenant screening",
+      "Attorney-drafted FL lease",
+      "Lease execution",
+      "Move-in coordination",
+    ],
+  },
+  {
+    name: "Standard",
+    subtitle: "Full Management",
+    price: "10% of monthly rent",
+    priceNote: "+ 100% of first month's rent",
+    description: "For owners who want everything handled.",
+    popular: true,
+    includes: [
+      "Everything in Lease & List",
+      "Monthly rent collection",
+      "Owner portal + monthly statements",
+      "Maintenance coordination ($0 markup)",
+      "6-month walkthrough in year one",
+      "Eviction coordination",
+      "Year-end 1099 + P&L",
+      "HOA lease approval handling",
+      "No monthly vacancy fees",
+      "Dedicated property manager",
+    ],
+  },
+  {
+    name: "Peace of Mind",
+    subtitle: "Flat-Fee Management",
+    price: "$299/month flat",
+    priceNote: "+ 100% of first month's rent",
+    description: "For higher-rent properties where a flat fee beats a percentage.",
+    popular: false,
+    includes: [
+      "Everything in Standard",
+      "Predictable flat monthly fee",
+      "Best for properties renting above $3,000/month",
+    ],
+  },
+] as const;
+
+// Supporting fees shown alongside pricing
+export const ADDITIONAL_FEES = {
+  setup: { label: "One-time setup/onboarding", amount: "$250", note: "walkthrough, photos, portal setup, listing creation" },
+  renewal: { label: "Lease renewal", amount: "$250", note: "" },
+  maintenanceMarkup: { label: "Maintenance markup", amount: "$0", note: "Best Bay Services charges actual cost" },
+  vacancyFee: { label: "Monthly vacancy fee", amount: "$0", note: "" },
+  eviction: { label: "Eviction", amount: "Owner pays court/attorney costs", note: "ViVi/CRR manages the process" },
+} as const;
+
+// Tenant-side fees (paid by tenant, not owner)
+export const TENANT_FEES = [
+  { label: "Attorney lease prep", amount: "$95", note: "paid by tenant" },
+  { label: "Renters insurance", amount: "Required", note: "$100K liability minimum; owner listed as interested party" },
+  { label: "Air filter delivery program", amount: "Billed to tenant", note: "" },
+] as const;
 
 export const COUNTIES = [
   {
@@ -50,7 +121,7 @@ export const SERVICES = [
   {
     icon: "⚡",
     title: "Minimal vacancies",
-    desc: "Professional photography, 3D tours, MLS syndication across 15,000+ agents, and marketing on Zillow, Trulia, and 200+ rental sites. Most properties rent in under 14 days.",
+    desc: "Professional HDR photography, MLS syndication across 15,000+ agents, and marketing on Zillow, Trulia, and 200+ rental sites. Most properties rent in under 14 days.",
   },
   {
     icon: "🔍",
@@ -68,7 +139,7 @@ export const PROCESS = [
   {
     step: "01",
     title: "Prepare",
-    desc: "We walk your property, build a make-ready checklist, coordinate needed work, and get it market-ready fast. Professional photos, 3D tour, and competitive rent analysis included.",
+    desc: "We walk your property, build a make-ready checklist, coordinate needed work, and get it market-ready fast. Professional photos and competitive rent analysis included.",
   },
   {
     step: "02",
@@ -82,23 +153,23 @@ export const PROCESS = [
   },
 ];
 
+// Everything included in the Standard (full management) tier
 export const INCLUDED = [
   "Professional HDR photography",
-  "Immersive 3D virtual tour",
   "MLS + 200+ site syndication",
   "Comprehensive tenant screening",
-  "Attorney-drafted FL leases",
+  "Attorney-drafted FL lease",
+  "Lease execution + move-in coordination",
   "Monthly rent collection",
-  "Owner portal + monthly reports",
-  "Maintenance coordination (Best Bay Services)",
+  "Owner portal + monthly statements",
+  "Maintenance coordination ($0 markup)",
+  "6-month walkthrough in year one",
   "Eviction coordination",
   "Year-end 1099 + P&L",
+  "HOA lease approval handling",
   "No monthly vacancy fees",
   "Dedicated property manager",
   "Pet screening",
-  "HOA lease approval handling",
-  "Home make-ready management",
-  "Damage protection plan",
 ];
 
 export const FAQS = [
@@ -140,7 +211,7 @@ export const FAQS = [
   },
   {
     q: "What if I only need help finding a tenant?",
-    a: "We offer a tenant placement service — marketing, screening, and lease execution for a one-time fee. You handle management, we find you the right tenant.",
+    a: "Our Lease & List tier is built for exactly that — professional photography, MLS syndication, comprehensive screening, attorney-drafted lease, and move-in coordination for a one-time fee of 100% of one month's rent. You handle ongoing management; we find you the right tenant.",
   },
   {
     q: "Is there a tax benefit to renting out my home?",

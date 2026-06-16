@@ -20,7 +20,7 @@ const ALL_SERVICES = [
   {
     icon: "📋",
     title: "Leasing & Marketing",
-    desc: "Professional HDR photography, immersive 3D virtual tours, competitive rent analysis, MLS listing across 15,000+ agents, and syndication to Zillow, Trulia, Hotpads, and 200+ rental sites. Most properties rent in under 14 days.",
+    desc: "Professional HDR photography, competitive rent analysis, MLS listing across 15,000+ agents, and syndication to Zillow, Trulia, Hotpads, and 200+ rental sites. Most properties rent in under 14 days.",
   },
   {
     icon: "🔍",
@@ -87,7 +87,7 @@ export default function ServicesPage() {
           itemOffered: {
             "@type": "Service",
             name: "Leasing & Marketing",
-            description: "Professional HDR photography, 3D virtual tours, MLS listing across 15,000+ agents, and syndication to 200+ rental sites. Most properties rent in under 14 days.",
+            description: "Professional HDR photography, MLS listing across 15,000+ agents, and syndication to 200+ rental sites. Most properties rent in under 14 days.",
           },
         },
         {
@@ -192,7 +192,7 @@ export default function ServicesPage() {
       <section className="px-6 py-16 sm:py-20">
         <QuickAnswer
           question="What property management services are available in Hillsborough County?"
-          answer={`ViVi Property Management provides full-service property management across Hillsborough County, FL — including leasing, tenant screening, maintenance through Best Bay Services, inspections, financial reporting, eviction support, and HOA lease approval handling. ${SITE.feeRange} of rent collected. No hidden fees. Call ${SITE.phone}.`}
+          answer={`ViVi Property Management provides full-service property management across Hillsborough County, FL — including leasing, tenant screening, maintenance through Best Bay Services, inspections, financial reporting, eviction support, and HOA lease approval handling. Three plans — placement-only, 10% of rent, or $299/month flat. No hidden fees. Call ${SITE.phone}.`}
         />
       </section>
 
@@ -231,7 +231,7 @@ export default function ServicesPage() {
             </Link>
             <Link href="/pricing" className="card block p-6 transition-colors hover:border-accent">
               <p className="mb-2 font-display text-lg font-semibold">Transparent Pricing</p>
-              <p className="text-sm leading-relaxed text-[var(--muted-text)]">{SITE.feeRange} of rent collected. No hidden fees, no vacancy charges.</p>
+              <p className="text-sm leading-relaxed text-[var(--muted-text)]">Three plans from 10% of rent. No hidden fees, no vacancy charges.</p>
             </Link>
             <Link href="/blog/cost-of-bad-tenant-screening-prevents-it" className="card block p-6 transition-colors hover:border-accent">
               <p className="mb-2 font-display text-lg font-semibold">The True Cost of a Bad Tenant</p>

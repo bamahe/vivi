@@ -52,7 +52,7 @@ export default function PascoPMGuidePage() {
     {
       question: "What is the average property management fee in Pasco County?",
       answer:
-        "Most Pasco County property management companies charge between 8% and 12% of monthly rent collected. Additional fees may include a leasing or placement fee (typically 50-100% of one month's rent), a setup fee ($200-$500), and a lease renewal fee ($150-$300). ViVi Property Management charges 8-12% with no vacancy fees and no maintenance markups.",
+        "Most Pasco County property management companies charge between 8% and 12% of monthly rent collected. Additional fees may include a leasing or placement fee (typically 50-100% of one month's rent), a setup fee ($200-$500), and a lease renewal fee ($150-$300). ViVi Property Management offers three plans — Lease &amp; List (placement only), Standard at 10% of rent, or Peace of Mind at $299/month flat — with no vacancy fees and $0 maintenance markup through Best Bay Services.",
     },
     {
       question: "What should I know about managing new construction rentals in Pasco County?",
@@ -82,7 +82,7 @@ export default function PascoPMGuidePage() {
     {
       question: "How long does it take to lease a rental property in Pasco County?",
       answer:
-        "Well-priced, well-marketed Pasco County rental properties typically lease within 14-21 days. Wesley Chapel and Land O' Lakes lease fastest due to high demand from families relocating to the area. Zephyrhills and New Port Richey may take slightly longer due to smaller tenant pools. Professional marketing — HDR photography, 3D tours, MLS syndication, and distribution across 200+ rental sites — significantly reduces time on market.",
+        "Well-priced, well-marketed Pasco County rental properties typically lease within 14-21 days. Wesley Chapel and Land O' Lakes lease fastest due to high demand from families relocating to the area. Zephyrhills and New Port Richey may take slightly longer due to smaller tenant pools. Professional marketing — HDR photography, MLS syndication, and distribution across 200+ rental sites — significantly reduces time on market.",
     },
     {
       question: "What CDD fees should Pasco County landlords know about?",

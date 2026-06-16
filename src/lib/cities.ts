@@ -56,7 +56,7 @@ export const CITIES: CityData[] = [
     faqs: [
       {
         q: "How much does property management cost in Tampa?",
-        a: "ViVi charges 8-12% of monthly rent collected for full-service management in Tampa. No hidden fees, no vacancy charges, no maintenance markups. The rate depends on property type and location within Tampa.",
+        a: "ViVi offers three plans for Tampa properties — Lease & List (placement only, 100% of one month's rent), Standard (10% monthly + first month's rent), or Peace of Mind ($299/month flat + first month's rent). No hidden fees, no vacancy charges, no maintenance markups.",
       },
       {
         q: "What neighborhoods in Tampa have the best rental returns?",
@@ -64,7 +64,7 @@ export const CITIES: CityData[] = [
       },
       {
         q: "How quickly do Tampa rentals lease?",
-        a: "Most ViVi-managed Tampa properties lease within 14 days. We use professional photography, 3D tours, MLS syndication to 15,000+ agents, and distribution across Zillow, Trulia, and 200+ rental sites.",
+        a: "Most ViVi-managed Tampa properties lease within 14 days. We use professional HDR photography, MLS syndication to 15,000+ agents, and distribution across Zillow, Trulia, and 200+ rental sites.",
       },
       {
         q: "What is the average rent in Tampa, FL?",
@@ -103,7 +103,7 @@ export const CITIES: CityData[] = [
     faqs: [
       {
         q: "How much does property management cost in Brandon, FL?",
-        a: "ViVi charges 8-12% of monthly rent collected for Brandon properties. Everything is included — tenant screening, maintenance, rent collection, inspections, and financial reporting. No vacancy fees.",
+        a: "ViVi offers three plans for Brandon properties — placement-only, full management at 10% monthly, or flat-fee at $299/month. Everything is included — tenant screening, maintenance, rent collection, inspections, and financial reporting. No vacancy fees.",
       },
       {
         q: "What should my Brandon rental rent for?",
@@ -150,7 +150,7 @@ export const CITIES: CityData[] = [
     faqs: [
       {
         q: "How much does property management cost in Valrico?",
-        a: "ViVi charges 8-12% of monthly rent collected for Valrico properties. Our team lives locally — we manage homes in the same neighborhoods we live in.",
+        a: "ViVi offers three plans for Valrico properties — placement-only, full management at 10% monthly, or flat-fee at $299/month. Our team lives locally — we manage homes in the same neighborhoods we live in.",
       },
       {
         q: "What are the best Valrico neighborhoods for rental properties?",
@@ -185,7 +185,7 @@ export const CITIES: CityData[] = [
     intro:
       "Riverview is one of the fastest-growing communities in Hillsborough County. New construction, master-planned communities, and proximity to I-75 make it a magnet for renters relocating to Tampa Bay. Property owners benefit from strong demand and newer housing stock that requires less maintenance.",
     whyManage:
-      "Riverview's rapid growth means the rental market is competitive. Properties need to be priced right and marketed fast to capture the best tenants. ViVi PM's aggressive marketing strategy — professional photography, 3D tours, and MLS syndication — ensures your Riverview rental doesn't sit vacant while the house next door fills up.",
+      "Riverview's rapid growth means the rental market is competitive. Properties need to be priced right and marketed fast to capture the best tenants. ViVi PM's aggressive marketing strategy — professional HDR photography and MLS syndication — ensures your Riverview rental doesn't sit vacant while the house next door fills up.",
     rentalMarket:
       "Riverview's tenant pool skews younger and more mobile — professionals and families who are renting while they explore the Tampa Bay market. This means higher turnover than Valrico, but also strong demand and the ability to reset rents at market rate more frequently.",
     neighborhoods: [
@@ -197,7 +197,7 @@ export const CITIES: CityData[] = [
     faqs: [
       {
         q: "How much does property management cost in Riverview?",
-        a: "ViVi charges 8-12% of monthly rent collected. Riverview's newer homes typically need less maintenance, which keeps your total cost of ownership low.",
+        a: "ViVi offers three plans for Riverview properties — placement-only, full management at 10% monthly, or flat-fee at $299/month. Riverview's newer homes typically need less maintenance, which keeps your total cost of ownership low.",
       },
       {
         q: "Is Riverview a good area for rental property investment?",
@@ -252,7 +252,7 @@ export const CITIES: CityData[] = [
       },
       {
         q: "How much does property management cost in Plant City?",
-        a: "ViVi charges 8-12% of monthly rent collected for Plant City properties. Given Plant City's lower rent price points, the absolute dollar cost of management is very reasonable while still getting full-service coverage.",
+        a: "ViVi offers three plans for Plant City properties — placement-only, full management at 10% monthly, or flat-fee at $299/month. Given Plant City's lower rent price points, the flat-fee plan at $299/month can be especially cost-effective while still getting full-service coverage.",
       },
       {
         q: "What types of tenants rent in Plant City?",
@@ -299,7 +299,7 @@ export const CITIES: CityData[] = [
       },
       {
         q: "How much does property management cost in Apollo Beach?",
-        a: "ViVi charges 8-12% of monthly rent collected for Apollo Beach properties. Given the higher rents waterfront properties command, management fees represent strong value — professional management typically costs less than one month of vacancy.",
+        a: "ViVi offers three plans for Apollo Beach properties — placement-only, full management at 10% monthly, or flat-fee at $299/month. Given the higher rents waterfront properties command, management fees represent strong value — professional management typically costs less than one month of vacancy.",
       },
       {
         q: "What maintenance challenges are unique to Apollo Beach?",
@@ -342,7 +342,7 @@ export const CITIES: CityData[] = [
       },
       {
         q: "How much does property management cost in Lithia?",
-        a: "ViVi charges 8-12% of monthly rent collected for Lithia properties. Lithia's higher rents and long-term tenants mean strong net income for owners even after management fees.",
+        a: "ViVi offers three plans for Lithia properties — placement-only, full management at 10% monthly, or flat-fee at $299/month. Lithia's higher rents and long-term tenants mean strong net income for owners even after management fees.",
       },
       {
         q: "Why do Lithia tenants stay so long?",
@@ -388,7 +388,7 @@ export const CITIES: CityData[] = [
       },
       {
         q: "How much does property management cost in Seffner?",
-        a: "ViVi charges 8-12% of monthly rent collected for Seffner properties. Seffner's lower rent points mean lower absolute management costs, while you still get full-service coverage including screening, maintenance, and reporting.",
+        a: "ViVi offers three plans for Seffner properties — placement-only, full management at 10% monthly, or flat-fee at $299/month. Seffner's lower rent points make the flat-fee plan especially attractive, while you still get full-service coverage including screening, maintenance, and reporting.",
       },
       {
         q: "What do Seffner homes rent for?",
@@ -435,7 +435,7 @@ export const CITIES: CityData[] = [
       },
       {
         q: "How much does property management cost in Temple Terrace?",
-        a: "ViVi charges 8-12% of monthly rent collected for Temple Terrace properties. Full-service management includes tenant screening, maintenance through Best Bay Services, rent collection, and financial reporting.",
+        a: "ViVi offers three plans for Temple Terrace properties — placement-only, full management at 10% monthly, or flat-fee at $299/month. Full-service management includes tenant screening, maintenance through Best Bay Services, rent collection, and financial reporting.",
       },
       {
         q: "What do Temple Terrace homes rent for?",
@@ -478,7 +478,7 @@ export const CITIES: CityData[] = [
     faqs: [
       {
         q: "How much does property management cost in Lutz?",
-        a: "ViVi charges 8-12% of monthly rent collected for Lutz properties. Lutz's higher rents and long-term tenant base — families who stay 2-3+ years for the schools — mean strong net income even after management fees.",
+        a: "ViVi offers three plans for Lutz properties — placement-only, full management at 10% monthly, or flat-fee at $299/month. Lutz's higher rents and long-term tenant base — families who stay 2-3+ years for the schools — mean strong net income even after management fees.",
       },
       {
         q: "What do Lutz homes rent for?",
@@ -525,7 +525,7 @@ export const CITIES: CityData[] = [
     faqs: [
       {
         q: "How much does property management cost in Ruskin?",
-        a: "ViVi charges 8-12% of monthly rent collected for Ruskin properties. Ruskin's newer communities typically need less maintenance, keeping your total cost of ownership competitive.",
+        a: "ViVi offers three plans for Ruskin properties — placement-only, full management at 10% monthly, or flat-fee at $299/month. Ruskin's newer communities typically need less maintenance, keeping your total cost of ownership competitive.",
       },
       {
         q: "What do Ruskin homes rent for?",
@@ -576,7 +576,7 @@ export const CITIES: CityData[] = [
       },
       {
         q: "How much does property management cost in Sun City Center?",
-        a: "ViVi charges 8-12% of monthly rent collected. Given Sun City Center's HOA complexity (multiple sub-HOAs, CDD assessments, and deed-restriction compliance), professional management prevents costly violations and ensures your property stays compliant.",
+        a: "ViVi offers three plans for Sun City Center properties — placement-only, full management at 10% monthly, or flat-fee at $299/month. Given Sun City Center's HOA complexity (multiple sub-HOAs, CDD assessments, and deed-restriction compliance), professional management prevents costly violations and ensures your property stays compliant.",
       },
       {
         q: "Do you manage seasonal or snowbird rentals in Sun City Center?",
@@ -619,7 +619,7 @@ export const CITIES: CityData[] = [
     faqs: [
       {
         q: "How much does property management cost in Gibsonton?",
-        a: "ViVi charges 8-12% of monthly rent collected. Gibsonton's moderate rents mean management fees are very affordable in absolute dollars while still providing full-service coverage.",
+        a: "ViVi offers three plans for Gibsonton properties — placement-only, full management at 10% monthly, or flat-fee at $299/month. Gibsonton's moderate rents make the flat-fee plan especially affordable while still providing full-service coverage.",
       },
       {
         q: "What do Gibsonton homes rent for?",
@@ -670,7 +670,7 @@ export const CITIES: CityData[] = [
       },
       {
         q: "How much does property management cost in Wimauma?",
-        a: "ViVi charges 8-12% of monthly rent collected for Wimauma properties. Full-service management includes tenant screening, maintenance through Best Bay Services, rent collection, inspections, and financial reporting.",
+        a: "ViVi offers three plans for Wimauma properties — placement-only, full management at 10% monthly, or flat-fee at $299/month. Full-service management includes tenant screening, maintenance through Best Bay Services, rent collection, inspections, and financial reporting.",
       },
       {
         q: "What do Wimauma homes rent for?",
@@ -713,7 +713,7 @@ export const CITIES: CityData[] = [
     faqs: [
       {
         q: "How much does property management cost in Thonotosassa?",
-        a: "ViVi charges 8-12% of monthly rent collected. Thonotosassa properties may require more specialized maintenance (well/septic, larger lots), which makes professional management through our partner Best Bay Services especially valuable.",
+        a: "ViVi offers three plans for Thonotosassa properties — placement-only, full management at 10% monthly, or flat-fee at $299/month. Thonotosassa properties may require more specialized maintenance (well/septic, larger lots), which makes professional management through our partner Best Bay Services especially valuable.",
       },
       {
         q: "What do Thonotosassa homes rent for?",
@@ -759,7 +759,7 @@ export const CITIES: CityData[] = [
     faqs: [
       {
         q: "How much does property management cost in Dover?",
-        a: "ViVi charges 8-12% of monthly rent collected. Dover's lower rents keep absolute management costs very affordable while providing full-service coverage including screening, maintenance, and reporting.",
+        a: "ViVi offers three plans for Dover properties — placement-only, full management at 10% monthly, or flat-fee at $299/month. Dover's lower rents make the flat-fee plan especially cost-effective while providing full-service coverage including screening, maintenance, and reporting.",
       },
       {
         q: "What do Dover homes rent for?",
@@ -809,7 +809,7 @@ export const CITIES: CityData[] = [
     faqs: [
       {
         q: "How much does property management cost in St. Petersburg?",
-        a: "ViVi charges 8-12% of monthly rent collected for St. Pete properties. Given St. Pete's higher rents, professional management typically costs less than one month of vacancy.",
+        a: "ViVi offers three plans for St. Pete properties — placement-only, full management at 10% monthly, or flat-fee at $299/month. Given St. Pete's higher rents, professional management typically costs less than one month of vacancy.",
       },
       {
         q: "What are the best St. Pete neighborhoods for rental investment?",
@@ -894,7 +894,7 @@ export const CITIES: CityData[] = [
     intro:
       "Dunedin is a charming coastal town with a walkable downtown, craft breweries, and access to Honeymoon Island and Caladesi Island. The town's unique character attracts tenants willing to pay premium rents for the lifestyle.",
     whyManage:
-      "Dunedin's desirability means your property will attract interest — but also means tenants have high expectations. Professional photography, 3D tours, and competitive pricing are essential to capturing the best tenants. ViVi PM markets your Dunedin property like a premium listing because that's what Dunedin tenants expect.",
+      "Dunedin's desirability means your property will attract interest — but also means tenants have high expectations. Professional HDR photography and competitive pricing are essential to capturing the best tenants. ViVi PM markets your Dunedin property like a premium listing because that's what Dunedin tenants expect.",
     rentalMarket:
       "Dunedin attracts a mix of young professionals, remote workers, and active retirees. The downtown walkability factor drives demand for properties within biking distance of Main Street. Waterfront and Honeymoon Island-adjacent rentals command top dollar.",
     neighborhoods: [
@@ -1090,7 +1090,7 @@ export const CITIES: CityData[] = [
     intro:
       "Lakeland is the largest city in Polk County and sits at the midpoint between Tampa and Orlando along I-4. Strong job growth from Amazon, Publix headquarters, and Lakeland Regional Health drives consistent rental demand. The city's revitalized downtown and lakefront living add lifestyle appeal.",
     whyManage:
-      "Lakeland's growing market means more rental competition. Professional marketing and accurate pricing are the difference between leasing in 10 days and sitting vacant for 60. ViVi PM's marketing strategy — professional photos, 3D tours, and MLS syndication — gives your Lakeland property maximum exposure.",
+      "Lakeland's growing market means more rental competition. Professional marketing and accurate pricing are the difference between leasing in 10 days and sitting vacant for 60. ViVi PM's marketing strategy — professional HDR photography and MLS syndication — gives your Lakeland property maximum exposure.",
     rentalMarket:
       "Lakeland is attracting Tampa Bay spillover — tenants priced out of Hillsborough County who commute westbound on I-4. Amazon's massive distribution center and Publix's headquarters provide stable employment. South Lakeland and Grasslands are the hottest rental corridors.",
     neighborhoods: [
@@ -1102,7 +1102,7 @@ export const CITIES: CityData[] = [
     faqs: [
       {
         q: "How much does property management cost in Lakeland?",
-        a: "ViVi charges 8-12% of monthly rent collected. Lakeland's lower rents compared to Tampa mean lower absolute management costs while maintaining full service.",
+        a: "ViVi offers three plans for Lakeland properties — placement-only, full management at 10% monthly, or flat-fee at $299/month. Lakeland's lower rents make the flat-fee plan especially attractive compared to percentage-based management.",
       },
       {
         q: "Is Lakeland a good rental market?",

@@ -80,7 +80,7 @@ export default function OGImage() {
             marginTop: "24px",
           }}
         >
-          Tampa Bay &bull; 5 Counties &bull; 8-12% Management Fee &bull; (813) 428-9800
+          Tampa Bay &bull; 5 Counties &bull; Three Plans from 10% &bull; (813) 428-9800
         </p>
 
         {/* URL */}

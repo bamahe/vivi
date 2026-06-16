@@ -162,8 +162,22 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* ---- Copyright ---- */}
+        {/* ---- CRR Licensed Entity Disclosure ---- */}
         <div className="mt-10 border-t border-white/10 pt-8">
+          <p className="text-xs leading-relaxed text-white/50">
+            ViVi Property Management is the client-facing brand of <strong className="text-white/70">Collective Rental Resource LLC</strong>, a licensed Florida real estate brokerage. Broker of Record: Katie Crider, License BK644954. All management agreements, leases, and escrow are held under Collective Rental Resource LLC.
+          </p>
+        </div>
+
+        {/* ---- BBS Spousal Disclosure ---- */}
+        <div className="mt-4">
+          <p className="text-xs leading-relaxed text-white/50">
+            Best Bay Services, our maintenance partner, is owned by James Evans, spouse of Barrett Henry. This relationship is fully disclosed. Best Bay charges actual cost with no markup, and owners are free to choose any vendor they prefer.
+          </p>
+        </div>
+
+        {/* ---- Copyright ---- */}
+        <div className="mt-6 border-t border-white/10 pt-6">
           <div className="flex flex-col items-center justify-between gap-4 text-xs sm:flex-row">
             <p>&copy; {new Date().getFullYear()} {SITE.name}. All rights reserved.</p>
             <p>

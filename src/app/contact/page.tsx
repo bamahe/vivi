@@ -263,6 +263,17 @@ export default function ContactPage() {
                   23+ years of real estate experience
                 </p>
               </div>
+
+              {/* CRR Licensed Entity Disclosure */}
+              <div className="card p-6">
+                <p className="text-sm font-medium">Licensed Entity</p>
+                <p className="mt-1 text-sm text-[var(--muted-text)]">
+                  Collective Rental Resource LLC
+                </p>
+                <p className="mt-1 text-sm text-[var(--muted-text)]">
+                  Broker of Record: Katie Crider, BK644954
+                </p>
+              </div>
             </div>
           </div>
         </div>

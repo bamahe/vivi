@@ -52,7 +52,7 @@ export default function HillsboroughPMGuidePage() {
     {
       question: "What is the average property management fee in Hillsborough County?",
       answer:
-        "Most Hillsborough County property management companies charge between 8% and 12% of monthly rent collected. Additional fees may include a leasing or placement fee (typically 50-100% of one month's rent), a setup fee ($200-$500), and a lease renewal fee ($150-$300). ViVi Property Management charges 8-12% with no vacancy fees and no maintenance markups.",
+        "Most Hillsborough County property management companies charge between 8% and 12% of monthly rent collected. Additional fees may include a leasing or placement fee (typically 50-100% of one month's rent), a setup fee ($200-$500), and a lease renewal fee ($150-$300). ViVi Property Management offers three plans — Lease &amp; List (placement only), Standard at 10% of rent, or Peace of Mind at $299/month flat — with no vacancy fees and $0 maintenance markup through Best Bay Services.",
     },
     {
       question: "What are a landlord's legal obligations in Hillsborough County?",
@@ -97,7 +97,7 @@ export default function HillsboroughPMGuidePage() {
     {
       question: "What is the vacancy rate in Hillsborough County?",
       answer:
-        "Well-priced, well-maintained rental properties in Hillsborough County typically experience vacancy rates under 5%. ViVi-managed properties average less than 14 days on market. The key factors are accurate pricing from day one, professional marketing with HDR photography and 3D tours, and MLS syndication to 15,000+ local agents. Overpriced properties in any market will sit.",
+        "Well-priced, well-maintained rental properties in Hillsborough County typically experience vacancy rates under 5%. ViVi-managed properties average less than 14 days on market. The key factors are accurate pricing from day one, professional HDR photography, and MLS syndication to 15,000+ local agents. Overpriced properties in any market will sit.",
     },
   ];
 
