@@ -125,8 +125,8 @@ Extended vacancy. Every week your property sits empty costs you roughly 25% of o
     title: "Self-manage or hire a property manager? An honest breakdown",
     excerpt:
       "Property management fees eat into profit — but so does a 2 AM water heater call, a missed lease violation, and a costly eviction. Here's how to decide what's right for you.",
-    hero_image_url: "https://images.unsplash.com/photo-1450101499163-c8848e968f63?w=1200&h=630&fit=crop&q=80",
-    hero_image_credit: "Alejandro Escamilla",
+    hero_image_url: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=630&fit=crop&q=80",
+    hero_image_credit: "Tierra Mallorca",
     published_at: "2026-06-03T09:00:00Z",
     status: "published",
     category: "Management",
