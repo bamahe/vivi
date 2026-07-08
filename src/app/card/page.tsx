@@ -385,15 +385,8 @@ export default function CardPage() {
           </button>
         </div>
 
-        {/* ============================================================= */}
-        {/* FOOTER                                                         */}
-        {/* ============================================================= */}
-        <div className="text-center py-5 pb-10">
-          <p className="text-[10px] font-bold text-white/20 uppercase tracking-[2px]">
-            Site by Vyrabyte
-          </p>
-          <div className="w-6 h-0.5 rounded-sm mx-auto mt-2 opacity-50" style={{ background: GOLD }} />
-        </div>
+        {/* Bottom spacing */}
+        <div className="pb-10" />
       </div>
 
       {/* =================================================================== */}
