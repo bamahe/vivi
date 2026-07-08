@@ -28,7 +28,7 @@ function downloadVCard() {
     "FN:Barrett Henry",
     "ORG:ViVi Property Management",
     "TITLE:Property Manager",
-    "TEL;TYPE=CELL:+18134289800",
+    "TEL;TYPE=CELL:+18137337907",
     "EMAIL:barrett@vivipm.com",
     "URL:https://vivipm.com",
     "URL;TYPE=vCard:https://vivipm.com/card/",
@@ -259,7 +259,7 @@ export default function CardPage() {
         <div className="grid grid-cols-4 gap-2.5 px-6 pb-6">
           {/* Call */}
           <a
-            href="tel:+18134289800"
+            href="tel:+18137337907"
             className="flex flex-col items-center gap-2 py-4 px-1 rounded-[14px] no-underline active:scale-95 transition-all"
             style={{ background: NAVY_CARD, border: '1px solid rgba(255,255,255,0.08)' }}
           >
@@ -273,7 +273,7 @@ export default function CardPage() {
 
           {/* Text */}
           <a
-            href="sms:+18134289800"
+            href="sms:+18137337907"
             className="flex flex-col items-center gap-2 py-4 px-1 rounded-[14px] no-underline active:scale-95 transition-all"
             style={{ background: NAVY_CARD, border: '1px solid rgba(255,255,255,0.08)' }}
           >
