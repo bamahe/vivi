@@ -440,17 +440,17 @@ export default function CardPage() {
       {/* =================================================================== */}
       {/* KEYFRAME ANIMATIONS                                                 */}
       {/* =================================================================== */}
-      <style jsx global>{`
+      {/* eslint-disable-next-line react/no-danger -- inline styles to hide site chrome */}
+      <style dangerouslySetInnerHTML={{ __html: `
         /* Hide ALL site chrome so the card page is full-screen */
-        header,
-        footer,
-        #main-content ~ * {
+        header, footer, #main-content ~ * {
           display: none !important;
         }
         a[href="#main-content"] {
           display: none !important;
         }
         #main-content {
+          padding-top: 0 !important;
           padding-bottom: 0 !important;
           min-height: auto !important;
         }
@@ -478,7 +478,7 @@ export default function CardPage() {
         .animate-sheet-up {
           animation: sheet-up 0.3s cubic-bezier(0.16, 1, 0.3, 1);
         }
-      `}</style>
+      ` }} />
     </div>
   );
 }

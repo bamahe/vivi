@@ -328,20 +328,6 @@ export default async function BlogPostPage({
               className="h-auto w-full object-cover"
               priority
             />
-            {/* Photo credit — Unsplash requires attribution */}
-            {post.hero_image_credit && (
-              <p className="mt-2 text-xs text-[var(--muted-text)]">
-                Photo by {post.hero_image_credit} on{" "}
-                <a
-                  href="https://unsplash.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline"
-                >
-                  Unsplash
-                </a>
-              </p>
-            )}
           </div>
         </section>
       )}
