@@ -113,7 +113,7 @@ Extended vacancy. Every week your property sits empty costs you roughly 25% of o
 
 ---
 
-*Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 23+ years of real estate experience.*`,
+*Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 24+ years of real estate experience.*`,
   },
 
   // -------------------------------------------------------
@@ -221,7 +221,7 @@ Management agreements typically have a 30-day cancellation clause. If you're unh
 
 ---
 
-*Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 23+ years of real estate experience.*`,
+*Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 24+ years of real estate experience.*`,
   },
 
   // -------------------------------------------------------
@@ -239,7 +239,7 @@ Management agreements typically have a 30-day cancellation clause. If you're unh
     status: "published",
     category: "Screening",
     read_time: "7 min read",
-    body_mdx: `Every landlord who's had a bad tenant says the same thing afterward: "I should have screened better." The damage from one bad placement — financially and emotionally — can wipe out years of rental income. I've seen it happen dozens of times in 23+ years of real estate experience, and it's almost always preventable.
+    body_mdx: `Every landlord who's had a bad tenant says the same thing afterward: "I should have screened better." The damage from one bad placement — financially and emotionally — can wipe out years of rental income. I've seen it happen dozens of times in 24+ years of real estate experience, and it's almost always preventable.
 
 ## How much does a bad tenant actually cost?
 
@@ -328,7 +328,7 @@ Yes. Every adult (18+) who will live in the property should complete a full appl
 
 ---
 
-*Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 23+ years of real estate experience.*`,
+*Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 24+ years of real estate experience.*`,
   },
 
   // -------------------------------------------------------
@@ -462,7 +462,7 @@ A tenant can request early termination, but they're generally responsible for re
 
 ---
 
-*Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 23+ years of real estate experience.*`,
+*Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 24+ years of real estate experience.*`,
   },
 
   // -------------------------------------------------------
@@ -588,7 +588,7 @@ If the tenant objects in writing within 15 days of receiving your claim notice, 
 
 ---
 
-*Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 23+ years of real estate experience.*`,
+*Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 24+ years of real estate experience.*`,
   },
 
   // -------------------------------------------------------
@@ -716,7 +716,7 @@ Generally, no. Home warranties have coverage limits, exclusions, and slow respon
 
 ---
 
-*Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 23+ years of real estate experience.*`,
+*Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 24+ years of real estate experience.*`,
   },
 
   // -------------------------------------------------------
@@ -837,7 +837,7 @@ The same way we manage across all [five counties](/areas) — dedicated property
 
 ---
 
-*Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 23+ years of real estate experience.*`,
+*Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 24+ years of real estate experience.*`,
   },
 
   // -------------------------------------------------------
@@ -857,7 +857,7 @@ The same way we manage across all [five counties](/areas) — dedicated property
     read_time: "8 min read",
     body_mdx: `Congratulations — you own a rental property. Now the real work begins. Whether you inherited it, moved and decided to rent your old home, or bought it specifically as an investment, the steps from here are the same. And the order matters.
 
-I've helped hundreds of owners through this process over 23+ years of real estate experience. Here's the playbook.
+I've helped hundreds of owners through this process over 24+ years of real estate experience. Here's the playbook.
 
 ## What should you do before listing your rental?
 
@@ -989,7 +989,7 @@ Start marketing 30–45 days before it's available. If you have a current tenant
 
 ---
 
-*Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 23+ years of real estate experience.*`,
+*Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 24+ years of real estate experience.*`,
   },
 
   // -------------------------------------------------------
@@ -1113,7 +1113,7 @@ We can screen your prospect through our standard process. If they pass, we'll ex
 
 ---
 
-*Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 23+ years of real estate experience.*`,
+*Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 24+ years of real estate experience.*`,
   },
 
   // -------------------------------------------------------
@@ -1133,7 +1133,7 @@ We can screen your prospect through our standard process. If they pass, we'll ex
     read_time: "8 min read",
     body_mdx: `Rental property is one of the most tax-advantaged investments in America. But most owners — especially first-timers — leave thousands of dollars in deductions on the table every year. Not because the deductions don't exist. Because they don't know to claim them.
 
-I'm not a CPA, and this isn't tax advice. But after 23+ years in real estate and managing properties across [five Tampa Bay counties](/areas), I've seen what smart investors deduct and what the rest miss. Talk to your tax professional about each of these.
+I'm not a CPA, and this isn't tax advice. But after more than a decade in real estate and managing properties across [five Tampa Bay counties](/areas), I've seen what smart investors deduct and what the rest miss. Talk to your tax professional about each of these.
 
 ## What are the biggest deductions rental property owners miss?
 
@@ -1263,7 +1263,7 @@ Keep all receipts, bank statements, lease agreements, insurance policies, proper
 
 ---
 
-*Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 23+ years of real estate experience.*`,
+*Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 24+ years of real estate experience.*`,
   },
 ];
 

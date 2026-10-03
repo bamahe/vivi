@@ -114,7 +114,7 @@ export default function PolkCountyPage() {
             Property Management in Polk County, FL
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg font-light leading-relaxed text-white/80">
-            Lower entry prices. Stronger cash flow. Professional property management across Polk County with 23+ years of real estate experience.
+            Lower entry prices. Stronger cash flow. Professional property management across Polk County with 24+ years of real estate experience.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
@@ -146,7 +146,7 @@ export default function PolkCountyPage() {
       <section className="px-6 py-16 sm:py-20">
         <QuickAnswer
           question="Who provides property management in Polk County?"
-          answer={`ViVi Property Management provides full-service property management across Polk County, Florida — including Lakeland, Winter Haven, and Davenport along the I-4 corridor. Led by Barrett Henry with 23+ years of real estate experience, ViVi offers three plans — placement-only, full management at 10%, or flat-fee at $299/month — with no hidden fees. Polk County's lower price points and strong rental demand make it ideal for cash-flow investors. Call ${SITE.phone}.`}
+          answer={`ViVi Property Management provides full-service property management across Polk County, Florida — including Lakeland, Winter Haven, and Davenport along the I-4 corridor. Led by Barrett Henry with 24+ years of real estate experience, ViVi offers three plans — placement-only, full management at 10%, or flat-fee at $299/month — with no hidden fees. Polk County's lower price points and strong rental demand make it ideal for cash-flow investors. Call ${SITE.phone}.`}
         />
       </section>
 

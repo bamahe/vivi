@@ -122,7 +122,7 @@ const SYSTEM_PROMPT = `You are a blog content writer for ViVi Property Managemen
 
 Key facts about Barrett Henry and ViVi PM:
 - Barrett Henry is a licensed Florida Broker Associate with REMAX (the real estate brokerage)
-- He has 23+ years of real estate experience (do NOT tie this to Tampa Bay specifically — keep it general)
+- He has 24+ years of real estate experience (do NOT tie this to Tampa Bay specifically — keep it general)
 - ViVi PM manages rental properties across 5 Tampa Bay counties: Hillsborough, Pinellas, Pasco, Polk, and Manatee
 - Management fee: 8-12% of rent collected
 - Maintenance is handled through Best Bay Services (Barrett's maintenance company) — no third-party markup

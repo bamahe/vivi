@@ -274,7 +274,7 @@ export default function RentalAnalysisPage() {
               <ul className="flex flex-wrap gap-x-6 gap-y-2 text-xs text-[var(--muted-text)]">
                 <li className="flex items-center gap-1.5">
                   <span aria-hidden="true" className="text-accent">&#10003;</span>
-                  23+ years of real estate experience
+                  24+ years of real estate experience
                 </li>
                 <li className="flex items-center gap-1.5">
                   <span aria-hidden="true" className="text-accent">&#10003;</span>

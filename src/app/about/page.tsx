@@ -14,7 +14,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 export const metadata: Metadata = {
   title: "About Us — Barrett Henry, Broker",
   description:
-    "ViVi Property Management is led by Barrett Henry, a licensed Florida Broker Associate with REMAX Collective and 23+ years of real estate experience. Serving Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties.",
+    "ViVi Property Management is led by Barrett Henry, a licensed Florida Broker Associate with REMAX Collective and 24+ years of real estate experience. Serving Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties.",
   alternates: { canonical: "/about" },
 };
 
@@ -65,7 +65,7 @@ export default function AboutPage() {
         name: "Barrett Henry",
         jobTitle: "Broker Associate",
         description:
-          "Licensed Florida Broker Associate with REMAX Collective. 23+ years of real estate experience. Leads ViVi Property Management and The NOW Team.",
+          "Licensed Florida Broker Associate with REMAX Collective. 24+ years of real estate experience. Leads ViVi Property Management and The NOW Team.",
         worksFor: {
           "@type": "RealEstateAgent",
           name: "REMAX Collective",
@@ -176,7 +176,7 @@ export default function AboutPage() {
       <section className="px-6 py-16 sm:py-20">
         <QuickAnswer
           question="Who runs ViVi Property Management?"
-          answer="ViVi Property Management is led by Barrett Henry, a licensed Florida Broker Associate with REMAX Collective. With 23+ years of real estate experience and maintenance through Best Bay Services, Barrett and his team manage rental properties across five Tampa Bay counties — handling tenant screening, inspections, maintenance, and financial reporting."
+          answer="ViVi Property Management is led by Barrett Henry, a licensed Florida Broker Associate with REMAX Collective. With 24+ years of real estate experience and maintenance through Best Bay Services, Barrett and his team manage rental properties across five Tampa Bay counties — handling tenant screening, inspections, maintenance, and financial reporting."
         />
       </section>
 
@@ -197,7 +197,7 @@ export default function AboutPage() {
           </h2>
           <div className="space-y-6 text-[var(--muted-text)] leading-relaxed">
             <p>
-              Barrett Henry holds a Florida Broker Associate license with REMAX Collective and carries three professional designations: <strong>e-PRO</strong> (digital marketing), <strong>MRP</strong> (Military Relocation Professional), and <strong>SRS</strong> (Seller Representative Specialist). With 23+ years of real estate experience, Barrett founded <a href="https://nowtb.com" target="_blank" rel="noopener noreferrer" className="font-medium text-accent underline hover:text-accent-dark">The NOW Team</a> in 2015 and later launched ViVi Property Management to give property owners a transparent, full-service option across Tampa Bay. Barrett also publishes authoritative commercial real estate content at <a href="https://hencre.com" target="_blank" rel="noopener noreferrer" className="font-medium text-accent underline hover:text-accent-dark">hencre.com</a>.
+              Barrett Henry holds a Florida Broker Associate license with REMAX Collective and carries three professional designations: <strong>e-PRO</strong> (digital marketing), <strong>MRP</strong> (Military Relocation Professional), and <strong>SRS</strong> (Seller Representative Specialist). With 24+ years of real estate experience, Barrett founded <a href="https://nowtb.com" target="_blank" rel="noopener noreferrer" className="font-medium text-accent underline hover:text-accent-dark">The NOW Team</a> in 2015 and later launched ViVi Property Management to give property owners a transparent, full-service option across Tampa Bay. Barrett also publishes authoritative commercial real estate content at <a href="https://hencre.com" target="_blank" rel="noopener noreferrer" className="font-medium text-accent underline hover:text-accent-dark">hencre.com</a>.
             </p>
             <p>
               ViVi Property Management is the client-facing brand of <strong>Collective Rental Resource LLC (CRR)</strong>, a licensed Florida real estate brokerage. Broker of Record: <strong>Katie Crider, License BK644954</strong>. All management agreements, leases, and escrow are held under Collective Rental Resource LLC. Barrett Henry operates as a Broker Associate under CRR.

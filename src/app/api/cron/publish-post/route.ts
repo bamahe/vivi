@@ -23,7 +23,7 @@ const BLOG_QUEUE = [
   { title: "What does a property manager actually do all day?", angle: "Demystify the management fee — screening, rent collection, maintenance, legal, accounting. The invisible work that protects your investment.", category: "Management" },
   { title: "Questions to ask before hiring any property manager in Florida", angle: "Fees, contract terms, maintenance markup, communication style, references — owner empowerment checklist.", category: "Management" },
   { title: "What to expect in your first 30 days with a property manager", angle: "Onboarding timeline: inspections, tenant communication, portal setup, rent collection transition.", category: "Management" },
-  { title: "Why local matters more than national in property management", angle: "Barrett has 23+ years of FL RE experience. Corporate/out-of-area managers miss things. Local knowledge = fewer vacancies, better tenants.", category: "Management" },
+  { title: "Why local matters more than national in property management", angle: "Barrett has 24+ years of FL RE experience. Corporate/out-of-area managers miss things. Local knowledge = fewer vacancies, better tenants.", category: "Management" },
 
   // --- Tenants & Screening ---
   { title: "The true cost of one bad tenant (and how screening prevents it)", angle: "Eviction cost, lost rent, property damage, legal fees — quantify it. Tie to ViVi's screening process.", category: "Screening" },

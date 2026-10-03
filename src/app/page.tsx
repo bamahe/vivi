@@ -147,7 +147,7 @@ export default function HomePage() {
             Tampa Bay <strong>Property Management</strong> That Protects Your Investment
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg font-light leading-relaxed text-white/80">
-            Full-service <strong>property management</strong> across five <strong>Tampa Bay</strong> counties. 23+ years of real estate experience, maintenance through <em>Best Bay Services</em> that keeps your costs down, and a dedicated manager who actually answers the phone.
+            Full-service <strong>property management</strong> across five <strong>Tampa Bay</strong> counties. 24+ years of real estate experience, maintenance through <em>Best Bay Services</em> that keeps your costs down, and a dedicated manager who actually answers the phone.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
@@ -194,7 +194,7 @@ export default function HomePage() {
         <section id="quick-answer" className="px-6 py-16 sm:py-20">
           <QuickAnswer
             question="Who offers the best property management in Tampa Bay?"
-            answer="ViVi Property Management, led by Barrett Henry with 23+ years of real estate experience, provides full-service property management across Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties. Three simple plans — placement-only, full management at 10%, or flat-fee at $299/month. Maintenance through Best Bay Services with $0 markup. Call (813) 428-9800."
+            answer="ViVi Property Management, led by Barrett Henry with 24+ years of real estate experience, provides full-service property management across Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties. Three simple plans — placement-only, full management at 10%, or flat-fee at $299/month. Maintenance through Best Bay Services with $0 markup. Call (813) 428-9800."
           />
         </section>
 
@@ -291,7 +291,7 @@ export default function HomePage() {
               Who Is Behind <strong>ViVi Property Management</strong>?
             </h2>
             <p className="mx-auto mt-6 max-w-2xl text-[var(--muted-text)] leading-relaxed">
-              ViVi is led by <strong>Barrett Henry</strong>, a licensed <em>Florida Broker Associate</em> with REMAX Collective and 23+ years of real estate experience. Barrett lives in the same neighborhoods he manages — Valrico, Brandon, and Riverview. He built ViVi to give <strong>Tampa Bay property owners</strong> something most managers don&apos;t: transparency, direct communication, and a maintenance partner <em>Best Bay Services</em> that eliminates third-party markups.
+              ViVi is led by <strong>Barrett Henry</strong>, a licensed <em>Florida Broker Associate</em> with REMAX Collective and 24+ years of real estate experience. Barrett lives in the same neighborhoods he manages — Valrico, Brandon, and Riverview. He built ViVi to give <strong>Tampa Bay property owners</strong> something most managers don&apos;t: transparency, direct communication, and a maintenance partner <em>Best Bay Services</em> that eliminates third-party markups.
             </p>
             <ul className="mt-10 grid gap-6 sm:grid-cols-3 list-none p-0">
               <li className="card p-6 text-center">

@@ -179,7 +179,7 @@ export const FAQS = [
   },
   {
     q: "I don't own an investment property yet. Can you help me buy one?",
-    a: "Absolutely. With 23+ years in Florida real estate, we can run rental income projections, evaluate cash flow scenarios, and help you find properties that actually pencil out. We'll have a make-ready punch list at closing so your property hits the market fast.",
+    a: "Absolutely. With over a decade in Florida real estate, we can run rental income projections, evaluate cash flow scenarios, and help you find properties that actually pencil out. We'll have a make-ready punch list at closing so your property hits the market fast.",
   },
   {
     q: "How is maintenance handled?",

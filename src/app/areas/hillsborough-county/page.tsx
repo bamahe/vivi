@@ -97,7 +97,7 @@ export default function HillsboroughCountyPage() {
       question:
         "Can ViVi help me buy an investment property in Hillsborough County?",
       answer:
-        "Yes. With 23+ years of real estate experience, Barrett Henry can run rental income projections, evaluate cash-flow scenarios, and help you identify Hillsborough County properties that pencil out as rentals. We provide a make-ready punch list at closing so your new investment hits the rental market fast.",
+        "Yes. With 24+ years of real estate experience, Barrett Henry can run rental income projections, evaluate cash-flow scenarios, and help you identify Hillsborough County properties that pencil out as rentals. We provide a make-ready punch list at closing so your new investment hits the rental market fast.",
     },
   ];
 
@@ -221,7 +221,7 @@ export default function HillsboroughCountyPage() {
             Property Management in Hillsborough County, FL
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg font-light leading-relaxed text-white/80">
-            Full-service property management across 9 Hillsborough County cities — backed by 23+ years of real estate experience and maintenance through Best Bay Services.
+            Full-service property management across 9 Hillsborough County cities — backed by 24+ years of real estate experience and maintenance through Best Bay Services.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
@@ -253,7 +253,7 @@ export default function HillsboroughCountyPage() {
       <section className="px-6 py-16 sm:py-20">
         <QuickAnswer
           question="Who provides property management in Hillsborough County?"
-          answer={`ViVi Property Management provides full-service property management across all of Hillsborough County, Florida — including Tampa, Brandon, Valrico, Riverview, Plant City, Apollo Beach, Lithia, Seffner, and Temple Terrace. Led by Barrett Henry with 23+ years of real estate experience, ViVi offers three plans — placement-only, full management at 10%, or flat-fee at $299/month — with no hidden fees. Call ${SITE.phone}.`}
+          answer={`ViVi Property Management provides full-service property management across all of Hillsborough County, Florida — including Tampa, Brandon, Valrico, Riverview, Plant City, Apollo Beach, Lithia, Seffner, and Temple Terrace. Led by Barrett Henry with 24+ years of real estate experience, ViVi offers three plans — placement-only, full management at 10%, or flat-fee at $299/month — with no hidden fees. Call ${SITE.phone}.`}
         />
       </section>
 

@@ -391,10 +391,10 @@ export default function ComparePage() {
             {/* Experience */}
             <div className="card p-8">
               <h3 className="mb-3 font-display text-xl font-semibold">
-                23+ years of real estate experience
+                24+ years of real estate experience
               </h3>
               <p className="text-sm leading-relaxed text-[var(--muted-text)]">
-                ViVi is backed by 23+ years of real estate experience. We have
+                ViVi is backed by 24+ years of real estate experience. We have
                 seen every tenant situation, every maintenance emergency, and
                 every market shift. That experience means fewer surprises and
                 better decisions for your investment.

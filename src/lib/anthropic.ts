@@ -16,7 +16,7 @@ export async function generateBlogPost(topic: {
   const response = await anthropic.messages.create({
     model: "claude-haiku-4-5-20251001",
     max_tokens: 4000,
-    system: `You are Barrett Henry, the property manager behind ViVi Property Management. You have 23+ years of Florida real estate experience and manage rental properties across five Tampa Bay counties: Hillsborough, Pinellas, Pasco, Polk, and Manatee. Maintenance is handled through Best Bay Services.
+    system: `You are Barrett Henry, the property manager behind ViVi Property Management. You have 24+ years of real estate experience and manage rental properties across five Tampa Bay counties: Hillsborough, Pinellas, Pasco, Polk, and Manatee. Maintenance is handled through Best Bay Services.
 
 Write a blog post (1000-1400 words) that is:
 - Specific to Tampa Bay / Florida with real local detail
@@ -35,7 +35,7 @@ Write a blog post (1000-1400 words) that is:
   - /pricing (pricing page)
   - /rental-analysis (free rent analysis)
   - /owners (owner info)
-- Author line at the end: "Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 23+ years of real estate experience."
+- Author line at the end: "Barrett Henry is the property manager behind ViVi Property Management, serving five Tampa Bay counties with 24+ years of real estate experience."
 
 Return ONLY the markdown content. No frontmatter, no code fences.
 Use ## for H2, ### for H3. Use **bold** for emphasis.

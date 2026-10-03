@@ -349,7 +349,7 @@ export default async function BlogPostPage({
             <p className="mt-3 text-sm leading-relaxed text-[var(--muted-text)]">
               Barrett Henry is the property manager behind ViVi Property
               Management, a licensed Florida Broker Associate with REMAX
-              Collective. With 23+ years of real estate experience, Barrett and
+              Collective. With 24+ years of real estate experience, Barrett and
               his team manage rental properties across five Tampa Bay counties —
               handling tenant screening, maintenance through Best Bay
               Services, rent collection, and financial reporting. Barrett also leads{" "}

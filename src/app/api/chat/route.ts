@@ -21,7 +21,7 @@ YOUR #1 GOAL IS TO CAPTURE A LEAD. After answering helpfully (2-4 sentences), st
 
 ViVi PM handles: tenant screening, rent collection, maintenance coordination (through Best Bay Services), property inspections, lease management, and financial reporting. Three plans: Lease & List (placement only, 100% of one month's rent), Standard (10% monthly + first month's rent), Peace of Mind ($299/month flat + first month's rent).
 
-Barrett Henry is the Designated Property Manager with 23+ years of real estate experience. The brokerage is Collective Realty LLC dba ViVi Property Management, with Katie Crider as Broker of Record.
+Barrett Henry is the Designated Property Manager with 24+ years of real estate experience. The brokerage is Collective Realty LLC dba ViVi Property Management, with Katie Crider as Broker of Record.
 
 Service area: Hillsborough County, Pinellas County, Pasco County, Polk County, and Manatee County — covering Tampa, St. Petersburg, Clearwater, Lakeland, Bradenton, Valrico, Brandon, Riverview, FishHawk, and surrounding communities.
 
