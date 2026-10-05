@@ -4,7 +4,8 @@
 // ============================================
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useCallback, useRef, useState, type FormEvent } from "react";
+import TurnstileWidget from "@/components/TurnstileWidget";
 import Image from "next/image";
 import { SITE } from "@/lib/constants";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -19,6 +20,13 @@ export default function ContactPage() {
     message: "",
   });
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  // Turnstile token — submit stays disabled until Cloudflare issues one.
+  const [token, setToken] = useState("");
+  const handleVerify = useCallback((t: string) => setToken(t), []);
+  // Honeypot — hidden from real visitors, must arrive empty.
+  const [website, setWebsite] = useState("");
+  // When the form rendered; the API rejects anything submitted within seconds.
+  const formLoadedAt = useRef(Date.now());
 
   /** Handle form submission — sends email via API route */
   const handleSubmit = async (e: FormEvent) => {
@@ -29,7 +37,12 @@ export default function ContactPage() {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify({
+          ...form,
+          turnstileToken: token,
+          website,
+          formLoadedAt: String(formLoadedAt.current),
+        }),
       });
 
       if (!res.ok) throw new Error("Failed to send");
@@ -157,10 +170,26 @@ export default function ContactPage() {
                   />
                 </div>
 
+                {/* Honeypot — off-screen, skipped by tab order and screen readers */}
+                <div aria-hidden="true" className="absolute -left-[9999px] h-0 w-0 overflow-hidden">
+                  <label htmlFor="vivi-website-hp">Website</label>
+                  <input
+                    type="text"
+                    id="vivi-website-hp"
+                    name="website"
+                    tabIndex={-1}
+                    autoComplete="off"
+                    value={website}
+                    onChange={(e) => setWebsite(e.target.value)}
+                  />
+                </div>
+
+                <TurnstileWidget onVerify={handleVerify} />
+
                 {/* Submit */}
                 <button
                   type="submit"
-                  disabled={status === "sending"}
+                  disabled={status === "sending" || !token}
                   className="rounded-full bg-accent px-8 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-accent-dark disabled:opacity-60"
                 >
                   {status === "sending" ? "Sending..." : "Send Message"}
@@ -182,7 +211,7 @@ export default function ContactPage() {
               <ul className="flex flex-wrap gap-x-6 gap-y-2 text-xs text-[var(--muted-text)]">
                 <li className="flex items-center gap-1.5">
                   <span aria-hidden="true" className="text-accent">&#10003;</span>
-                  23+ years of real estate experience
+                  24+ years of real estate experience
                 </li>
                 <li className="flex items-center gap-1.5">
                   <span aria-hidden="true" className="text-accent">&#10003;</span>
@@ -260,7 +289,7 @@ export default function ContactPage() {
                   Broker Associate | REMAX Collective
                 </p>
                 <p className="mt-1 text-sm text-[var(--muted-text)]">
-                  23+ years of real estate experience
+                  24+ years of real estate experience
                 </p>
               </div>
 
