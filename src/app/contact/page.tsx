@@ -211,7 +211,7 @@ export default function ContactPage() {
               <ul className="flex flex-wrap gap-x-6 gap-y-2 text-xs text-[var(--muted-text)]">
                 <li className="flex items-center gap-1.5">
                   <span aria-hidden="true" className="text-accent">&#10003;</span>
-                  24+ years of real estate experience
+                  23+ years of real estate experience
                 </li>
                 <li className="flex items-center gap-1.5">
                   <span aria-hidden="true" className="text-accent">&#10003;</span>
@@ -289,7 +289,7 @@ export default function ContactPage() {
                   Broker Associate | REMAX Collective
                 </p>
                 <p className="mt-1 text-sm text-[var(--muted-text)]">
-                  24+ years of real estate experience
+                  23+ years of real estate experience
                 </p>
               </div>
 
