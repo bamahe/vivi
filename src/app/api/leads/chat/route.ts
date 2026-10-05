@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
+import { guardLead } from "@/lib/lead-guard";
 
 /**
  * POST /api/leads/chat — captures leads from the chat concierge.
@@ -8,6 +9,10 @@ import { Resend } from "resend";
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
+
+    // Bot/spam guard — honeypot, timing, rate limit, content heuristics.
+    const blocked = guardLead(req, body);
+    if (blocked) return blocked;
     const { name, email, phone, property_address, need } = body;
 
     // Basic validation
