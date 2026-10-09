@@ -1,5 +1,5 @@
 // ============================================
-// sitemap.ts — Generate sitemap for all pages
+// sitemap.ts: generate sitemap for all pages
 // including dynamic city pages
 // ============================================
 
@@ -15,6 +15,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticPages = [
     { path: "/", priority: 1, changeFrequency: "weekly" as const },
     { path: "/services", priority: 0.8, changeFrequency: "monthly" as const },
+    { path: "/services/lease-and-list", priority: 0.8, changeFrequency: "monthly" as const },
     { path: "/pricing", priority: 0.8, changeFrequency: "monthly" as const },
     { path: "/areas", priority: 0.8, changeFrequency: "monthly" as const },
     { path: "/owners", priority: 0.8, changeFrequency: "monthly" as const },
@@ -29,7 +30,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: "/tools/roi-calculator", priority: 0.7, changeFrequency: "monthly" as const },
   ];
 
-  // County landing pages — high priority for local SEO
+  // County landing pages: high priority for local SEO
   const countyPages = [
     "hillsborough-county",
     "pinellas-county",
@@ -42,7 +43,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     changeFrequency: "monthly" as const,
   }));
 
-  // County sub-pages — guides, resources, etc.
+  // County sub-pages: guides, resources, etc.
   const countySubPages = [
     {
       path: "/areas/hillsborough-county/property-management-guide",
@@ -71,7 +72,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
   ];
 
-  // Dynamic city pages — high priority for local SEO
+  // Dynamic city pages: high priority for local SEO
   const cityPages = getAllCitySlugs().map((slug) => ({
     path: `/areas/${slug}`,
     priority: 0.8,
