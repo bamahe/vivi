@@ -15,7 +15,7 @@ import FAQSchema from "@/components/FAQSchema";
 export const metadata: Metadata = {
   title: "Our 5 Property Management Guarantees",
   description:
-    "ViVi Property Management backs every property with 5 guarantees: 21-day leasing, tenant quality, 24-hour maintenance response, full transparency, and cancel-anytime flexibility. No fine print.",
+    "ViVi Property Management backs every property with 5 guarantees: 21-day leasing, tenant quality, 24-hour maintenance, and cancel anytime.",
   alternates: { canonical: "/guarantees" },
 };
 

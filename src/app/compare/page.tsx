@@ -13,9 +13,9 @@ import FAQSchema from "@/components/FAQSchema";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Self-Managing vs. Hiring a Property Manager | Tampa Bay Comparison",
+  title: "Self-Managing vs Hiring a Property Manager in Tampa Bay",
   description:
-    "Compare self-managing your rental vs. hiring ViVi PM vs. a typical property manager. See the real costs, hidden fees, and what Tampa Bay landlords actually pay.",
+    "Compare self-managing your rental against ViVi PM and a typical property manager. Real costs, hidden fees, and what Tampa Bay landlords pay.",
   alternates: { canonical: "/compare" },
 };
 

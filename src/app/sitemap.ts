@@ -8,6 +8,16 @@ import { getAllCitySlugs } from "@/lib/cities";
 import { getBlogPosts } from "@/lib/supabase";
 import { STATIC_BLOG_POSTS } from "@/lib/blog-posts";
 
+/**
+ * Revalidate hourly.
+ *
+ * Next caches sitemap.ts at build time by default. Because this file pulls
+ * posts from Supabase via getBlogPosts(), every post published after a deploy
+ * was missing from the sitemap until the next one. Google only ever saw the
+ * posts that existed at build time.
+ */
+export const revalidate = 3600;
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = "https://vivipm.com";
 

@@ -33,11 +33,19 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: {
     default: "ViVi Property Management | Tampa Bay Property Management",
-    template: "%s | ViVi Property Management",
+    // No brand suffix. " | ViVi Property Management" added 27 chars to every
+    // page, putting the median rendered title at 60 and the max at 93. Google
+    // truncates around 60. Page titles already carry the service and county
+    // keywords, so each page now owns its full title.
+    template: "%s",
   },
   description:
-    "Professional property management across Hillsborough, Pinellas, Pasco, Polk, and Manatee Counties in Tampa Bay. 23+ years of real estate experience. Maintenance through Best Bay Services. Three plans — placement-only, 10%, or $299/month flat.",
+    "Property management across Hillsborough, Pinellas, Pasco, Polk and Manatee counties. Three plans: placement-only, 10%, or $299 flat monthly.",
   metadataBase: new URL("https://vivipm.com"),
+  // Root canonical. The homepage has no metadata export of its own, so without
+  // this it shipped no canonical at all. Child pages that set their own
+  // alternates.canonical still override this.
+  alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     locale: "en_US",

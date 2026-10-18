@@ -17,7 +17,7 @@ import FAQSchema from "@/components/FAQSchema";
 export const metadata: Metadata = {
   title: "Pasco County PM Guide",
   description:
-    "Pasco County PM guide — fastest-growing county in Tampa Bay, new construction management, HOA-heavy communities, average rents by city, and well/septic considerations.",
+    "Pasco County property management guide: the fastest-growing county in Tampa Bay, new construction, HOA communities, and average rents.",
   openGraph: {
     title: "Pasco County Property Management Guide | ViVi PM",
     description:

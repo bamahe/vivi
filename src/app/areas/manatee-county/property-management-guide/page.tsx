@@ -17,7 +17,7 @@ import FAQSchema from "@/components/FAQSchema";
 export const metadata: Metadata = {
   title: "Manatee County PM Guide",
   description:
-    "Manatee County PM guide — Lakewood Ranch master-planned complexity, Anna Maria Island proximity, CDD/HOA layers, average rents by city, and choosing a property manager.",
+    "Manatee County property management guide: Lakewood Ranch complexity, CDD and HOA layers, average rents by city, and choosing a manager.",
   openGraph: {
     title: "Manatee County Property Management Guide | ViVi PM",
     description:

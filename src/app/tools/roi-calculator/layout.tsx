@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Rental Property ROI Calculator | Tampa Bay Investment Tool",
   description:
-    "Free rental property ROI calculator for Tampa Bay investors. Calculate cash flow, cap rate, and cash-on-cash return instantly. Run the numbers before you buy.",
+    "Free rental property ROI calculator for Tampa Bay investors. Calculate cash flow, cap rate, and cash-on-cash return before you buy.",
   alternates: { canonical: "/tools/roi-calculator" },
 };
 

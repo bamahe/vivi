@@ -13,7 +13,7 @@ import FAQSchema from "@/components/FAQSchema";
 export const metadata: Metadata = {
   title: "For Property Owners — Why ViVi",
   description:
-    "Why property owners choose ViVi Property Management. Maintenance through Best Bay Services, comprehensive screening, transparent pricing, and a dedicated property manager.",
+    "Why owners choose ViVi Property Management: thorough screening, transparent pricing, reliable maintenance, and a dedicated manager.",
   alternates: { canonical: "/owners" },
 };
 

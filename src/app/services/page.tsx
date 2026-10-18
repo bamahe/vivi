@@ -11,7 +11,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Tampa Bay Property Management Services",
-  description: `Full-service property management from ${SITE.name}. Leasing, tenant screening, maintenance through Best Bay Services, inspections, financial reporting, and eviction support.`,
+  description: `Full-service property management from ${SITE.name}. Leasing, tenant screening, maintenance, inspections, and financial reporting.`,
   alternates: { canonical: "/services" },
 };
 

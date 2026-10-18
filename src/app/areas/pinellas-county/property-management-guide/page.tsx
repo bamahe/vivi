@@ -17,7 +17,7 @@ import FAQSchema from "@/components/FAQSchema";
 export const metadata: Metadata = {
   title: "Pinellas County PM Guide",
   description:
-    "Pinellas County PM guide — rental market data, beach and waterfront considerations, average rents by city, snowbird market, and choosing a property manager.",
+    "Pinellas County property management guide: rental market data, beach and waterfront factors, average rents by city, and the snowbird market.",
   openGraph: {
     title: "Pinellas County Property Management Guide | ViVi PM",
     description:

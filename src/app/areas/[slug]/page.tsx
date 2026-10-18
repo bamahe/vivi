@@ -29,16 +29,25 @@ export async function generateMetadata({
   const city = getCityBySlug(slug);
   if (!city) return {};
 
+  // Area pages should name the county, but "Property Management in
+  // Sun City Center, Hillsborough County, FL" is 63 chars and Google cuts at
+  // ~60. Keep the county whenever it fits and drop it only when it does not,
+  // so the rule holds on all but the longest city names. The county still
+  // appears in the H1, the body copy and the LocalBusiness schema.
+  const withCounty = `Property Management in ${city.name}, ${city.county}, FL`;
+  const title =
+    withCounty.length <= 60 ? withCounty : `Property Management in ${city.name}, FL`;
+
   return {
-    title: `Property Management in ${city.name}, ${city.county}, FL`,
+    title,
     description: `Property management in ${city.name}, FL. Three plans from 10% of rent. Maintenance via Best Bay Services, tenant screening, and no hidden fees.`,
     openGraph: {
-      title: `Property Management in ${city.name}, ${city.county}, FL | ViVi PM`,
+      title: `${title} | ViVi PM`,
       description: `Full-service property management in ${city.name}. ${city.medianRent} median rent. Three plans from 10% of rent. No hidden fees.`,
     },
     twitter: {
       card: "summary_large_image",
-      title: `Property Management in ${city.name}, ${city.county}, FL | ViVi PM`,
+      title: `${title} | ViVi PM`,
       description: `Full-service property management in ${city.name}. Three plans from 10% of rent. No hidden fees.`,
     },
     alternates: { canonical: `https://vivipm.com/areas/${slug}` },

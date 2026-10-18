@@ -17,7 +17,7 @@ import FAQSchema from "@/components/FAQSchema";
 export const metadata: Metadata = {
   title: "Polk County PM Guide",
   description:
-    "Polk County PM guide — I-4 corridor cash flow market, average rents by city, Amazon and Publix employment centers, investor-friendly pricing, and choosing a property manager.",
+    "Polk County property management guide: I-4 corridor cash flow, average rents by city, Amazon and Publix employment, and investor pricing.",
   openGraph: {
     title: "Polk County Property Management Guide | ViVi PM",
     description:

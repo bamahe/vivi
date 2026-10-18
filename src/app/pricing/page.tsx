@@ -13,7 +13,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 export const metadata: Metadata = {
   title: "Pricing — Transparent PM Fees",
   description:
-    "Professional Tampa Bay property management. Three simple plans — placement-only, full management at 10%, or flat-fee at $299/month. No maintenance markups. Maintenance through Best Bay Services.",
+    "Tampa Bay property management with three simple plans: placement-only, full management at 10%, or flat-fee at $299 a month. No markups.",
   alternates: { canonical: "/pricing" },
 };
 

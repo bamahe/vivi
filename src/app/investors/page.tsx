@@ -16,7 +16,7 @@ import FAQSchema from "@/components/FAQSchema";
 export const metadata: Metadata = {
   title: "Tampa Bay Rental Property Investment",
   description:
-    "Invest in Tampa Bay rental property with confidence. ViVi Property Management handles everything for out-of-state investors, first-time landlords, and inherited property owners. Free rental analysis.",
+    "Invest in Tampa Bay rental property with confidence. ViVi PM handles everything for out-of-state investors and first-time landlords.",
   alternates: { canonical: "/investors" },
 };
 
